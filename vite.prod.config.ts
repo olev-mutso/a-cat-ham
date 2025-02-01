@@ -13,7 +13,7 @@ export default function defineConfig(props: ConfigEnv): UserConfig {
 
   return {
     mode: 'production',
-    base: process.env.PUBLIC_URL || '',
+    base: '/a-cat-ham/',
     plugins: [
       react({ }),
       dts({ rollupTypes: true }),
