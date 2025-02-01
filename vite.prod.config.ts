@@ -5,7 +5,6 @@ import peerDepsExternal from 'rollup-plugin-peer-deps-external'
 import react from '@vitejs/plugin-react';
 import checker from 'vite-plugin-checker';
 import svgr from 'vite-plugin-svgr';
-import { resolve } from 'path';
 
 
 // https://vitejs.dev/config/
@@ -23,23 +22,9 @@ export default function defineConfig(props: ConfigEnv): UserConfig {
     ],
     build: {
       outDir: 'build',
-      lib: {
-        // Could also be a dictionary or array of multiple entry points
-        entry: resolve(__dirname, 'src/index.tsx'),
-        name: '@a-cat-ham',
-        // the proper extensions will be added
-        fileName: 'index',
-        formats: ['es'] 
-      },
       rollupOptions: {
         plugins: [peerDepsExternal()],
       }
-    },
-
-    define: {
-      // react redux error
-      'process.env.IS_SSR': undefined,
-      'process.env.REACT_APP_LOCAL_DEV_MODE': false + '',
     },
   }
 }

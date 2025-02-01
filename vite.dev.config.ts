@@ -1,5 +1,4 @@
 import { ConfigEnv, UserConfig } from 'vite';
-import { TanStackRouterVite } from '@tanstack/router-vite-plugin';
 
 import react from '@vitejs/plugin-react';
 import checker from 'vite-plugin-checker';
@@ -23,7 +22,6 @@ export default function defineConfig(props: ConfigEnv): UserConfig {
           plugins: ['@emotion/babel-plugin'],
         },
       }),
-      TanStackRouterVite(),
       checker({ typescript: true }),
       svgr({
         svgrOptions: {
