@@ -1,0 +1,38 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [21.x]
+
+    steps:
+      - uses: actions/checkout@v2
+      
+      - uses: pnpm/action-setup@v2
+        name: install pnpm
+        with:
+          version: 8
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+          cache-dependency-path: ts_setup/tasks-ui/pnpm-lock.yaml
+
+      - name: 📦 Install dependencies
+        run: pnpm install
+
+      - name: 🔨 Build
+        run: pnpm build
+
+      - name: 🚀 Deploy to GitHub Pages 🚀
+        if: github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
