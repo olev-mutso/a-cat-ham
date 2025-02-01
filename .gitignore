@@ -1,0 +1,13 @@
+.DS_Store
+target/
+node_modules/
+.settings
+build/
+.yarn
+.classpath
+.factorypath
+.project
+.idea/
+*.iml
+*.swp
+pom.xml.versionsBackup
