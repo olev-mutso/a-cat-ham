@@ -50,12 +50,12 @@ export const M1A: ExamApi.ErauSubject = {
       answers: [{
         correct: false, text: 'Takistus.'
       }, {
-          correct: true, text: 'Reaktiivtakistus.'
-        }, {
-          correct: false, text: 'Näivjuhtivus.'
-        }, {
-          correct: false, text: 'Impedants.'
-        }]
+        correct: true, text: 'Reaktiivtakistus.'
+      }, {
+        correct: false, text: 'Näivjuhtivus.'
+      }, {
+        correct: false, text: 'Impedants.'
+      }]
     }, {
       id: 'M1A-5',
       text: 'Kuidas reageerib induktiivsus vahelduvvoolule?',
@@ -193,6 +193,230 @@ export const M1A: ExamApi.ErauSubject = {
         correct: false, text: 'Võimsusnivoode suhte muutumine 10 Belli võrra.'
       }, {
         correct: false, text: 'Võimsusnivoode suhte muutumine 0;001 Belli võrra.'
+      }]
+    },
+    {
+      id: 'M1A-15',
+      text: 'Ligikaudu mitu detsibelli on vaevaltmärgatav helitugevuse muutus?',
+      info: '',
+      answers: [{
+        correct: false, text: '12 dB.'
+      }, {
+        correct: false, text: '6 dB.'
+      }, {
+        correct: true, text: '1 dB.'
+      }, {
+        correct: false, text: '3 dB.'
+      }]
+    },
+    {
+      id: 'M1A-16',
+      text: 'Võimsuse suurenemine kaks korda on detsibellides:',
+      info: '',
+      answers: [{
+        correct: false, text: '1 dB.'
+      }, {
+        correct: true, text: '3 dB.'
+      }, {
+        correct: false, text: '6 dB.'
+      }, {
+        correct: false, text: '12 dB.'
+      }]
+    },
+    {
+      id: 'M1A-17',
+      text: 'Mitu korda suureneb võimsus 6 dB puhul?',
+      info: '',
+      answers: [{
+        correct: false, text: '1,5 korda.'
+      }, {
+        correct: false, text: '2 korda.'
+      }, {
+        correct: true, text: '4 korda.'
+      }, {
+        correct: false, text: '0,5 korda.'
+      }]
+    },
+    {
+      id: 'M1A-18',
+      text: 'Mitu korda suureneb võimsus 3 dB puhul?',
+      info: '',
+      answers: [{
+        correct: false, text: '1,5 korda.'
+      }, {
+        correct: true, text: '2 korda.'
+      }, {
+        correct: false, text: '4 korda.'
+      }, {
+        correct: false, text: '0,5 korda.'
+      }]
+    },
+    {
+      id: 'M1A-19',
+      text: 'Signaali raport on ”10 dB üle S9”.Kui saatja võimsust vähendatakse 1500 vatilt 150 vatini kui suur on uus signaali tugevuse raport?',
+      info: '',
+      answers: [{
+        correct: false, text: 'S5.'
+      }, {
+        correct: false, text: 'S7.'
+      }, {
+        correct: true, text: 'S9.'
+      }, {
+        correct: false, text: 'S3.'
+      }]
+    },
+    {
+      id: 'M1A-20',
+      text: 'Signaali raport on “20 dB üle S9”.Kui saatja võimsust vähendatakse 1500 vatilt 15 vatini kui suur on uus signaali tugevuse raport?',
+      info: '',
+      answers: [{
+        correct: false, text: 'S5.'
+      }, {
+        correct: false, text: 'S7.'
+      }, {
+        correct: true, text: 'S9.'
+      }, {
+        correct: false, text: 'S3.'
+      }]
+    },
+    {
+      id: 'M1A-21',
+      text: 'Kui 1 amprilise vooluallikaga on ühendatud kaks paralleelselt lülitatud 10-oomist takistit kui suur vool läbib kumbagi takistit?',
+      info: '',
+      answers: [{
+        correct: false, text: '10 amprit.'
+      }, {
+        correct: false, text: '1 amper.'
+      }, {
+        correct: true, text: '0,5 amprit.'
+      }, {
+        correct: false, text: '0,25 amprit.'
+      }]
+    },
+    {
+      id: 'M1A-22',
+      text: 'Kui suur on kasutatav võimsus kui 400V pingega vooluallikas ühendatakse 800 oomise koormusega?',
+      info: '',
+      answers: [{
+        correct: false, text: '0,5 vatti.'
+      }, {
+        correct: true, text: '200 vatti.'
+      }, {
+        correct: false, text: '400 vatti.'
+      }, {
+        correct: false, text: '800 vatti.'
+      }]
+    },
+    {
+      id: 'M1A-23',
+      text: 'Kui suur on 12V 0.2A vooluga indikaatorlambi võimsus?',
+      info: '',
+      answers: [{
+        correct: false, text: '60 vatti.'
+      }, {
+        correct: false, text: '24 vatti.'
+      }, {
+        correct: true, text: '2,4 vatti.'
+      }, {
+        correct: false, text: '0,24 vatti.'
+      }]
+    },
+    {
+      id: 'M1A-24',
+      text: 'Kui suur võimsus eraldub 0,25 kilo-oomisel takistil kui teda läbib vool tugevusega 7,0 milliamprit?',
+      info: '',
+      answers: [{
+        correct: false, text: 'Ligikaudu 51 millivatti.'
+      }, {
+        correct: false, text: 'Ligikaudu 39 millivatti.'
+      }, {
+        correct: true, text: 'Ligikaudu 9 millivatti.'
+      }, {
+        correct: false, text: 'Ligikaudu 0,9 millivatti.'
+      }]
+    },
+    {
+      id: 'M1A-25',
+      text: 'Kui suur on mitmest takistist koosneva jadalülituse kogutakistus?',
+      info: '',
+      answers: [{
+        correct: true, text: 'Kogutakistus on võrdne kõikide takistite takistuste summaga.'
+      }, {
+        correct: false, text: 'Kogutakistus on väiksem kõige väiksema takisti takistuse väärtusest.'
+      }, {
+        correct: false, text: 'Kogutakistuse saame jagades takistite takistuste summa takistite arvuga.'
+      }, {
+        correct: false, text: 'Iga takisti tolerantsi tuleb suurendada proportsionaalselt takistite arvule.'
+      }]
+    },
+    {
+      id: 'M1A-26',
+      text: 'Kui suur on kahe võrdse paralleelselt lülitatud takistist koosneva ahela kogutakistus?',
+      info: '',
+      answers: [{
+        correct: false, text: 'Kahekordne ühe takisti takistuse väärtus.'
+      }, {
+        correct: true, text: 'Pool kummagi takisti takistuse väärtusest.'
+      }, {
+        correct: false, text: 'Kahekordne kummagi takisti väärtus.'
+      }, {
+        correct: false, text: 'Ei saa määrata takistite täpset takistust teadmata.'
+      }]
+    },
+    {
+      id: 'M1A-27',
+      text: 'Mis on detsibell?',
+      info: '',
+      answers: [{
+        correct: true, text: 'Võimsusnivoode suhte muutumine 0,1 Belli võrra.'
+      }, {
+        correct: false, text: 'Võimsusnivoode suhte muutumine 0,01 Belli võrra.'
+      }, {
+        correct: false, text: 'Võimsusnivoode suhte muutumine 10 Belli võrra.'
+      }, {
+        correct: false, text: 'Võimsusnivoode suhte muutumine 0;001 Belli võrra.'
+      }]
+    },
+    {
+      id: 'M1A-28',
+      text: 'Kui suur on kahe paralleelselt ühendatud induktiivsuse koguväärtus?',
+      info: '',
+      answers: [{
+        correct: false, text: 'Pool kummagi väärtusest vastastikust induktiivsust arvestamata.'
+      }, {
+        correct: false, text: 'Kahekordne kummagi induktiivsuse väärtus.'
+      }, {
+        correct: false, text: 'Kahekordne kummagi induktiivsuse väärtus.'
+      }, {
+        correct: true, text: 'Ei saa määrata induktiivsuste täpset suurust teadmata.'
+      }]
+    },
+    {
+      id: 'M1A-29',
+      text: 'Kui suur on pinge transformaatori 500 keerust koosneva sekundaarmähise klemmidel, kui 2200 keerust koosnev primaarmähis on lülitatud 220V vahelduvvooluvõrku?',
+      info: '',
+      answers: [{
+        correct: false, text: '526,5V.'
+      }, {
+        correct: true, text: '50V.'
+      }, {
+        correct: false, text: '26V.'
+      }, {
+        correct: false, text: '13V'
+      }]
+    },
+    {
+      id: 'M1A-30',
+      text: 'Kui suur on 200 oomise väljundtakistusega helisagedusvõimendi sobitamiseks 10-oomise valjuhääldiga vajaliku transformaatori mähiste keerdude suhe?',
+      info: '',
+      answers: [{
+        correct: true, text: '4.47 : 1.'
+      }, {
+        correct: false, text: '400: 1.'
+      }, {
+        correct: false, text: '20 : 1.'
+      }, {
+        correct: false, text: '10:1.'
       }]
     },
   ]
