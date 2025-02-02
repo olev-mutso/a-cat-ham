@@ -3,4 +3,4 @@
 
 # a-cat-ham
 
-Estonia Amateur Radio license "A-Category" practice questions and answers
+Estonia Amateur Radio license "A-Category" practice questions and answers.
