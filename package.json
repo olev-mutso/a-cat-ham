@@ -2,11 +2,11 @@
   "name": "a-cat-ham",
   "version": "1.0.0",
   "homepage": "https://github.com/olev-mutso/a-cat-ham",
-  "main": "build/index.js",
-  "types": "build/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "type": "module",
   "files": [
-    "build"
+    "dist"
   ],
   "repository": "git@github.com:olev-mutso/a-cat-ham.git",
   "dependencies": {
