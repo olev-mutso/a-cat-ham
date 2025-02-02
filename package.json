@@ -37,6 +37,7 @@
     "react-intl": "^6.6.5",
     "react-markdown": "^9.0.1",
     "react-scrollable-feed": "^1.3.2",
+    "react-sticky-el": "^2.1.1",
     "react-time-picker": "^7.0.0",
     "remark-gfm": "^1.0.0",
     "ts-md5": "^1.3.1",
@@ -48,7 +49,7 @@
     "build": "NODE_ENV=production vite build --mode production",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "gh-pages" : "gh-pages -d dist"
+    "gh-pages": "gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": [

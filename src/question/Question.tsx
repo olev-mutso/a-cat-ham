@@ -2,14 +2,29 @@ import { Typography, List, ListSubheader, ListItemButton, ListItemText, ListItem
 import { useExam, ExamApi } from '../exam-context';
 
 
+function getSuccess(answer: ExamApi.Answer): string | undefined {
+  if(!answer.isQuestionAnswered) {
+    return;
+  }
+  
+  if(answer.correct) {
+    return 'success';
+  }
+}
+
+function getError(answer: ExamApi.Answer): string | undefined {
+  if(!answer.isQuestionAnswered || answer.isQuestionAnsweredCorrectly) {
+    return;
+  }
+  if(!answer.correct) {
+    return 'error';
+  }
+}
 
 const Answer: React.FC<{ answer: ExamApi.Answer, index: number }> = ({ answer, index }) => {
-  const theme = useTheme();
-  const { palette } = theme;
-  const { value, selectAnswer } = useExam();
-  
-  const success = answer.correct && answer.isAnswered ? 'success' : undefined;
-  const fail = !answer.correct && answer.isAnswered ? 'error' : undefined;
+  const { selectAnswer } = useExam();
+  const success = getSuccess(answer);
+  const fail = getError(answer);
   
   return (
     <ListItemButton key={answer.tk} onClick={() => selectAnswer(answer.tk)} className={success ?? fail}>
@@ -23,7 +38,7 @@ export const Question: React.FC<{ question: ExamApi.Question }> = ({ question })
   const theme = useTheme();
   
   return (
-    <Paper>
+    <Paper className='question'>
       <List component='nav' subheader={
         <ListSubheader>
           <Typography>{question.text}</Typography>

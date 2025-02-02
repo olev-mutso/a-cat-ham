@@ -1,9 +1,25 @@
 import { createTheme } from '@mui/material/styles';
+import zIndex from '@mui/material/styles/zIndex';
+import Sticky from 'react-sticky-el/lib/render-props-version';
 export const darkTheme = createTheme({
   palette: {
     mode: 'dark',
   },
   components: {
+    MuiPaper: {
+      styleOverrides: {
+        root: ({ ownerState, theme }) => ({
+          '&.question': {
+            marginBottom: theme.spacing(4)
+          },
+          '&.questionnaire-results': {
+            backgroundColor: theme.palette.success.dark,
+            zIndex: 1000000
+          }
+        })
+      }
+    },
+
     MuiContainer: {
       styleOverrides: {
         root: ({ ownerState, theme }) => ({
@@ -16,8 +32,14 @@ export const darkTheme = createTheme({
             marginBottom: theme.spacing(2),
           },
           '&.questionnaire': {
+          },
+          '&.questionnaire-results >.MuiTypography-root': {
+            ...theme.typography.h6
+          },
+          '&.questionnaire-header': {
+            marginTop: theme.spacing(2),
+            marginBottom: theme.spacing(2),
           }
-
         })
       }
     },
@@ -39,7 +61,8 @@ export const darkTheme = createTheme({
         }),
         subheader: ({ ownerState, theme }) => ({
           '.MuiListSubheader-root': {
-            backgroundColor: 'unset'
+            backgroundColor: 'unset',
+            position: 'unset'
           },
           '.MuiListSubheader-root .MuiTypography-root': {
             ...theme.typography.h6

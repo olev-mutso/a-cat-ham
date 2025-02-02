@@ -70,7 +70,7 @@ export const M1A: ExamApi.ErauSubject = {
         correct: false, text: 'Vahelduvvoolu amplituude suurenedes väheneb reaktiivtakistus.'
       }]
     }, {
-    id: 'M1A-6',
+      id: 'M1A-6',
       text: 'Kuidas reageerib mahtuvus vahelduvvoolule?',
       info: '',
       answers: [{
