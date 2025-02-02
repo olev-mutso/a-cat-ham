@@ -15,13 +15,18 @@ export default function defineConfig(props: ConfigEnv): UserConfig {
     mode: 'production',
     base: '/a-cat-ham/',
     plugins: [
-      react({ }),
+      react({ 
+        jsxImportSource: '@emotion/react',
+        babel: {
+          plugins: ['@emotion/babel-plugin'],
+        },
+      }),
       dts({ rollupTypes: true }),
       checker({ typescript: true }),
       svgr({ svgrOptions: {} }),
     ],
     build: {
-      outDir: 'build',
+      outDir: 'dist',
       rollupOptions: {
         plugins: [peerDepsExternal()],
       }
