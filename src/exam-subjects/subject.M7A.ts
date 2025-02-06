@@ -3,7 +3,7 @@ import { ExamApi } from '../exam-context';
 //TODO CORRECT ANSWERS
 export const M7A: ExamApi.ErauSubject = {
   id: 'M7A',
-  title: 'Moodul M6A Raadiolevi.',
+  title: 'Moodul M7A Raadiolevi.',
   questions: [{
     id: 'M7A-1',
     text: 'Mis iseloomustab nn. “backscatter” signaale?',

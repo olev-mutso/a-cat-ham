@@ -3,7 +3,7 @@ import { ExamApi } from '../exam-context';
 //TODO CORRECT ANSWERS
 export const M8A: ExamApi.ErauSubject = {
   id: 'M8A',
-  title: 'Moodul M6A Mõõtetehnika ja selle kasutamine.',
+  title: 'Moodul M8A Mõõtetehnika ja selle kasutamine.',
   questions: [{
     id: 'M8A-1',
     text: 'Milline mõõteriist sisaldab horisontaal- ja vertikaalkanali võimendi?',
