@@ -3,6 +3,9 @@ import { ExamApi } from '../exam-context';
 import { M1A } from './subject.M1A';
 import { M2A } from './subject.M2A';
 import { M3A } from './subject.M3A';
+import { M4A } from './subject.M4A';
+import { M5A } from './subject.M5A';
+import { M6A } from './subject.M6A';
 
 class IdGen {
   private _source: ExamApi.ErauSubject[];
@@ -38,7 +41,7 @@ class IdGen {
 }
 
 export const defs: ExamApi.ErauSubject[] = new IdGen([
-  M1A, M2A, M3A
+  M1A, M2A, M3A, M4A, M5A, M6A
 ]).accept();
 
 
