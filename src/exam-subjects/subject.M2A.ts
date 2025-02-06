@@ -1,6 +1,6 @@
 import { ExamApi } from '../exam-context';
 
-
+// TODO CHECK ANSWER CORRECTNESS
 export const M2A: ExamApi.ErauSubject = {
   id: 'M2A',
   title: 'Moodul M2A Raadio- ja elektrotehnika kompoonendid.',
