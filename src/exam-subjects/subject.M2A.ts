@@ -7,6 +7,7 @@ export const M2A: ExamApi.ErauSubject = {
   questions: [{
     id: 'M2A-1',
     text: 'Kuidas mõjub ümbruskonna temperatuur süsiniktakisti takistusele?',
+    enText: 'How does the ambient temperature affect the resistance of a carbon resistor?',
     info: '',
     answers: [{
       correct: false, text: 'Takistus suureneb 20% temperatuuri tõusmisel iga 10 kraadi võrra.',
@@ -21,6 +22,7 @@ export const M2A: ExamApi.ErauSubject = {
   {
     id: 'M2A-2',
     text: 'Mis tüüpi kondensaatorit kasutatakse tihti võrgutoitealaldi silumisfiltris?',
+    enText: 'What type of capacitor is often used in the smoothing filter of a mains power rectifier?',
     info: '',
     answers: [{
       correct: false, text: 'Keraamilist ketaskondensaatorit.',
@@ -35,6 +37,7 @@ export const M2A: ExamApi.ErauSubject = {
   {
     id: 'M2A-3',
     text: 'Millised kondensaatorid lülitatakse rööbiti transformaatori sekundaarmähisega pingeimpulsside vähendamiseks?',
+    enText: 'What capacitors are connected in parallel with the secondary winding of a transformer to reduce voltage pulses?',
     info: '',
     answers: [{
       correct: false, text: 'Suure mahtuvusega kondensaatorid.',
@@ -49,6 +52,7 @@ export const M2A: ExamApi.ErauSubject = {
   {
     id: 'M2A-4',
     text: 'Mis tekitab poolide omaresonantsi?',
+    enText: 'What causes the self-resonance of coils?',
     info: '',
     answers: [{
       correct: false, text: 'Hajutatud elektromagnetism.',
@@ -63,6 +67,7 @@ export const M2A: ExamApi.ErauSubject = {
   {
     id: 'M2A-5',
     text: 'Milline vooluringi komponent võimaldab suurendada vahelduvvoolu pinget 100 voldilt 1000 voldini?',
+    enText: 'Which circuit component allows you to increase the AC voltage from 100 volts to 1000 volts?',
     info: '',
     answers: [{
       correct: true, text: 'Transformaator.',
@@ -76,6 +81,7 @@ export const M2A: ExamApi.ErauSubject = {
   }, {
     id: 'M2A-6',
     text: 'Kuidas nimetatakse transformaatori primaarmähises voolavat voolu kui Sekundaarmähise külge pole koormust lülitatud?’',
+    enText: 'What is the name given to the current flowing in the primary winding of a transformer when there is no load connected to the secondary winding?',
     info: '',
     answers: [{
       correct: true, text: 'Magneetimisvooluks.',
@@ -88,7 +94,8 @@ export const M2A: ExamApi.ErauSubject = {
     }]
   }, {
     id: 'M2A-7',
-    text: 'MMis suurustega iseloomustatakse tavaliselt jõutransformaatori primaar- ja sekundaarmähiseid?',
+    text: 'Mis suurustega iseloomustatakse tavaliselt jõutransformaatori primaar- ja sekundaarmähiseid?',
+    enText: 'What are the dimensions usually used to characterize the primary and secondary windings of a power transformer?',
     info: '',
     answers: [{
       correct: false, text: 'Džauli sekundis.',
@@ -102,6 +109,7 @@ export const M2A: ExamApi.ErauSubject = {
   }, {
     id: 'M2A-8',
     text: 'Mis on toiteseadme alalduselemendi vastupinge?',
+    enText: 'What is the reverse voltage of the rectifier element of a power supply?',
     info: '',
     answers: [{
       correct: false, text: 'Suurim siirdepinge, mida diood on võimeline taluma.',
@@ -116,6 +124,7 @@ export const M2A: ExamApi.ErauSubject = {
   {
     id: 'M2A-9',
     text: 'Millised on ränidioodide kaks parameetrit, mida ei või ületada?',
+    enText: 'What are the two parameters of silicon diodes that cannot be exceeded?',
     info: '',
     answers: [{
       correct: false, text: 'Maksimaalne koormusimpedants, tipppinge.',
@@ -130,6 +139,7 @@ export const M2A: ExamApi.ErauSubject = {
   {
     id: 'M2A-10',
     text: 'Miks peavad alaldi dioodid olema termaalselt kaitstud?',
+    enText: 'Why do rectifier diodes need to be thermally protected?',
     info: '',
     answers: [{
       correct: false, text: 'Nende läheduse tõttu transformaatorile.',
@@ -144,6 +154,7 @@ export const M2A: ExamApi.ErauSubject = {
   {
     id: 'M2A-11',
     text: 'Mis on Zener-dioodi (stabilitroni) peamine omadus?',
+    enText: 'What is the main characteristic of a Zener diode?',
     info: '',
     answers: [{
       correct: false, text: 'Konstantne vool kõikuva pinge puhul.',
@@ -156,6 +167,7 @@ export const M2A: ExamApi.ErauSubject = {
   {
     id: 'M2A-12',
     text: 'Mis tüüpi diood on võimeline ostsilleerima ja ka võimendama?',
+    enText: 'What type of diode is capable of oscillating and also amplifying?',
     info: '',
     answers: [{
       correct: false, text: 'Punktkontaktdiood.',
@@ -170,6 +182,7 @@ export const M2A: ExamApi.ErauSubject = {
   {
     id: 'M2A-13',
     text: 'Mis on varaktordioodi peamine omadus?',
+    enText: 'What is the main characteristic of a varactor diode?',
     info: '',
     answers: [{
       correct: false, text: 'Hoiab stabiilset pinget läbiva muutliku voolu puhul.',
@@ -184,6 +197,7 @@ export const M2A: ExamApi.ErauSubject = {
   {
     id: 'M2A-14',
     text: 'Milleks kasutatakse PIN dioodi?',
+    enText: 'What is a PIN diode used for?',
     info: '',
     answers: [{
       correct: false, text: 'Stabiilse voolu allikas.',
@@ -198,6 +212,7 @@ export const M2A: ExamApi.ErauSubject = {
   {
     id: 'M2A-15',
     text: 'Kui suur on SSB telefonitööks vajaliku hea kvartsfiltri pääsuriba laius?',
+    enText: 'What is the passband width of a good quartz filter needed for SSB telephone work?',
     info: '',
     answers: [{
       correct: false, text: '.6kHz -6dB pääsuriba juures. ',

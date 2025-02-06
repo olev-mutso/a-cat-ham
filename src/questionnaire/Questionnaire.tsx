@@ -14,10 +14,11 @@ export const Questionnaire: React.FC<{}> = ({ }) => {
   return (
     <>
       <Container maxWidth='md' className='questionnaire-header'>
-        <ButtonGroup variant='contained' >
+        <ButtonGroup variant='contained' fullWidth>
           <Button onClick={() => all()}><FormattedMessage id='questionnaire-header.all'/></Button>
           <Button onClick={() => reset()}><FormattedMessage id='questionnaire-header.reset'/></Button>
           <Button onClick={() => shuffle(3)}><FormattedMessage id='questionnaire-header.shuffle'/></Button>
+          <Button onClick={() => shuffle(25)}><FormattedMessage id='questionnaire-header.shuffle.big' /></Button>
         </ButtonGroup>
       </Container>
 
