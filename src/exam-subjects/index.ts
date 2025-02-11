@@ -9,6 +9,9 @@ import { M6A } from './subject.M6A';
 import { M7A } from './subject.M7A';
 import { M8A } from './subject.M8A';
 import { M9A } from './subject.M9A';
+import { M10A } from './subject.M10A';
+import { M11A } from './subject.M11A';
+import { M12A } from './subject.M12A';
 
 class IdGen {
   private _source: ExamApi.ErauSubject[];
@@ -44,7 +47,7 @@ class IdGen {
 }
 
 export const defs: ExamApi.ErauSubject[] = new IdGen([
-  M1A, M2A, M3A, M4A, M5A, M6A, M7A, M8A, M9A
+  M1A, M2A, M3A, M4A, M5A, M6A, M7A, M8A, M9A, M10A, M11A, M12A
 ]).accept();
 
 
