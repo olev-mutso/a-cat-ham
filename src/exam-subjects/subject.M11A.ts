@@ -10,7 +10,7 @@ export const M11A: ExamApi.ErauSubject = {
     enText: 'What is the most important factor in choosing the operating frequency within the frequency range you are allowed to use?',
     info: '',
     answers: [{
-      correct: false, text: 'Sagedus ei tohi olla hõivatud teiste amatööride poolt.',
+      correct: true, text: 'Sagedus ei tohi olla hõivatud teiste amatööride poolt.',
     }, {
       correct: false, text: 'Peate kuulma sel sagedusel mõnd jaama veendumaks et teid võidaks kuulda.',
     }, {
@@ -26,7 +26,7 @@ export const M11A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: '80 või 40 m band.',
     }, {
-      correct: false, text: '40 või 15 m band.',
+      correct: true, text: '40 või 15 m band.',
     }, {
       correct: false, text: '15 või 10 m band.',
     }, {
@@ -42,7 +42,7 @@ export const M11A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Häälestades jaama esmalt 40m bandil siis minna üle teistele bandidele.',
     }, {
-      correct: false, text: 'Kasutades jaama häälestamiseks antenni ekvivalenti (dummy load).',
+      correct: true, text: 'Kasutades jaama häälestamiseks antenni ekvivalenti (dummy load).',
     }, {
       correct: false, text: 'Kasutades koaksiaalkaabli asemel lapikjuhet.',
     }]
@@ -54,7 +54,7 @@ export const M11A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Teatate jaamale, et sagedus on hõivatud.',
     }, {
-      correct: false, text: 'Hakkate otsekohe hädaabikutse infovahetust kirja panema.',
+      correct: true, text: 'Hakkate otsekohe hädaabikutse infovahetust kirja panema.',
     }, {
       correct: false, text: 'Helistate Päästeametisse.',
     }, {
@@ -66,7 +66,7 @@ export const M11A: ExamApi.ErauSubject = {
     enText: 'What is the format of a standard "CQ" call in Morse code?',
     info: '',
     answers: [{
-      correct: false, text: 'Saadate kolm korda "CQ", millele järgneb protseduurisignaal "DE" ja kolm korda oma kutsungi.',
+      correct: true, text: 'Saadate kolm korda "CQ", millele järgneb protseduurisignaal "DE" ja kolm korda oma kutsungi.',
     }, {
       correct: false, text: 'Saadate "CQ" kolm korda,"DE" üks kord ja oma kutsungi ka üks kord.',
     }, {
@@ -82,7 +82,7 @@ export const M11A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Saadate oma kutsungit neli korda.',
     }, {
-      correct: false, text: 'Saadate teise jaama kutsungi kaks korda, "DE" ja oma kutsungi kaks korda.',
+      correct: true, text: 'Saadate teise jaama kutsungi kaks korda, "DE" ja oma kutsungi kaks korda.',
     }, {
       correct: false, text: 'Saadate teise jaama kutsungi üks kord,"DE" ja oma kutsungi neli korda.',
     }, {
@@ -98,7 +98,7 @@ export const M11A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Suurima kiirusega, mida teie võti on võimeline arendama.',
     }, {
-      correct: false, text: 'Kiirusega, millist olete ise võimeline korralikult vastu võtma.',
+      correct: true, text: 'Kiirusega, millist olete ise võimeline korralikult vastu võtma.',
     }, {
       correct: false, text: 'Suurima kiirusegamillega olete võimeline oma võtit manipuleerima.',
     }]
@@ -112,7 +112,7 @@ export const M11A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Kõik on korralikult vastu võetud.',
     }, {
-      correct: false, text: 'Saate lõpp.',
+      correct: true, text: 'Saate lõpp.',
     }, {
       correct: false, text: 'Parimad tervitused.',
     }]
@@ -126,7 +126,7 @@ export const M11A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Parimad tevitused.',
     }, {
-      correct: false, text: 'Side lõpp.',
+      correct: true, text: 'Side lõpp.',
     }, {
       correct: false, text: 'Oodake.',
     }]
@@ -140,7 +140,7 @@ export const M11A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Side lõpp.',
     }, {
-      correct: false, text: 'Vastaku ainult kutsutud jaam.',
+      correct: true, text: 'Vastaku ainult kutsutud jaam.',
     }, {
       correct: false, text: 'Saatke nüüd.',
     }]
@@ -154,7 +154,7 @@ export const M11A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Märguandmiseks,et proovite uut antenni ja väljakutsetele ei vasta.',
     }, {
-      correct: false, text: 'Üldväljakutse märkimaks,et üritate kellegagi ühendust luua.',
+      correct: true, text: 'Üldväljakutse märkimaks,et üritate kellegagi ühendust luua.',
     }, {
       correct: false, text: 'Ainult kutsutud jaam tohib vastata.',
     }]
@@ -166,7 +166,7 @@ export const M11A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Mind segavad staatilised häired.',
     }, {
-      correct: false, text: 'Saatke aeglasemalt.',
+      correct: true, text: 'Saatke aeglasemalt.',
     }, {
       correct: false, text: 'Saatke RST raport.',
     }, {
@@ -182,7 +182,7 @@ export const M11A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Minu nimi on ...',
     }, {
-      correct: false, text: 'Minu asukoht on ...',
+      correct: true, text: 'Minu asukoht on ...',
     }, {
       correct: false, text: 'Lõpetage saatmine.',
     }]
@@ -196,7 +196,7 @@ export const M11A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Saadate fraasi "CQ" vähemalt viis korda, siis "this is" ja oma kutsung üks kord.',
     }, {
-      correct: false, text: 'Saadate fraasi "CQ" kolm korda, "this is" ja oma kutsungi kolm korda.',
+      correct: true, text: 'Saadate fraasi "CQ" kolm korda, "this is" ja oma kutsungi kolm korda.',
     }, {
       correct: false, text: 'Saadate fraasi "CQ" vähemalt kümme korda, "this is" ja oma kutsungi ühe korra.',
     }]
@@ -210,7 +210,7 @@ export const M11A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Saadate teise jaama kutsungit veerimistabelit kasutades vähemalt viis korda, "this is" ja oma kutsungit vähemalt üks kord.',
     }, {
-      correct: false, text: 'Saadate teise jaama kutsungit ühe korra,"this is" ja oma kutsungit veerimista-belit kasutades ühe korra.',
+      correct: true, text: 'Saadate teise jaama kutsungit ühe korra,"this is" ja oma kutsungit veerimista-belit kasutades ühe korra.',
     }, {
       correct: false, text: 'Saadate teise jaama kutsungit kolm korda, "this is" ja oma kutsungit veerimistabelit kasutades vähemalt viis korda.',
     }]
@@ -222,7 +222,7 @@ export const M11A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Eemeli Sagari Nine Aarne.',
     }, {
-      correct: false, text: 'Echo Sierra Nine Alfa.',
+      correct: true, text: 'Echo Sierra Nine Alfa.',
     }, {
       correct: false, text: 'Edward Santiago Nine Alabama.',
     }, {
@@ -238,7 +238,7 @@ export const M11A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Arizona Equador Zero London Queen Yesterday.',
     }, {
-      correct: false, text: 'Alfa Echo Zero Lima Quebec Yankee.',
+      correct: true, text: 'Alfa Echo Zero Lima Quebec Yankee.',
     }, {
       correct: false, text: 'Able Easy Zero Love Queen Yoke.',
     }]
@@ -252,7 +252,7 @@ export const M11A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Asu saatele.',
     }, {
-      correct: false, text: 'Oodake.',
+      correct: true, text: 'Oodake.',
     }, {
       correct: false, text: 'Mis on teie nimi?',
     }]
@@ -266,7 +266,7 @@ export const M11A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'CW tooni resonantsi.',
     }, {
-      correct: false, text: 'Signaali loetavust.',
+      correct: true, text: 'Signaali loetavust.',
     }, {
       correct: false, text: 'Signaalitugevuse värelemise astet.',
     }]
@@ -278,7 +278,7 @@ export const M11A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Kas pean saatma teile oma jaamapäeviku?',
     }, {
-      correct: false, text: 'Kas võite kinnitada minu saadetud teate kättesaamist?',
+      correct: true, text: 'Kas võite kinnitada minu saadetud teate kättesaamist?',
     }, {
       correct: false, text: 'Kas pean saatma aeglasemalt?',
     }, {
