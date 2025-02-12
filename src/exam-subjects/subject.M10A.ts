@@ -10,7 +10,7 @@ export const M10A: ExamApi.ErauSubject = {
     enText: 'Which organ in the human body is most sensitive to tissue heating caused by high-frequency energy?',
     info: '',
     answers: [{
-      correct: false, text: 'Silmad.',
+      correct: true, text: 'Silmad.',
     }, {
       correct: false, text: 'Käed.',
     }, {
@@ -26,7 +26,7 @@ export const M10A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Kutsub esile kiiritushaiguse.',
     }, {
-      correct: false, text: 'Kuumendab kudesid.',
+      correct: true, text: 'Kuumendab kudesid.',
     }, {
       correct: false, text: 'Jahutab kudesid.',
     }, {
@@ -42,7 +42,7 @@ export const M10A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: '0,1A',
     }, {
-      correct: false, text: '10mA',
+      correct: true, text: '10mA',
     }, {
       correct: false, text: '50uA',
     }]
@@ -52,7 +52,7 @@ export const M10A: ExamApi.ErauSubject = {
     enText: 'What should you do first if you see someone stuck in power lines?',
     info: '',
     answers: [{
-      correct: false, text: 'Hakkad otsima telefoni, et abi kutsuda.',
+      correct: true, text: 'Hakkad otsima telefoni, et abi kutsuda.',
     }, {
       correct: false, text: 'Mingi voolu mittejuhtiva eseme abil vabastad kannatanu juhtmetest ja alustad kohe südame kaudse massaaži ja kunstliku hingamise tegemist samaaegselt hüüdes abi järele.',
     }, {
@@ -70,7 +70,7 @@ export const M10A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Lülitada sisse mürasild interferentshäirete vähendamiseks.',
     }, {
-      correct: false, text: 'Tuleb veenduda,et kõik varjestused on kinnitatud oma kohale.',
+      correct: true, text: 'Tuleb veenduda,et kõik varjestused on kinnitatud oma kohale.',
     }, {
       correct: false, text: 'Vaadata,et interferentshäirete vältimiseks ükski antenn ei oleks jaama külge ühendatud.',
     }]
@@ -84,7 +84,7 @@ export const M10A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Et vai oleks küllaldase pikkusega.',
     }, {
-      correct: false, text: 'Et löögisuuna pikendusel ei seisaks inimesi, keda varre otsast juhuslikult äralendav kirves või vasar võiks vigastada.',
+      correct: true, text: 'Et löögisuuna pikendusel ei seisaks inimesi, keda varre otsast juhuslikult äralendav kirves või vasar võiks vigastada.',
     }, {
       correct: false, text: 'Kas löögiriista vars on küllaldase pikkusega.',
     }]
@@ -96,7 +96,7 @@ export const M10A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Kas puud on küllaldaselt kuivad.',
     }, {
-      correct: false, text: 'Tuleb seista jalad harki, et juhuslikul puust möödalöömisel kirves ei tabaks jalgu.',
+      correct: true, text: 'Tuleb seista jalad harki, et juhuslikul puust möödalöömisel kirves ei tabaks jalgu.',
     }, {
       correct: false, text: 'Usaldada see töö kellelegi teisele.',
     }, {
@@ -112,7 +112,7 @@ export const M10A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Ega antenn mitte kuskil naabrimehe krundi nurgast üle ei käiks.',
     }, {
-      correct: false, text: 'Et antenn püstitamisel, pööramisel või tuule käes kõikudes mitte kuskil ei puudutaks elektriülekandeliinide juhtmeid.',
+      correct: true, text: 'Et antenn püstitamisel, pööramisel või tuule käes kõikudes mitte kuskil ei puudutaks elektriülekandeliinide juhtmeid.',
     }, {
       correct: false, text: 'Et tõmmitsad ei oleks liialt pingule tõmmatud.',
     }]
@@ -124,7 +124,7 @@ export const M10A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Lähiajal ei oleks oodata piksevihma.',
     }, {
-      correct: false, text: 'Kasutatavad tööriistad oleksid paigutatud ja kinnitatud selliselt, et nad ei saaks allolijatele pähe kukkuda.',
+      correct: true, text: 'Kasutatavad tööriistad oleksid paigutatud ja kinnitatud selliselt, et nad ei saaks allolijatele pähe kukkuda.',
     }, {
       correct: false, text: 'Kas kõik vajalik on kaasas, et ei peaks mitu korda üles - alla ronima.',
     }, {
@@ -140,7 +140,7 @@ export const M10A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Et mitte mingisugust auto osa ei oleks kasutatud antenni, antenni- või jõukaablite kinnituspunktidena, mis auto suvalisel ärasõidul viib kaasa pool laagrit koos kallite aparaatidega ja võib põhjustada õnnetusi inimestega.',
     }, {
-      correct: false, text: 'Et auto ei saaks iseenesest liikuma hakata.',
+      correct: true, text: 'Et auto ei saaks iseenesest liikuma hakata.',
     }, {
       correct: false, text: 'Et autoraadio liigse kuulamise tulemusel jääks auto akusse veel energiat mootori käivitamiseks.',
     }]
