@@ -12,7 +12,7 @@ export const M12A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Tehases valmistatud raadiosideaparatuuri ja selle energiatoite seadmete kogumit.',
     }, {
-      correct: false, text: 'Tehniliste seadmete kogumit, mida raadioamatöör võib kasutada amatöörraadiosideks Tehnilise Järelevalve Ameti poolt väljastatud tööloa alusel.',
+      correct: true, text: 'Tehniliste seadmete kogumit, mida raadioamatöör võib kasutada amatöörraadiosideks Tehnilise Järelevalve Ameti poolt väljastatud tööloa alusel.',
     }, {
       correct: false, text: 'Tehniliste seadmete kogumit, mida raadioamatöör võiks kasutada amatöörraadiosideks ka ilma Tehnilise Järelevalve Ameti poolt väljastatavat tööluba omamata.',
     }, {
@@ -28,7 +28,7 @@ export const M12A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Saatja, vastuvõtja ja energiatoite seade.',
     }, {
-      correct: false, text: 'Saatja, vastuvõtja, lõppseade ja antenn(id).',
+      correct: true, text: 'Saatja, vastuvõtja, lõppseade ja antenn(id).',
     }, {
       correct: false, text: 'Saatja ja selle lõppseade.',
     }]
@@ -38,7 +38,7 @@ export const M12A: ExamApi.ErauSubject = {
     enText: 'An amateur radio station is considered to be:',
     info: '',
     answers: [{
-      correct: false, text: 'Kindlal sagedusel või sagedustel toimivat amatöörraadiojaama, mille vahendusel teostatakse vastuvõetavate sõnaliste või digitaalsete saadete edastamist reaalajas või läbi vahemälu.',
+      correct: true, text: 'Kindlal sagedusel või sagedustel toimivat amatöörraadiojaama, mille vahendusel teostatakse vastuvõetavate sõnaliste või digitaalsete saadete edastamist reaalajas või läbi vahemälu.',
     }, {
       correct: false, text: 'Avakosmoses paiknevat raadiojaama.',
     }, {
@@ -54,7 +54,7 @@ export const M12A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Avakosmoses paiknevat amatöörraadiojaama, mille vahendusel teostatakse raadio-levi tingimuste võrdlust.',
     }, {
-      correct: false, text: 'Automaatselt toimivat amatöörraadiojaama, mida kasutatakse väljatugevuse mõõt-misel, antennide häälestamisel ja raadiolevi tingimuste hindamisel.',
+      correct: true, text: 'Automaatselt toimivat amatöörraadiojaama, mida kasutatakse väljatugevuse mõõt-misel, antennide häälestamisel ja raadiolevi tingimuste hindamisel.',
     }, {
       correct: false, text: 'Ühiskasutusega amatöörraadiojaama, mida võib sidepidamiseks kasutada mitu raadioamatööri.',
     }, {
@@ -70,7 +70,7 @@ export const M12A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Amatöörraadiojaama, mida võivad kasutada ka raadioamatööri kvalifikatsiooni mitteomavad isikud.',
     }, {
-      correct: false, text: 'Amatöörraadiojaama, mis kuulub juriidilisele isikule või ERAÜ juures registreeritud raadioamatööride kollektiivile.',
+      correct: true, text: 'Amatöörraadiojaama, mis kuulub juriidilisele isikule või ERAÜ juures registreeritud raadioamatööride kollektiivile.',
     }, {
       correct: false, text: 'Kõik amatöörraadiojaamad.',
     }]
@@ -84,7 +84,7 @@ export const M12A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Amatöörraadiojaama valdaja elukoht.',
     }, {
-      correct: false, text: 'Amatöörraadiojaama valdaja elukoht.',
+      correct: true, text: 'Amatöörraadiojaama valdaja elukoht.',
     }, {
       correct: false, text: 'See asukoht, mille antud amatöörraadiojaama valdaja märgib päevikusse.',
     }]
@@ -94,7 +94,7 @@ export const M12A: ExamApi.ErauSubject = {
     enText: 'Amateur radio parts are considered to be:',
     info: '',
     answers: [{
-      correct: false, text: 'Mittetulunduslikku raadiosidet, milles osalevad ainult raadioamatöörid.',
+      correct: true, text: 'Mittetulunduslikku raadiosidet, milles osalevad ainult raadioamatöörid.',
     }, {
       correct: false, text: 'Raadiosidet, milles korrespondentide valik on vaba.',
     }, {
@@ -110,7 +110,7 @@ export const M12A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Sagedusalades, mis vastavad IARU 2.regiooni sagedusplaanile.',
     }, {
-      correct: false, text: 'Ainult sagedusalades, mis on eraldatud amatöörraadiosideks Eesti raadiosageduste plaaniga.',
+      correct: true, text: 'Ainult sagedusalades, mis on eraldatud amatöörraadiosideks Eesti raadiosageduste plaaniga.',
     }, {
       correct: false, text: 'Ainult mitteavalike raadiosõnumite edastamiseks.',
     }, {
@@ -126,7 +126,7 @@ export const M12A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Kes kasutab tavalist ,headest tavadest lähtuvat kõnekeelt raadioside pidamisel.',
     }, {
-      correct: false, text: 'Isikut, kes omab raadioamatööri kvalifikatsioonitunnistust.',
+      correct: true, text: 'Isikut, kes omab raadioamatööri kvalifikatsioonitunnistust.',
     }, {
       correct: false, text: 'Kes on ERAÜ tegevliige.',
     }]
@@ -138,9 +138,9 @@ export const M12A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Amatöörtelevisiooni saatja video- ja helikanali edastamiseks.',
     }, {
-      correct: false, text: 'Amatöörraadiomajakate poolt.',
+      correct: true, text: 'Amatöörraadiomajakate poolt.',
     }, {
-      correct: false, text: 'Kõikidele Eesti raadioamatööridele määratud infoteadete edastamiseks.',
+      correct: true, text: 'Kõikidele Eesti raadioamatööridele määratud infoteadete edastamiseks.',
     }, {
       correct: false, text: 'Ainult Morse koodis tähestiku õppe-treeningtekstide edastamiseks.',
     }]
@@ -154,7 +154,7 @@ export const M12A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Ühetähelisest eesliitest, ühekohalisest numbrist ja neljatähelisest järelliitest.',
     }, {
-      correct: false, text: 'Kahetähelisest eesliitest, numbrist ja kuni kolmetähelisest järelliitest.',
+      correct: true, text: 'Kahetähelisest eesliitest, numbrist ja kuni kolmetähelisest järelliitest.',
     }, {
       correct: false, text: 'Kahekohalisest numbrilisest eesliitest ja kuni kolmetähelisest järelliitest.',
     }]
@@ -168,7 +168,7 @@ export const M12A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'ES2',
     }, {
-      correct: false, text: 'ES3',
+      correct: true, text: 'ES3',
     }, {
       correct: false, text: 'ES0',
     }]
@@ -180,7 +180,7 @@ export const M12A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Hiiumaale.',
     }, {
-      correct: false, text: 'Üleriigiline, kasutamiseks ainult ERAÜ poolt.',
+      correct: true, text: 'Üleriigiline, kasutamiseks ainult ERAÜ poolt.',
     }, {
       correct: false, text: 'Põlvamaale.',
     }, {
@@ -196,7 +196,7 @@ export const M12A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'B',
     }, {
-      correct: false, text: 'A',
+      correct: true, text: 'A',
     }, {
       correct: false, text: 'On välja antud eriloa alusel.',
     }]
@@ -208,7 +208,7 @@ export const M12A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'AAA-CCC',
     }, {
-      correct: false, text: 'A-ZZ',
+      correct: true, text: 'A-ZZ',
     }, {
       correct: false, text: 'XAA-ZZZ',
     }, {
@@ -220,7 +220,7 @@ export const M12A: ExamApi.ErauSubject = {
     enText: 'The responsible supervisor of a shared (radio club) amateur radio station may only be:',
     info: '',
     answers: [{
-      correct: false, text: 'A-klassi kvalifikatsioonitunnistust omav raadioamatöör.',
+      correct: true, text: 'A-klassi kvalifikatsioonitunnistust omav raadioamatöör.',
     }, {
       correct: false, text: 'B-klassi kvalifikatsioonitunnistust omav raadioamatöör.',
     }, {
@@ -240,7 +240,7 @@ export const M12A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: '3 aastat.',
     }, {
-      correct: false, text: '5 aastat',
+      correct: true, text: '5 aastat',
     }]
   },{
     id: 'M12A-18',
@@ -250,7 +250,7 @@ export const M12A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Ainult raadioamatööri harmoneeritud kvalifikatsioonitunnistuse alusel.',
     }, {
-      correct: false, text: 'Ainult kehtiva amatöörraadiojaama tööloa alusel.',
+      correct: true, text: 'Ainult kehtiva amatöörraadiojaama tööloa alusel.',
     }, {
       correct: false, text: 'Ainult raadioamatööri kvalifikatsioonieksami sooritamise tunnistuse alusel.',
     }, {
