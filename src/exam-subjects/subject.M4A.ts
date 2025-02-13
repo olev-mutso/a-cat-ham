@@ -14,7 +14,7 @@ export const M4A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Võimendav detektor, mis kitsendab vastuvõtja võimenduskanali pääsuriba.',
     }, {
-      correct: false, text: 'Detektor, mis kasutab segustusprotsessis vastuvõtjas genereeritud kandesagedust.',
+      correct: true, text: 'Detektor, mis kasutab segustusprotsessis vastuvõtjas genereeritud kandesagedust.',
     }, {
       correct: false, text: 'Detektor, mida kasutatakse ristmodulatsiooniproduktide detekteerimiseks.',
     }]
@@ -28,7 +28,7 @@ export const M4A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Sisendsageduste summa, vahe ja ruutjuurkordne sagedus.',
     }, {
-      correct: false, text: 'Sisendsagedused ning summaarne ja vahesagedus.',
+      correct: true, text: 'Sisendsagedused ning summaarne ja vahesagedus.',
     }, {
       correct: false, text: 'Sisendsageduste 1,414 ja 0,707 kordse sagedused.',
     }]
@@ -40,7 +40,7 @@ export const M4A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Vastuvõetaval kandelainel oleva informatsiooni sumbutamist S-meetri tööleraken-damise eesmärgil.',
     }, {
-      correct: false, text: 'Moduleeritud kõrgsagedussignaalilt informatsiooni eraldamine.',
+      correct: true, text: 'Moduleeritud kõrgsagedussignaalilt informatsiooni eraldamine.',
     }, {
       correct: false, text: 'Kandelaine modulatsiooni.',
     }, {
@@ -52,7 +52,7 @@ export const M4A: ExamApi.ErauSubject = {
     enText: 'What is a frequency discriminator?',
     info: '',
     answers: [{
-      correct: false, text: 'FM signaalide detekteerimiseks kasutatav lülitus',
+      correct: true, text: 'FM signaalide detekteerimiseks kasutatav lülitus',
     }, {
       correct: false, text: 'Kahe kandelaine naabruses asuva parasiitsignaali filtreerimislülitus',
     }, {
@@ -68,7 +68,7 @@ export const M4A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Balanssmodulaatorit.',
     }, {
-      correct: false, text: 'Sagedusdiskriminaatorit.',
+      correct: true, text: 'Sagedusdiskriminaatorit.',
     }, {
       correct: false, text: 'Produkt detektorit.',
     }, {
@@ -84,7 +84,7 @@ export const M4A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Lairibavastuvõtjas müra kõrvaldamist faasinihke abil.',
     }, {
-      correct: false, text: 'Kahe signaali liitmist summaarse- ja vahesageduse saamiseks.',
+      correct: true, text: 'Kahe signaali liitmist summaarse- ja vahesageduse saamiseks.',
     }, {
       correct: false, text: 'Auroralevist põhjustatud moonutusi.',
     }]
@@ -96,7 +96,7 @@ export const M4A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Automaatselt toimiv müralukustus ja suurenenud selektiivsus.',
     }, {
-      correct: false, text: 'Suurenenud selektiivsus ja optimaalne häälestatud võnkeringide konstruktsioon.',
+      correct: true, text: 'Suurenenud selektiivsus ja optimaalne häälestatud võnkeringide konstruktsioon.',
     }, {
       correct: false, text: 'Automaatne signaali piiramine ja müralukustus.',
     }, {
@@ -108,7 +108,7 @@ export const M4A: ExamApi.ErauSubject = {
     enText: 'What is an intermediate frequency amplifier?',
     info: '',
     answers: [{
-      correct: false, text: 'Fikseeritult häälestatud pääsuribaga võimendi.',
+      correct: true, text: 'Fikseeritult häälestatud pääsuribaga võimendi.',
     }, {
       correct: false, text: 'Vastuvõtja filter.',
     }, {
@@ -124,7 +124,7 @@ export const M4A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Seguastmes genereeritakse parasiitsed segustusproduktid',
     }, {
-      correct: false, text: 'Seguaste lakkab tüütamast.',
+      correct: true, text: 'Seguaste lakkab tüütamast.',
     }, {
       correct: false, text: 'Toimub automaatne signaali piiramine.',
     }, {
@@ -140,7 +140,7 @@ export const M4A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Automaatse võimenduse reguleerimise süsteemi abil muuta parasiitsignaalide mahasurumise astet.',
     }, {
-      correct: false, text: 'Parandada vastuvõtja mürategurit.',
+      correct: true, text: 'Parandada vastuvõtja mürategurit.',
     }, {
       correct: false, text: 'Tekitada automaatse võimendusregulatsiooni tööks vajalikku pinget.',
     }]
@@ -154,7 +154,7 @@ export const M4A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Hind ja kättesaadavus.',
     }, {
-      correct: false, text: 'Ribalaius ja mürategur.',
+      correct: true, text: 'Ribalaius ja mürategur.',
     }, {
       correct: false, text: 'Intermodulatsioonimoonutused ja dünaamiline diapasoon.',
     }]
