@@ -1,6 +1,5 @@
 import { ExamApi } from '../exam-context';
 
-//TODO CORRECT ANSWERS
 export const M11A: ExamApi.ErauSubject = {
   id: 'M11A',
   title: 'Moodul M11A Amatöörraadiojaama opereerimise reeglid ja protseduurid',

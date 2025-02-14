@@ -1,6 +1,5 @@
 import { ExamApi } from '../exam-context';
 
-
 export const M1A: ExamApi.ErauSubject = {
   id: 'M1A',
   title: 'Moodul M1A Raadio- ja elektrotehnika teooria.',

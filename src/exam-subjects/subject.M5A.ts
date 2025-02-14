@@ -1,6 +1,5 @@
 import { ExamApi } from '../exam-context';
 
-//TODO CORRECT ANSWERS
 export const M5A: ExamApi.ErauSubject = {
   id: 'M5A',
   title: 'Moodul M5A Raadiosaateseadmed.',

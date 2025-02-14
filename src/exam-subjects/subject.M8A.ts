@@ -1,6 +1,5 @@
 import { ExamApi } from '../exam-context';
 
-//TODO CORRECT ANSWERS
 export const M8A: ExamApi.ErauSubject = {
   id: 'M8A',
   title: 'Moodul M8A Mõõtetehnika ja selle kasutamine.',
@@ -14,7 +13,7 @@ export const M8A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Signaalgeneraator.',
     }, {
-      correct: false, text: 'Ostsillograaf.',
+      correct: true, text: 'Ostsillograaf.',
     }, {
       correct: false, text: 'Ampermeeter.',
     }]
@@ -24,7 +23,7 @@ export const M8A: ExamApi.ErauSubject = {
     enText: 'What types of signals can be observed using an oscilloscope?',
     info: '',
     answers: [{
-      correct: false, text: 'Suvalisi ajast sõltuvaid signaale instrumendi sagedusriba piires.',
+      correct: true, text: 'Suvalisi ajast sõltuvaid signaale instrumendi sagedusriba piires.',
     }, {
       correct: false, text: 'Rahvusvahelisi laevade lipusignaale.',
     }, {
@@ -42,7 +41,7 @@ export const M8A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Seade,mis näitab antenni toiteliini seisulaine tegurit.',
     }, {
-      correct: false, text: 'Seade, mis võimaldab uurida kuvaril signaalide lainekuju.',
+      correct: true, text: 'Seade, mis võimaldab uurida kuvaril signaalide lainekuju.',
     }, {
       correct: false, text: 'Vooluringi takistust mõõtev seade.',
     }]
@@ -54,7 +53,7 @@ export const M8A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Vertikaalkanali võimendi ületüürimine.',
     }, {
-      correct: false, text: 'Liig suur heleduse säting.',
+      correct: true, text: 'Liig suur heleduse säting.',
     }, {
       correct: false, text: 'Kiire ebaõige fokuseerimine.',
     }, {
@@ -68,7 +67,7 @@ export const M8A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Seade antenni või muu elektrilise lülituse mürateguri mõõtmiseks.',
     }, {
-      correct: false, text: 'Seade antenni või muu elektrilise lülituse impedantsi mõõtmiseks.',
+      correct: true, text: 'Seade antenni või muu elektrilise lülituse impedantsi mõõtmiseks.',
     }, {
       correct: false, text: 'Seade vastuvõtjas esineva müra hävitamiseks.',
     }, {
@@ -84,7 +83,7 @@ export const M8A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Seade ühendatakse saatja ja antenni vahele ning häälestatakse minimaalse seisulaine teguri saavutamiseni.',
     }, {
-      correct: false, text: 'Seade ühendatakse vastuvõtja ja tundmatu impedantsiga lülituse vahele ning häälestatakse minimaalse müra saavutamiseni.',
+      correct: true, text: 'Seade ühendatakse vastuvõtja ja tundmatu impedantsiga lülituse vahele ning häälestatakse minimaalse müra saavutamiseni.',
     }, {
       correct: false, text: 'Seade ühendatakse antenni ja antenni sobituslülituse vahele ning häälestatakse minimaalse seisulaine teguri saavutamiseni.',
     }]
@@ -98,7 +97,7 @@ export const M8A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Seade modulatsioonisügavuse määramiseks saatja väljundis.',
     }, {
-      correct: false, text: 'Seade kõrgsagedussignaali suhtelise võimsuse mõõtmiseks.',
+      correct: true, text: 'Seade kõrgsagedussignaali suhtelise võimsuse mõõtmiseks.',
     }, {
       correct: false, text: 'Seade saatja keskmise väljundvõimsuse suurendamiseks.',
     }]
@@ -112,7 +111,7 @@ export const M8A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Ligikaudu kolm korda',
     }, {
-      correct: false, text: 'Ligikaudu neli korda.',
+      correct: true, text: 'Ligikaudu neli korda.',
     }, {
       correct: false, text: 'Ligikaudu viis korda',
     }]
@@ -122,7 +121,7 @@ export const M8A: ExamApi.ErauSubject = {
     enText: 'What is the most suitable simple instrument for determining the radiation pattern of an antenna in the horizontal plane?',
     info: '',
     answers: [{
-      correct: false, text: 'Väljatugevuse mõõtja.',
+      correct: true, text: 'Väljatugevuse mõõtja.',
     }, {
       correct: false, text: 'Antenni mürasild.',
     }, {
@@ -138,7 +137,7 @@ export const M8A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Vattmeeter.',
     }, {
-      correct: false, text: 'Spektrianalüsaator.',
+      correct: true, text: 'Spektrianalüsaator.',
     }, {
       correct: false, text: 'Loogikaskeemide analüsaator.',
     }, {

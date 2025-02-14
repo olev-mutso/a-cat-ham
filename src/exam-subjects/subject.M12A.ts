@@ -1,6 +1,5 @@
 import { ExamApi } from '../exam-context';
 
-//TODO CORRECT ANSWERS
 export const M12A: ExamApi.ErauSubject = {
   id: 'M12A',
   title: 'Moodul M12A Amatöörraadioside siseriiklik ja rahvusvaheline õiguslik regulatsioon.',

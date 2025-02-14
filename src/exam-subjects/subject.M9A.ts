@@ -1,6 +1,5 @@
 import { ExamApi } from '../exam-context';
 
-//TODO CORRECT ANSWERS
 export const M9A: ExamApi.ErauSubject = {
   id: 'M9A',
   title: 'Moodul M9A Raadiohäired ja elektromagnetiline ühildatavus (EMC).',
@@ -12,7 +11,7 @@ export const M9A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Päikeseplekid.',
     }, {
-      correct: false, text: 'Äikesetormid.',
+      correct: true, text: 'Äikesetormid.',
     }, {
       correct: false, text: 'Lennukid.',
     }, {
@@ -28,7 +27,7 @@ export const M9A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Kontrolli vahelduvvoolu lainekuju ostsillograafi abil.',
     }, {
-      correct: false, text: 'Lülita välja maja elektrivõrgu pealüliti ja kuula patareitoitega raadiot.',
+      correct: true, text: 'Lülita välja maja elektrivõrgu pealüliti ja kuula patareitoitega raadiot.',
     }, {
       correct: false, text: 'Uuri elektrivõrgu pinget spektrianalüsaatoriga.',
     }]
@@ -40,7 +39,7 @@ export const M9A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Ühendada raadio toitejuhtmed akuga nii pikka teed mööda kui vähegi võimalik.',
     }, {
-      correct: false, text: 'Ühendades raadio toitejuhtmed akuga lühimat võimalikku teed kaudu.',
+      correct: true, text: 'Ühendades raadio toitejuhtmed akuga lühimat võimalikku teed kaudu.',
     }, {
       correct: false, text: 'Ühendades kõrgpääsfiltri järjestikku raadiojaama auto pardavõrguga ühendavasse juhtmesse.',
     }, {
@@ -54,7 +53,7 @@ export const M9A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Vähendades vastuvõtja toitepinget.',
     }, {
-      correct: false, text: 'Lülitades vastuvõtja sisendisse attenuaatori.',
+      correct: true, text: 'Lülitades vastuvõtja sisendisse attenuaatori.',
     }, {
       correct: false, text: 'Kasutada vastuvõtja kõige kitsama pääsuribaga filtrit.',
     }, {
@@ -70,7 +69,7 @@ export const M9A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Elimineerib isotroopilise kiirguse põhjustatud efekte.',
     }, {
-      correct: false, text: 'Kaitseb vastuvõtja ülekoormamist erakordselt tugeva signaali poolt.',
+      correct: true, text: 'Kaitseb vastuvõtja ülekoormamist erakordselt tugeva signaali poolt.',
     }, {
       correct: false, text: 'Vähendab antenni kiirgusdiagrammi nullide põhjustatud signaali nõrgenemise mõju.',
     }]
@@ -82,7 +81,7 @@ export const M9A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Lülitate kohe oma saatja välja ja pöördute Tehnilise Järelevalve Ameti poole abi saamiseks.',
     }, {
-      correct: false, text: 'Kontakteerudes naabriga proovite välja selgitada, kas tõepoolest teie töö eetris on TV-häirete tekkepõhjuseks.',
+      correct: true, text: 'Kontakteerudes naabriga proovite välja selgitada, kas tõepoolest teie töö eetris on TV-häirete tekkepõhjuseks.',
     }, {
       correct: false, text: 'Monteerite saatja väljundisse kõrgpääsfiltri ja televiisori sisendisse madal-pääsfiltri',
     }, {
@@ -96,7 +95,7 @@ export const M9A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Võtmeklõpsu filter.',
     }, {
-      correct: false, text: 'Madalpääsfilter.',
+      correct: true, text: 'Madalpääsfilter.',
     }, {
       correct: false, text: 'Kõrgpääsfilter.',
     }, {
@@ -108,7 +107,7 @@ export const M9A: ExamApi.ErauSubject = {
     enText: 'What type of interference can be emitted by a multiband antenna connected to the output of a mistuned radio station?',
     info: '',
     answers: [{
-      correct: false, text: 'Harmoonilisi sagedusi.',
+      correct: true, text: 'Harmoonilisi sagedusi.',
     }, {
       correct: false, text: 'Aurora taolisi signaale.',
     }, {
@@ -122,7 +121,7 @@ export const M9A: ExamApi.ErauSubject = {
     enText: 'What does the expression "harmonic radiation" mean?',
     info: '',
     answers: [{
-      correct: false, text: 'Töösageduse täiskordsete sageduste kiirgus eetrisse.',
+      correct: true, text: 'Töösageduse täiskordsete sageduste kiirgus eetrisse.',
     }, {
       correct: false, text: '50 Hz brummsagedusega moduleeritud signaalide kiirgus.',
     }, {
@@ -136,7 +135,7 @@ export const M9A: ExamApi.ErauSubject = {
     enText: 'What filter should be placed at the television input as a first step to reduce high-frequency overload caused by an amateur radio station?',
     info: '',
     answers: [{
-      correct: false, text: 'Kõrgpääsfilter.',
+      correct: true, text: 'Kõrgpääsfilter.',
     }, {
       correct: false, text: 'Madalpääsfilter.',
     }, {
