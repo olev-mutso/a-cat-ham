@@ -14,7 +14,7 @@ export const M5A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Helisageduslikku siinuslainet',
     }, {
-      correct: false, text: 'Kaht helisageduslikku siinuslainet',
+      correct: true, text: 'Kaht helisageduslikku siinuslainet',
     }, {
       correct: false, text: 'Helisageduslikku kantlainet.',
     }]
@@ -26,7 +26,7 @@ export const M5A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Parandab pingeregulatsiooni.',
     }, {
-      correct: false, text: 'Laadib filterkondensaatori tühjaks.',
+      correct: true, text: 'Laadib filterkondensaatori tühjaks.',
     }, {
       correct: false, text: 'Kõrvaldab poolidelt elektrilöögi saamise ohu.',
     }, {
@@ -42,7 +42,7 @@ export const M5A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Kandesageduse faasinihet.',
     }, {
-      correct: false, text: 'Kõrgsagedusvõimendi lineaarsust.',
+      correct: true, text: 'Kõrgsagedusvõimendi lineaarsust.',
     }, {
       correct: false, text: 'Sagedusdeviatsiooni',
     }]
@@ -56,7 +56,7 @@ export const M5A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Võre ja katoodi vahelise lekkevoolu vähendamiseks.',
     }, {
-      correct: false, text: 'Elektroodidevahelise mahtuvuse tõttu tekkida võiva ostsilleerimise vältimiseks.',
+      correct: true, text: 'Elektroodidevahelise mahtuvuse tõttu tekkida võiva ostsilleerimise vältimiseks.',
     }, {
       correct: false, text: 'Tooriumoksiidi mõjul lambis tekkiva happe likvideerimiseks.',
     }]
@@ -68,7 +68,7 @@ export const M5A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Tuleb kasutada signaale sagedusega 20Hz ja 20000Hz.',
     }, {
-      correct: false, text: 'Võib kasutada suvalisi helisagedusi, mis paiknevad saatja helisagedustrakti pääsuribas tingimusel, et nad ei ole teineteisega harmoonilises suhtes.',
+      correct: true, text: 'Võib kasutada suvalisi helisagedusi, mis paiknevad saatja helisagedustrakti pääsuribas tingimusel, et nad ei ole teineteisega harmoonilises suhtes.',
     }, {
       correct: false, text: 'Tuleb kasutada sagedusi 1200Hz ja 2400hz.',
     }, {
@@ -82,7 +82,7 @@ export const M5A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Võtmeklõpsu filter.',
     }, {
-      correct: false, text: 'Madalpääsfilter.',
+      correct: true, text: 'Madalpääsfilter.',
     }, {
       correct: false, text: 'Kõrgpääsfilter.',
     }, {
@@ -96,7 +96,7 @@ export const M5A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Splatteri filter.',
     }, {
-      correct: false, text: 'Mikrofon.',
+      correct: true, text: 'Mikrofon.',
     }, {
       correct: false, text: 'Vastuvõtja helisagedusfilter.',
     }, {
@@ -108,7 +108,7 @@ export const M5A: ExamApi.ErauSubject = {
     enText: 'You have installed a VHF or UHF FM radio station in your car. What is the best location for the antenna to avoid the risk of VHF radiation to the driver and passengers?',
     info: '',
     answers: [{
-      correct: false, text: 'Katuse keskkoht.',
+      correct: true, text: 'Katuse keskkoht.',
     }, {
       correct: false, text: 'Tuuleklaasi ülemine äär.',
     }, {
@@ -124,7 +124,7 @@ export const M5A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Moodustab strukturaalse madalpääsfiltri.',
     }, {
-      correct: false, text: 'Likvideerib ebasoovitava kõrgsagedusliku kiirguse.',
+      correct: true, text: 'Likvideerib ebasoovitava kõrgsagedusliku kiirguse.',
     }, {
       correct: false, text: 'Takistab helisagedusliku tagasiside tekkimist saatjas.',
     }, {
@@ -136,7 +136,7 @@ export const M5A: ExamApi.ErauSubject = {
     enText: 'Why is a so-called pi filter used at the transmitter output?',
     info: '',
     answers: [{
-      correct: false, text: 'Saatja väljundimpedantsi sobitamiseks antenni toiteliiniga ja parasiitkiirguse vähendamiseks.',
+      correct: true, text: 'Saatja väljundimpedantsi sobitamiseks antenni toiteliiniga ja parasiitkiirguse vähendamiseks.',
     }, {
       correct: false, text: 'Antenni poolt vastuvõetud mürasignaalide mahajuhtimiseks.',
     }, {

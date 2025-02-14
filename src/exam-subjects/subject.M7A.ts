@@ -12,7 +12,7 @@ export const M7A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Väga hea arusaadavus.',
     }, {
-      correct: false, text: 'Lainetav heli.',
+      correct: true, text: 'Lainetav heli.',
     }, {
       correct: false, text: 'Ümberpööratud külgribad.',
     }, {
@@ -28,7 +28,7 @@ export const M7A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Maa poole pööratud Päikese küljel nähtavate plekkide arv.',
     }, {
-      correct: false, text: 'Päikese poolt kiiratav ioniseeriv energia.',
+      correct: true, text: 'Päikese poolt kiiratav ioniseeriv energia.',
     }, {
       correct: false, text: 'Päikesel nähtavate plekigruppide arv.',
     }]
@@ -40,7 +40,7 @@ export const M7A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Päikese solar-fluks indeksi järsk langus.',
     }, {
-      correct: false, text: 'Maa magnetvälja järsk muutus lühikese aja jooksul.',
+      correct: true, text: 'Maa magnetvälja järsk muutus lühikese aja jooksul.',
     }, {
       correct: false, text: 'Maa magnetpooluse nihe.',
     }, {
@@ -56,7 +56,7 @@ export const M7A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: '8 minutiga.',
     }, {
-      correct: false, text: '20 kuni 40 tunniga.',
+      correct: true, text: '20 kuni 40 tunniga.',
     }, {
       correct: false, text: '30 sekundiga.',
     }]
@@ -70,7 +70,7 @@ export const M7A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Lühikese hüppega levi.',
     }, {
-      correct: false, text: 'Raadiolaine peegeldumine troposfääri ja ionosfääri ebaühtluskohtadest (scatter).',
+      correct: true, text: 'Raadiolaine peegeldumine troposfääri ja ionosfääri ebaühtluskohtadest (scatter).',
     }, {
       correct: false, text: ' Signaalide peegeldumine meteooride jäljelt.',
     }]
@@ -82,7 +82,7 @@ export const M7A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'D-kihis.',
     }, {
-      correct: false, text: 'E-kihis.',
+      correct: true, text: 'E-kihis.',
     }, {
       correct: false, text: 'F2-kihis.',
     }, {
@@ -96,7 +96,7 @@ export const M7A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Väga hea raadioside kõrgematel geomagnetilistel laiuskraadidel.',
     }, {
-      correct: false, text: 'Halvenenud raadiolevi kõrgematel geomagnetilistel laiuskraadidel.',
+      correct: true, text: 'Halvenenud raadiolevi kõrgematel geomagnetilistel laiuskraadidel.',
     }, {
       correct: false, text: 'Suurenenud pinnalaine ulatus.',
     }, {
@@ -112,7 +112,7 @@ export const M7A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Kompassi suund teie asukohast korrespondendi suunas.',
     }, {
-      correct: false, text: 'Maksimaalne raadiolainete levi tõusunurk,mille juures raadiolained peegelduvad veel Maale tagasi ionosfääri teatud seisundi puhul.',
+      correct: true, text: 'Maksimaalne raadiolainete levi tõusunurk,mille juures raadiolained peegelduvad veel Maale tagasi ionosfääri teatud seisundi puhul.',
     }, {
       correct: false, text: 'Antenni poomi vertikaalnurk horisontaaltasapinna suhtes.',
     }]
@@ -124,7 +124,7 @@ export const M7A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Kogu päev.',
     }, {
-      correct: false, text: 'Mõnest minutist kuni mõne tunnini.',
+      correct: true, text: 'Mõnest minutist kuni mõne tunnini.',
     }, {
       correct: false, text: 'Keskmiselt ühe nädala.',
     }, {
@@ -138,7 +138,7 @@ export const M7A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Ekvaatori laiuskraadidel.',
     }, {
-      correct: false, text: '45 kraadist kõrgematel laiustel.',
+      correct: true, text: '45 kraadist kõrgematel laiustel.',
     }, {
       correct: false, text: 'Kõikidel laiuskraadidel ühtemoodi.',
     }, {

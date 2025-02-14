@@ -14,7 +14,7 @@ export const M6A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'On väiksem, odavam ja kergem üles panna kui dipoolantenn.',
     }, {
-      correct: false, text: 'Vähendab teiste jaamade poolt tekitatavaid interferentshäireid nii külg- kui tagasuunas.',
+      correct: true, text: 'Vähendab teiste jaamade poolt tekitatavaid interferentshäireid nii külg- kui tagasuunas.',
     }, {
       correct: false, text: 'Ei võta niipalju ruumi kui teised antennid.',
     }]
@@ -28,7 +28,7 @@ export const M6A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Delta sobitus.',
     }, {
-      correct: false, text: 'Gamma sobitus.',
+      correct: true, text: 'Gamma sobitus.',
     }, {
       correct: false, text: 'Hairpin – sobitus.',
     }]
@@ -38,7 +38,7 @@ export const M6A: ExamApi.ErauSubject = {
     enText: 'How can the bandwidth of a directional antenna be increased with parasitic elements?',
     info: '',
     answers: [{
-      correct: false, text: 'Kasutada suurema läbimõõduga elemente.',
+      correct: true, text: 'Kasutada suurema läbimõõduga elemente.',
     }, {
       correct: false, text: 'Vähendada elementide vahet.',
     }, {
@@ -56,7 +56,7 @@ export const M6A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Ligikaudu 73 oomi, takistuslik ja induktiivne.',
     }, {
-      correct: false, text: 'Ligikaudu 73 oomi, takistuslik.',
+      correct: true, text: 'Ligikaudu 73 oomi, takistuslik.',
     }, {
       correct: false, text: '300 oomi, takistslik.',
     }]
@@ -68,7 +68,7 @@ export const M6A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'On võrdse võimendusega.',
     }, {
-      correct: false, text: 'Dipoolantenni võimendus on ligikaudu 2,3dB suurem.',
+      correct: true, text: 'Dipoolantenni võimendus on ligikaudu 2,3dB suurem.',
     }, {
       correct: false, text: 'Dipoolantenni võimendus on 5,6dB.',
     }, {
@@ -82,7 +82,7 @@ export const M6A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Direktorite ja reflektorite arvu suhet.',
     }, {
-      correct: false, text: 'Antenni peakiire suunas kiiratava võimsuse ja täpselt vastassuunalise kiirgusvõimsuse suhet.',
+      correct: true, text: 'Antenni peakiire suunas kiiratava võimsuse ja täpselt vastassuunalise kiirgusvõimsuse suhet.',
     }, {
       correct: false, text: 'Aktiivse vibraatori asendit reflektori ja direktorite suhtes.',
     }, {
@@ -96,7 +96,7 @@ export const M6A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Skin- efekti vähendamiseks.',
     }, {
-      correct: false, text: 'Mustuse ja niiskuse sadestumise vähendamiseks juhtmel.',
+      correct: true, text: 'Mustuse ja niiskuse sadestumise vähendamiseks juhtmel.',
     }, {
       correct: false, text: 'Soojuse ärajuhtimiseks töötades kõrge seisulainega liinis.',
     }, {
@@ -112,7 +112,7 @@ export const M6A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Bell/100m.',
     }, {
-      correct: false, text: 'dB/100m.',
+      correct: true, text: 'dB/100m.',
     }, {
       correct: false, text: 'Neper meetrile.',
     }]
@@ -124,7 +124,7 @@ export const M6A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Kaod vähenevad.',
     }, {
-      correct: false, text: 'Kaod suurenevad.',
+      correct: true, text: 'Kaod suurenevad.',
     }, {
       correct: false, text: 'Kaod jäävad samaks.',
     }, {
@@ -136,7 +136,7 @@ export const M6A: ExamApi.ErauSubject = {
     enText: 'How does the impedance of a coaxial cable affect the attenuation of a signal passing through it?',
     info: '',
     answers: [{
-      correct: false, text: 'Sumbuvus on suurem sagedustel üle 144 MHz.',
+      correct: true, text: 'Sumbuvus on suurem sagedustel üle 144 MHz.',
     }, {
       correct: false, text: 'Sumbuvus on väiksem sagedustel üle 144 MHz.',
     }, {
