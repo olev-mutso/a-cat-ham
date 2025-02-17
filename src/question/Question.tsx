@@ -27,7 +27,7 @@ const Answer: React.FC<{ answer: ExamApi.Answer, index: number }> = ({ answer, i
   const fail = getError(answer);
 
   return (
-    <ListItemButton key={answer.tk} onClick={() => selectAnswer(answer.tk)} className={success ?? fail}>
+    <ListItemButton key={answer.tk} onClick={() => selectAnswer(answer.tk)} className={success ?? fail} sx={{ userSelect: 'text' }}>
       <ListItemIcon>{index + 1}.</ListItemIcon>
       <ListItemText primary={answer.text} />
     </ListItemButton>
