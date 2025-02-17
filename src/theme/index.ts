@@ -39,7 +39,7 @@ export const darkTheme = createTheme({
           '&.questionnaire-header': {
             marginTop: theme.spacing(2),
             marginBottom: theme.spacing(2),
-          }
+          },
         })
       }
     },
@@ -70,6 +70,13 @@ export const darkTheme = createTheme({
         }),
       }
     },
+    MuiListItemButton: {
+      styleOverrides: {
+        root: {
+          userSelect: 'text'
+        }
+      }
+    }
     
   }
 });
