@@ -21,7 +21,7 @@ export const darkTheme = createTheme({
             alignItems: useMediaQuery(theme.breakpoints.down('sm')) ? 'end' : undefined
           },
           '.translator-text.MuiTypography-root ': {
-            fontSize: useMediaQuery(theme.breakpoints.down('sm')) ? theme.typography.caption.fontSize : theme.typography.body2.fontSize,
+            fontSize: useMediaQuery(theme.breakpoints.down('sm')) ? theme.typography.caption.fontSize : '10pt', //TODO typography styles
             fontWeight: 'bold',
           },
           '&.questionnaire-results': {
@@ -44,6 +44,9 @@ export const darkTheme = createTheme({
             marginBottom: theme.spacing(2),
           },
           '&.questionnaire': {
+          },
+          '.scroll-top-button.MuiButton-root': {
+            marginBottom: theme.spacing(5),
           },
           '&.questionnaire-results >.MuiTypography-root': {
             ...theme.typography.h6

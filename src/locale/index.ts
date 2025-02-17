@@ -6,6 +6,7 @@ export const intlMessages = {
     'questionnaire-header.all': 'All questions',
     'questionnaire-header.reset': 'Reset current questions',
 
-    'questionnaire-enText.label': 'EN'
+    'questionnaire-enText.label': 'EN',
+    'button.scroll-to-top': 'Scroll to top'
   }
 };
