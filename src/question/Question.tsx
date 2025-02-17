@@ -1,4 +1,4 @@
-import { Typography, List, ListSubheader, ListItemButton, ListItemText, ListItemIcon, Paper, Box, IconButton } from '@mui/material';
+import { Typography, List, ListSubheader, ListItemButton, ListItemText, ListItemIcon, Paper, Box, IconButton, Divider } from '@mui/material';
 import TranslateIcon from '@mui/icons-material/Translate';
 
 import { useExam, ExamApi } from '../exam-context';
@@ -63,6 +63,7 @@ export const Question: React.FC<{ question: ExamApi.Question }> = ({ question })
           </Box>
         </ListSubheader>
       }>
+        <Divider sx={{ my: 1 }} />
         {question.answers.map((answer, index) => (<Answer key={answer.tk} index={index} answer={answer} />))}
       </List>
     </Paper>
