@@ -13,7 +13,7 @@ export const M3A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Väljundpinge suurendamiseks.',
     }, {
-      correct: false, text: 'Pingelangude võrdsustamiseks dioodidel ja pingeimpulsside kahjuliku mõju vähendamiseks.',
+      correct: true, text: 'Pingelangude võrdsustamiseks dioodidel ja pingeimpulsside kahjuliku mõju vähendamiseks.',
     }, {
       correct: false, text: 'Raadiohäirete vähendamiseks.',
     }]
@@ -28,7 +28,7 @@ export const M3A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Sisendpinge sagedusega võrdne impulsside jada.',
     }, {
-      correct: false, text: 'Sisendpinge kahekordse sagedusega võrdne impulsside jada.',
+      correct: true, text: 'Sisendpinge kahekordse sagedusega võrdne impulsside jada.',
     }, {
       correct: false, text: 'Kolmnurkimpulsside jada.',
     }]
@@ -43,7 +43,7 @@ export const M3A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Trafod ja transistorid.',
     }, {
-      correct: false, text: 'Kondensaatorid ja drosselid.',
+      correct: true, text: 'Kondensaatorid ja drosselid.',
     }, {
       correct: false, text: 'Transistorid ja drosselid.',
     }]
@@ -58,7 +58,7 @@ export const M3A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Võrdne alaldi väljundpingega.',
     }, {
-      correct: false, text: 'Võrdne alaldi nominaalse väljundpinge kahekordse väärtusega.',
+      correct: true, text: 'Võrdne alaldi nominaalse väljundpinge kahekordse väärtusega.',
     }, {
       correct: false, text: 'Võrdne alaldi nominaalse väljundpinge neljakordse väärtusega.',
     }]
@@ -71,7 +71,7 @@ export const M3A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Märgatavalt kõrgem.',
     }, {
-      correct: false, text: 'Enamvähem sama.',
+      correct: true, text: 'Enamvähem sama.',
     }, {
       correct: false, text: 'Võrdne liini kahekordse impedantsiga.',
     }, {
@@ -86,7 +86,7 @@ export const M3A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Pool alaldi nominaalsest väljundpingest.',
     }, {
-      correct: false, text: 'Alaldi nominaalse tipppinge ühe või kahekordne väärtus.',
+      correct: true, text: 'Alaldi nominaalse tipppinge ühe või kahekordne väärtus.',
     }, {
       correct: false, text: 'Võrdne alaldi väljundpingega.',
     }, {
@@ -103,7 +103,7 @@ export const M3A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Paralleelselt alaldi sisendiga.',
     }, {
-      correct: false, text: 'Paralleelselt väljundfiltri drosseliga.',
+      correct: true, text: 'Paralleelselt väljundfiltri drosseliga.',
     }, {
       correct: false, text: 'Paralleelselt trafo primaarmähisega.',
     }]
@@ -116,7 +116,7 @@ export const M3A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: '90 kraadi.',
     }, {
-      correct: false, text: '180 kraadi.',
+      correct: true, text: '180 kraadi.',
     }, {
       correct: false, text: '360 kraadi',
     }, {
@@ -133,7 +133,7 @@ export const M3A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: '180 kraadi.',
     }, {
-      correct: false, text: '360 kraadi',
+      correct: true, text: '360 kraadi',
     }, {
       correct: false, text: '270 kraadi ',
     }]
@@ -146,7 +146,7 @@ export const M3A: ExamApi.ErauSubject = {
     answers: [{
       correct: false, text: 'Kahe- või kolmekordistavad väljundpinget.',
     }, {
-      correct: false, text: 'Kaitsevad teistest dioodidest kiiremini vastutakistust taastavaid dioode.',
+      correct: true, text: 'Kaitsevad teistest dioodidest kiiremini vastutakistust taastavaid dioode.',
     }, {
       correct: false, text: 'Reguleerivad väljundpinget.',
     }, {
