@@ -8,7 +8,7 @@ export const QuestionExplainer: React.FC<{ question: ExamApi.Question }> = ({ qu
   const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
   const isLargeScreen = useMediaQuery(theme.breakpoints.up("sm"));
 
-  const size = isSmallScreen ? 20 : isLargeScreen ? 32 : 41;
+  const size = isSmallScreen ? 30 : isLargeScreen ? 32 : 41;
 
   const instruction = "Translate this text into English and explain it in English:\n\n";
   const formattedAnswers = question.answers.map((a, i) => `${i + 1}. ${a.text}`).join("\n");
