@@ -1,8 +1,12 @@
-import { Typography, List, ListSubheader, ListItemButton, ListItemText, ListItemIcon, Paper, Box, IconButton, Divider } from '@mui/material';
+import {
+  Typography, List, ListSubheader, ListItemButton, ListItemText, ListItemIcon,
+  Paper, Box, IconButton, Divider, useTheme, useMediaQuery
+} from '@mui/material';
 import TranslateIcon from '@mui/icons-material/Translate';
 
+import { QuestionExplainer } from './QuestionExplainer';
 import { useExam, ExamApi } from '../exam-context';
-import { QuestionPopover } from './QuestionPopover';
+import { QuestionTranslator } from './QuestionTranslator';
 
 function getSuccess(answer: ExamApi.Answer): string | undefined {
   if (!answer.isQuestionAnswered) {
@@ -28,6 +32,7 @@ function handleTranslate(text: string) {
   const googleTranslateUrl = `https://translate.google.com/?sl=auto&tl=en&text=${encodedText}&op=translate`;
   window.open(googleTranslateUrl, '_blank');
 };
+
 
 const Answer: React.FC<{ answer: ExamApi.Answer, index: number }> = ({ answer, index }) => {
   const { selectAnswer } = useExam();
@@ -56,10 +61,13 @@ export const Question: React.FC<{ question: ExamApi.Question }> = ({ question })
     <Paper className='question'>
       <List component='nav' subheader={
         <ListSubheader>
-          <Box display='flex' alignItems='center'>
+          <Box display='flex' alignItems='flex-start'>
             <Typography>{question.text}</Typography>
             <Box flexGrow={1} />
-            {question.enText && <QuestionPopover text={question.enText} />}
+            <Box className='question-actions'>
+              <QuestionTranslator text={question.enText} />
+              <QuestionExplainer question={question} />
+            </Box>
           </Box>
         </ListSubheader>
       }>
@@ -69,3 +77,4 @@ export const Question: React.FC<{ question: ExamApi.Question }> = ({ question })
     </Paper>
   );
 }
+

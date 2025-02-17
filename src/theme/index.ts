@@ -1,6 +1,6 @@
+import { useMediaQuery } from '@mui/material';
 import { createTheme } from '@mui/material/styles';
-import zIndex from '@mui/material/styles/zIndex';
-import Sticky from 'react-sticky-el/lib/render-props-version';
+
 export const darkTheme = createTheme({
   palette: {
     mode: 'dark',
@@ -11,6 +11,18 @@ export const darkTheme = createTheme({
         root: ({ ownerState, theme }) => ({
           '&.question': {
             marginBottom: theme.spacing(4)
+          },
+          '.question-actions': {
+            marginTop: theme.spacing(1),
+            display: 'flex',
+            gap: theme.spacing(1),
+
+            flexDirection: useMediaQuery(theme.breakpoints.down('sm')) ? 'column' : 'row',
+            alignItems: useMediaQuery(theme.breakpoints.down('sm')) ? 'end' : undefined
+          },
+          '.translator-text.MuiTypography-root ': {
+            fontSize: useMediaQuery(theme.breakpoints.down('sm')) ? theme.typography.caption.fontSize : theme.typography.body2.fontSize,
+            fontWeight: 'bold',
           },
           '&.questionnaire-results': {
             backgroundColor: theme.palette.success.dark,

@@ -31,7 +31,7 @@ export const M12A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Saatja ja selle lõppseade.',
     }]
-  },{
+    }, {
     id: 'M12A-3',
     text: 'Amatöör-vahendusraadiojaamaks loetakse:',
     enText: 'An amateur radio station is considered to be:',
@@ -45,7 +45,7 @@ export const M12A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Amatöörraadiojaama, mille poolt genereeritavat signaali kasutatakse ainult raadiolevi tingimuste hindamiseks.',
     }]
-  },{
+    }, {
     id: 'M12A-4',
     text: 'Amatöörraadiomajakaks loetakse:',
     enText: 'An amateur radio beacon is considered to be:',
@@ -59,7 +59,7 @@ export const M12A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Ainult amatöörraadiojaama, mis toimib majakana raadiospordi võistluste finišis.',
     }]
-  },{
+    }, {
     id: 'M12A-5',
     text: 'Ühiskasutusega amatöörraadiojaamaks loetakse:',
     enText: 'A shared amateur radio station is considered to be:',
@@ -73,7 +73,7 @@ export const M12A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Kõik amatöörraadiojaamad.',
     }]
-  },{
+    }, {
     id: 'M12A-6',
     text: 'Amatöörraadiojaama registreeritud asukohaks loetakse:',
     enText: 'The registered location of an amateur radio station is considered to be:',
@@ -82,12 +82,10 @@ export const M12A: ExamApi.ErauSubject = {
       correct: false, text: 'Asukoht, kust konkreetne raadiojaam antud ajahetkel väljub eetrisse.',
     }, {
       correct: false, text: 'Amatöörraadiojaama valdaja elukoht.',
-    }, {
-      correct: true, text: 'Amatöörraadiojaama valdaja elukoht.',
-    }, {
+      }, {
       correct: false, text: 'See asukoht, mille antud amatöörraadiojaama valdaja märgib päevikusse.',
     }]
-  },{
+    }, {
     id: 'M12A-7',
     text: 'Amatöörraadiosideks loetakse:',
     enText: 'Amateur radio parts are considered to be:',
@@ -101,7 +99,7 @@ export const M12A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Raadiosidet, milles lisaks raadioamatööridele võivad korrespondentideks olla ka ametkondlikud raadiojaamad.',
     }]
-  },{
+    }, {
     id: 'M12A-8',
     text: 'Amatöörraadiosidet tohib kasutada:',
     enText: 'Amateur radio communications may be used:',
@@ -115,7 +113,7 @@ export const M12A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Ainult täiendavalt kodeeritud sõnumite edastamiseks.',
     }]
-  },{
+    }, {
     id: 'M12A-9',
     text: 'Raadioamatööriks loetakse isikut:',
     enText: 'A radio amateur is considered to be a person:',
@@ -129,7 +127,7 @@ export const M12A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Kes on ERAÜ tegevliige.',
     }]
-  },{
+    }, {
     id: 'M12A-10',
     text: 'Amatöörraadiosides tohib edastada sihituseta või korrespondendita saateid:',
     enText: 'Amateur radio stations may transmit untargeted or uncorrespondent programs:',
@@ -143,7 +141,7 @@ export const M12A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Ainult Morse koodis tähestiku õppe-treeningtekstide edastamiseks.',
     }]
-  },{
+    }, {
     id: 'M12A-11',
     text: 'Eesti amatöörraadiojaamale eraldatav kutsung koosneb:',
     enText: 'The call sign assigned to an Estonian amateur radio station consists of:',
@@ -157,7 +155,7 @@ export const M12A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Kahekohalisest numbrilisest eesliitest ja kuni kolmetähelisest järelliitest.',
     }]
-  },{
+    }, {
     id: 'M12A-12',
     text: 'Haapsalus registreeritud amatöörraadiojaama kutsung algab:',
     enText: 'The callsign of the amateur radio station registered in Haapsalu begins:',
@@ -171,7 +169,7 @@ export const M12A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'ES0',
     }]
-  },{
+    }, {
     id: 'M12A-13',
     text: 'Kutsung ES9Z kuulub piirkondlikult:',
     enText: 'The call ES9Z belongs regionally to:',
@@ -185,7 +183,7 @@ export const M12A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Üleriigiline, kasutamiseks ainult Punase Risti poolt.',
     }]
-  },{
+    }, {
     id: 'M12A-14',
     text: 'Kutsung ES2XX võib kuuluda millise klassi Eesti amatöörraadiojaamale?',
     enText: 'The callsign ES2XX may belong to which class of Estonian amateur radio station?',
@@ -199,7 +197,7 @@ export const M12A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'On välja antud eriloa alusel.',
     }]
-  },{
+    }, {
     id: 'M12A-15',
     text: 'Ühiskasutusega (raadioklubi) amatöörraadiojaamale omistatakse kutsung:',
     enText: 'A shared (radio club) amateur radio station is assigned the call sign:',
@@ -213,7 +211,7 @@ export const M12A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'ABC-DZZ',
     }]
-  },{
+    }, {
     id: 'M12A-16',
     text: 'Ühiskasutusega (raadioklubi) amatöörraadiojaama vastutavaks järelvaatajaks võib olla ainult:',
     enText: 'The responsible supervisor of a shared (radio club) amateur radio station may only be:',
@@ -227,7 +225,7 @@ export const M12A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Riigiametnik.',
     }]
-  },{
+    }, {
     id: 'M12A-17',
     text: 'Amatöörraadiojaama luba väljastatakse Tehnilise Järelevalve Ameti poolt kestvusega:',
     enText: 'An amateur radio station license is issued by the Technical Surveillance Authority for a period of:',
@@ -241,7 +239,7 @@ export const M12A: ExamApi.ErauSubject = {
     }, {
       correct: true, text: '5 aastat',
     }]
-  },{
+    }, {
     id: 'M12A-18',
     text: 'Amatöörraadiojaama tohib kasutada:',
     enText: 'An amateur radio station may be used:',
@@ -255,7 +253,7 @@ export const M12A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Ainult ERAÜ poolt väljaantud vastava loa alusel.',
     }]
-  },{
+    }, {
     id: 'M12A-19',
     text: 'Amatöörraadiojaama tööluba kuulub hoidmisele:',
     enText: 'An amateur radio station operating permit must be held by:',
@@ -269,7 +267,7 @@ export const M12A: ExamApi.ErauSubject = {
     }, {
       correct: false, text: 'Tehnilise Järelevalve Ameti lubade osakonnas.',
     }]
-  },{
+    }, {
     id: 'M12A-20',
     text: 'Amatöörraadiojaama alaline (kohtpaikne) kasutamine väljaspool selle registreeritud asukohta ilma tööloa muutmiseta on lubatud:',
     enText: 'Permanent (local) use of an amateur radio station outside its registered location without changing the operating permit is permitted:',

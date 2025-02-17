@@ -3,7 +3,7 @@ import { Popover, Typography, Button, useTheme, Box } from '@mui/material';
 import { FormattedMessage } from 'react-intl';
 
 
-export const QuestionPopover: React.FC<{ text: string }> = ({ text }) => {
+export const QuestionTranslator: React.FC<{ text: string | undefined }> = ({ text }) => {
   const [anchorEl, setAnchorEl] = React.useState<HTMLButtonElement | null>(null);
   const theme = useTheme();
 
@@ -17,15 +17,20 @@ export const QuestionPopover: React.FC<{ text: string }> = ({ text }) => {
 
   const open = Boolean(anchorEl);
 
+  if (!text) {
+    return <></>
+  }
+
   return (
     <Box display='flex' alignSelf='flex-start' flexWrap='wrap'>
-      <Button variant="contained" onClick={handleClick} sx={{
-        marginTop: theme.spacing(1),
-        minWidth: 'fit-content',
-        px: theme.spacing(1)
-      }}
+      <Button variant="contained" onClick={handleClick}
+        sx={{
+          minWidth: 'fit-content',
+          px: theme.spacing(1)
+        }}
       >
-        <FormattedMessage id='questionnaire-enText.label' /></Button>
+        <Typography className="translator-text"><FormattedMessage id='questionnaire-enText.label' /></Typography>
+      </Button>
       <Popover
         open={open}
         anchorOrigin={{
