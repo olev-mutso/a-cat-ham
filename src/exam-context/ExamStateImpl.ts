@@ -7,20 +7,27 @@ export class ExamStateImpl implements ExamApi.ExamState {
   private _source: ExamApi.ErauSubject[];
   private _questionnaire: ExamApi.Questionnaire;
   private _selectedAnswers: string[];
+  private _selectedSubject: ExamApi.ErauSubject | undefined;
+
 
   constructor(props: {
     source: ExamApi.ErauSubject[],
+    subject?: ExamApi.ErauSubject | undefined,
     selectedAnswers?: { values: string[], questionnaire: ExamApi.Questionnaire },
     nextNQuestions?: number
   }) {
+
     this._source = props.source;    
-    if(props.selectedAnswers) {
+    this._selectedSubject = props.subject;
+
+    if (props.selectedAnswers) {
       this._selectedAnswers = [...props.selectedAnswers.values];
       const subjects = Object.values(props.selectedAnswers.questionnaire.subjects);
       this._questionnaire = new QuestionnaireReducer(subjects, this._selectedAnswers).accept(); 
     } else {
+      const source = !!props.subject ? props.source.filter(e => e.tk === props.subject?.tk) : props.source;
       this._selectedAnswers = [];
-      const nextQuesions = props.nextNQuestions ? new Shuffle(props.source, props.nextNQuestions).accept() : props.source;
+      const nextQuesions = props.nextNQuestions ? new Shuffle(source, props.nextNQuestions).accept() : source;
       this._questionnaire = new QuestionnaireReducer(nextQuesions, this._selectedAnswers).accept();    
     }
   }
@@ -37,18 +44,18 @@ export class ExamStateImpl implements ExamApi.ExamState {
     const selectedQuestionAnswers = selectedQuestion.answers.map(({tk}) => tk);
     const values = this._selectedAnswers.filter(tk => !selectedQuestionAnswers.includes(tk));    
     values.push(answerTk);
-    return new ExamStateImpl({ source, selectedAnswers: { values, questionnaire } });
+    return new ExamStateImpl({ source, subject: this._selectedSubject, selectedAnswers: { values, questionnaire } });
   }
 
   suffle(nextNQuestions: number): ExamApi.ExamState {
     const source = this._source;
-    return new ExamStateImpl({ source, nextNQuestions });
+    return new ExamStateImpl({ source, nextNQuestions, subject: this._selectedSubject });
   }
 
   reset(): ExamApi.ExamState {
     const source = this._source;
     const questionnaire = this._questionnaire;
-    return new ExamStateImpl({ source, selectedAnswers: { values: [], questionnaire }  });
+    return new ExamStateImpl({ subject: this._selectedSubject, source, selectedAnswers: { values: [], questionnaire } });
   }
 
   all(): ExamApi.ExamState {
@@ -65,5 +72,14 @@ export class ExamStateImpl implements ExamApi.ExamState {
       .length;
     const perc: string = correct === 0 ? '0' : (100 / total * correct).toFixed(0);
     return { perc, total, correct }
+  }
+
+  get selectedSubject(): ExamApi.ErauSubject | undefined {
+    return this._selectedSubject;
+  }
+
+  selectSubject(subject: ExamApi.ErauSubject | undefined): ExamApi.ExamState {
+    const source = this._source;
+    return new ExamStateImpl({ source, subject });
   }
 }

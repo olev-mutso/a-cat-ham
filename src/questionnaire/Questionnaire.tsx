@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Paper, Typography, ButtonGroup, Button, Box } from '@mui/material';
+import { Container, Paper, Typography, ButtonGroup, Button, Box, MenuItem, TextField } from '@mui/material';
 import { Subject } from '../subject';
 import { useExam } from '../exam-context';
 import Sticky from 'react-sticky-el';
@@ -8,10 +8,10 @@ import { FormattedMessage } from 'react-intl';
 
 
 export const Questionnaire: React.FC<{}> = ({ }) => {
-  const { value, shuffle, reset, all } = useExam();
+  const { value, shuffle, reset, all, selectSubject } = useExam();
   const subjects = Object.values(value.questionnaire.subjects);
-  const { correct, perc, total } = value.stats;
-
+  const { selectedSubject, stats, source } = value;
+  const { correct, perc, total } = stats;
   const topRef = React.useRef<HTMLDivElement>(null);
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -22,11 +22,21 @@ export const Questionnaire: React.FC<{}> = ({ }) => {
       <Container maxWidth='md' className='questionnaire-header'>
         <div ref={topRef} />
         <ButtonGroup variant='contained' fullWidth>
-          <Button onClick={() => all()}><FormattedMessage id='questionnaire-header.all'/></Button>
-          <Button onClick={() => reset()}><FormattedMessage id='questionnaire-header.reset'/></Button>
-          <Button onClick={() => shuffle(3)}><FormattedMessage id='questionnaire-header.shuffle'/></Button>
+          <Button onClick={() => all()}><FormattedMessage id='questionnaire-header.all' /></Button>
+          <Button onClick={() => reset()}><FormattedMessage id='questionnaire-header.reset' /></Button>
+          <Button onClick={() => shuffle(3)}><FormattedMessage id='questionnaire-header.shuffle' /></Button>
           <Button onClick={() => shuffle(25)}><FormattedMessage id='questionnaire-header.shuffle.big' /></Button>
         </ButtonGroup>
+
+        <TextField select value={selectedSubject?.tk ?? ''} className='subject-select' variant='filled' label='Select subject'>
+          {source.map((subject) => (
+            <MenuItem key={subject.id} value={subject.tk} onClick={() => selectSubject(subject)}>
+              <div style={{ overflow: "hidden", textOverflow: "ellipsis" }}>
+                {subject.title.substring(6)}{" "}({subject.questions.length})
+              </div>
+            </MenuItem>
+          ))}
+        </TextField>
       </Container>
 
       <Container className='questionnaire'>
@@ -38,7 +48,7 @@ export const Questionnaire: React.FC<{}> = ({ }) => {
       <Sticky mode='bottom' boundaryElement={''}>
         <Paper className='questionnaire-results'>
           <Container className='questionnaire-results' maxWidth='md'>
-            <Typography><FormattedMessage id='questionnaire-results.title' values={{ correct, perc, total }}/></Typography>
+            <Typography><FormattedMessage id='questionnaire-results.title' values={{ correct, perc, total }} /></Typography>
           </Container>
         </Paper>
       </Sticky>

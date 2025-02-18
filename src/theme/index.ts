@@ -32,6 +32,18 @@ export const darkTheme = createTheme({
       }
     },
 
+    MuiTextField: {
+      styleOverrides: {
+        root: ({ theme }) => ({
+          '&.subject-select': {
+            minWidth: '50%',
+            maxWidth: '93vw',
+            marginTop: theme.spacing(1)
+          }
+        })
+      }
+    },
+
     MuiContainer: {
       styleOverrides: {
         root: ({ ownerState, theme }) => ({
@@ -39,7 +51,7 @@ export const darkTheme = createTheme({
             ...theme.typography.h5
           },
           '&.subject >.MuiDivider-root': {
-            border: '1px solid', 
+            border: '1px solid',
             marginTop: theme.spacing(1),
             marginBottom: theme.spacing(2),
           },
@@ -66,7 +78,7 @@ export const darkTheme = createTheme({
             color: theme.palette.success.light,
           },
           '.error': {
-            color: theme.palette.error.light + '!important', 
+            color: theme.palette.error.light + '!important',
             textDecoration: 'line-through',
           },
           '.MuiButtonBase-root': {
@@ -92,6 +104,6 @@ export const darkTheme = createTheme({
         }
       }
     }
-    
+
   }
 });

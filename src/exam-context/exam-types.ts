@@ -63,11 +63,16 @@ export declare namespace ExamApi {
   }
 
   export interface ExamState {
-    questionnaire: Questionnaire;
+    selectSubject(subject: ErauSubject | undefined): ExamState;
     selectAnswer(answerTk: string): ExamState;
     suffle(nextNQuestions: number): ExamState;
     reset(): ExamState;
     all(): ExamState;
+
+
+    source: ErauSubject[];
+    questionnaire: Questionnaire;
+    selectedSubject: ErauSubject | undefined;
     stats: { 
       perc: string;
       total: number;
@@ -77,7 +82,9 @@ export declare namespace ExamApi {
 
   export interface ExamContextType {
     value: ExamState;
+
     selectAnswer(answerTk: string): void;
+    selectSubject(selectedSubject: ErauSubject | undefined): void;
     shuffle(nextNQuestions: number): void;
     reset(): void;
     all(): void;
