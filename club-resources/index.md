@@ -1,6 +1,7 @@
 # ES1TP
 
 Tallinn Polytechnic School Amateur Radio club station
+![TPT](TPT_rc_1.jpg)
 
 [ES1TP QRZ](https://www.qrz.com/db/ES1TP)  
 [Contest calendar](https://www.erau.ee/et/kalender)  
