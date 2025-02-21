@@ -30,7 +30,7 @@ export const Questionnaire: React.FC<{}> = ({ }) => {
           <Button onClick={() => shuffle(25)}><FormattedMessage id='questionnaire-header.shuffle.big' /></Button>
         </ButtonGroup>
 
-        <TextField select value={selectedSubject?.tk ?? ''} className='subject-select' variant='filled' label='Select subject'>
+        <TextField select value={selectedSubject?.tk ?? ''} className='subject-select' variant='filled' label={<FormattedMessage id='questionnaire.subject.select' />}>
           {source.map((subject) => (
             <MenuItem key={subject.id} value={subject.tk} onClick={() => selectSubject(subject)}>
               <div style={{ overflow: "hidden", textOverflow: "ellipsis" }}>

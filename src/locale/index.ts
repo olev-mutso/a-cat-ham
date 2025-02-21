@@ -9,6 +9,7 @@ const intlMessages = {
     'questionnaire-header.reset': 'Reset current questions',
 
     'questionnaire-enText.label': 'EN',
+    'questionnaire.subject.select': 'Select subject',
     'button.scroll-to-top': 'Scroll to top'
   },
   'ee': {
@@ -17,6 +18,7 @@ const intlMessages = {
     'questionnaire-header.shuffle.big': 'Shuffle (25)',
     'questionnaire-header.all': 'All questions',
     'questionnaire-header.reset': 'Reset current questions',
+    'questionnaire.subject.select': 'Select subject',
 
     'questionnaire-enText.label': 'EN',
     'button.scroll-to-top': 'Scroll to top'
