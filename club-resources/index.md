@@ -5,6 +5,7 @@ Tallinn Polytechnic School Amateur Radio club station
 
 [ES1TP QRZ](https://www.qrz.com/db/ES1TP)  
 [Contest calendar](https://www.erau.ee/et/kalender)  
+[A-class license practice exam](olev-mutso.github.io/a-cat-ham/)
 
 //TODO: ES1TP logbook
 
