@@ -1,18 +1,24 @@
 import React from "react";
 import { useTheme, useMediaQuery } from "@mui/material";
 import { ExamApi } from '../exam-context';
+import { useLocaleCode } from "../locale";
 
 export const QuestionExplainer: React.FC<{ question: ExamApi.Question }> = ({ question }) => {
   const theme = useTheme();
+  const locale = useLocaleCode();
 
   const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
   const isLargeScreen = useMediaQuery(theme.breakpoints.up("sm"));
 
   const size = isSmallScreen ? 30 : isLargeScreen ? 32 : 41;
 
-  const instruction = "Translate this text into English and explain it in English:\n\n";
-  const formattedAnswers = question.answers.map((a, i) => `${i + 1}. ${a.text}`).join("\n");
-  const translatedText = `${instruction}${question.text}\n\n${formattedAnswers}`;
+  const instruction = "This is a multiple choice question." +
+    "Please translate this question and its answers into English." +
+    "Then, tell which of the answers is correct and explain why that answer is correct and the others are incorrect:\n\n";
+
+  const formattedQuestion = `${question.text[locale]}\r\n`
+  const formattedAnswers = question.answers.map((a, i) => `${i + 1}. ${a.text[locale]}`).join("\n");
+  const textToSend = `${instruction}${formattedQuestion}\n\n${formattedAnswers}`;
 
 
   function handleLeChat(text: string) {
@@ -24,7 +30,7 @@ export const QuestionExplainer: React.FC<{ question: ExamApi.Question }> = ({ qu
   return (
     <>
       <svg
-        onClick={() => handleLeChat(translatedText)}
+        onClick={() => handleLeChat(textToSend)}
         style={{ cursor: 'pointer' }}
         width={size}
         height={(size * 29) / 41} // Maintain the aspect ratio

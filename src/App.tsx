@@ -1,6 +1,6 @@
 import React from 'react';
 import { QueryClientProvider, QueryClient } from '@tanstack/react-query';
-import { IntlProvider, useIntl } from 'react-intl';
+import { IntlProvider } from 'react-intl';
 import { getIntlMessages } from './locale';
 
 import { ThemeProvider, CssBaseline } from '@mui/material';
