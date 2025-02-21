@@ -1,0 +1,16 @@
+import M1A from './M1A'
+import M2A from './M2A'
+import M3A from './M3A'
+import M4A from './M4A'
+import M5A from './M5A'
+import M6A from './M6A'
+import M7A from './M7A'
+import M8A from './M8A'
+import M9A from './M9A'
+import M10A from './M10A'
+import M11A from './M11A'
+import M12A from './M12A'
+import { withTk } from './id-gen'
+
+import { ExamApi } from '../exam-context'
+export const defs: ExamApi.ErauSubject[] = withTk([M1A, M2A, M3A, M4A, M5A, M6A, M7A, M8A, M9A, M10A, M11A, M12A])

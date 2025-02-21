@@ -1,18 +1,5 @@
 import { ExamApi } from '../exam-context';
 
-import { M1A } from './subject.M1A';
-import { M2A } from './subject.M2A';
-import { M3A } from './subject.M3A';
-import { M4A } from './subject.M4A';
-import { M5A } from './subject.M5A';
-import { M6A } from './subject.M6A';
-import { M7A } from './subject.M7A';
-import { M8A } from './subject.M8A';
-import { M9A } from './subject.M9A';
-import { M10A } from './subject.M10A';
-import { M11A } from './subject.M11A';
-import { M12A } from './subject.M12A';
-
 class IdGen {
   private _source: ExamApi.ErauSubject[];
   private _running_seq = 0;
@@ -46,8 +33,6 @@ class IdGen {
   }
 }
 
-export const defs: ExamApi.ErauSubject[] = new IdGen([
-  M1A, M2A, M3A, M4A, M5A, M6A, M7A, M8A, M9A, M10A, M11A, M12A
-]).accept();
-
-
+export const withTk = (subjects: ExamApi.ErauSubject[]) => {
+  return new IdGen(subjects).accept();
+}

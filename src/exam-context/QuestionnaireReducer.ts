@@ -46,7 +46,6 @@ export class QuestionnaireReducer {
       tk: questionId,
       id: src.id,
       text: src.text,
-      enText: src.enText, 
       info: src.info,
       subjectId,
       answers,

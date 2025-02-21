@@ -4,10 +4,12 @@ import { Subject } from '../subject';
 import { useExam } from '../exam-context';
 import Sticky from 'react-sticky-el';
 import { FormattedMessage } from 'react-intl';
+import { useLocaleCode } from '../locale';
 
 
 
 export const Questionnaire: React.FC<{}> = ({ }) => {
+  const locale = useLocaleCode();
   const { value, shuffle, reset, all, selectSubject } = useExam();
   const subjects = Object.values(value.questionnaire.subjects);
   const { selectedSubject, stats, source } = value;
@@ -32,7 +34,7 @@ export const Questionnaire: React.FC<{}> = ({ }) => {
           {source.map((subject) => (
             <MenuItem key={subject.id} value={subject.tk} onClick={() => selectSubject(subject)}>
               <div style={{ overflow: "hidden", textOverflow: "ellipsis" }}>
-                {subject.title.substring(6)}{" "}({subject.questions.length})
+                {subject.title[locale]?.substring(6)}{" "}({subject.questions.length})
               </div>
             </MenuItem>
           ))}
