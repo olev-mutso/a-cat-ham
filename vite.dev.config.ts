@@ -3,6 +3,7 @@ import { ConfigEnv, UserConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import checker from 'vite-plugin-checker';
 import svgr from 'vite-plugin-svgr';
+import { intlTsVite } from './intl-vite-plugin';
 
 
 // https://vitejs.dev/config/
@@ -22,6 +23,7 @@ export default function defineConfig(props: ConfigEnv): UserConfig {
           // svgr options
         },
       }),
+      intlTsVite({})
     ],
     build: {
       chunkSizeWarningLimit: 5000,

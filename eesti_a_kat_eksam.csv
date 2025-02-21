@@ -1,0 +1,17 @@
+subject_id,type,ee,en
+,,,
+M1A,,Moodul M1A Raadio- ja elektrotehnika teooria.,Module M1A Radio and electrical engineering theory.
+,,,
+,question,Mida tähendab termin impedants?,What does the term impedance mean?
+,answer false,Kondensaatoris salvestatavat elektrilaengut.,The electrical charge stored in a capacitor.
+,answer true,Vooluringi poolt vahelduvvoolule osutatavat takistust.,The resistance offered by a circuit to alternating current.
+,answer false,Mahtuvust sisaldava vooluringi poolt vahelduvvoolule osutatavat takistust.,The resistance offered to alternating current by a circuit containing capacitance.
+,answer false,Juhtivust.,Conductivity.
+,info,tere,hello
+,,,
+,question,Kuidas nimetatakse mahtuvust ja induktiivsust sisaldava vooluringi poolt vahelduvvoole osutatavat takistust?,What is the name given to the resistance offered to alternating current by a circuit containing capacitance and inductance?
+,answer false,Oom.,Oom.
+,answer false,Dzhaul.,Joule.
+,answer true,Impedants.,Impedance.
+,answer false,Juhtivuseks.,Conductivity.
+,info,kass,cat
