@@ -100,7 +100,7 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": " Lülitades filterkondensaatorid järjestikku alalisvoolu toitejuhtmesse."
+            "ee": "Lülitades filterkondensaatorid järjestikku alalisvoolu toitejuhtmesse."
           }
         }
       ],

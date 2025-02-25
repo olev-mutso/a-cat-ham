@@ -168,7 +168,7 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": " Signaalide peegeldumine meteooride jäljelt."
+            "ee": "Signaalide peegeldumine meteooride jäljelt."
           }
         }
       ],

@@ -143,7 +143,7 @@ export default {
     {
       "id": "M3A-Q5",
       "text": {
-        "ee": "Milline peab olema transmissiooniliiniga ühendatud madalpääsfiltri impedants liini impedantsiga võrreldes? ",
+        "ee": "Milline peab olema transmissiooniliiniga ühendatud madalpääsfiltri impedants liini impedantsiga võrreldes?",
         "en": "What should be the impedance of a low-pass filter connected to a transmission line compared to the line impedance?"
       },
       "answers": [
@@ -270,7 +270,7 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "270 kraadi "
+            "ee": "270 kraadi"
           }
         }
       ],
@@ -304,7 +304,7 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "270 kraadi "
+            "ee": "270 kraadi"
           }
         }
       ],
@@ -313,7 +313,7 @@ export default {
     {
       "id": "M3A-Q10",
       "text": {
-        "ee": "Mis funktsiooni täidavad kõrgepingealaldis dioodidega paralleelselt lülitatud kondensaatorid ja takistid? ",
+        "ee": "Mis funktsiooni täidavad kõrgepingealaldis dioodidega paralleelselt lülitatud kondensaatorid ja takistid?",
         "en": "What function do capacitors and resistors connected in parallel with high-voltage diodes perform?"
       },
       "answers": [

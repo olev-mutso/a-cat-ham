@@ -1,13 +1,14 @@
 import {
   Typography, List, ListSubheader, ListItemButton, ListItemText, ListItemIcon,
-  Paper, Box, IconButton, Divider
+  Paper, Box, IconButton, Divider,
+  Button
 } from '@mui/material';
 import TranslateIcon from '@mui/icons-material/Translate';
 
 import { QuestionExplainer } from './QuestionExplainer';
 import { useExam, ExamApi } from '../exam-context';
-import { QuestionTranslator } from './QuestionTranslator';
 import { useLocaleCode } from '../locale';
+import React from 'react';
 
 
 function getSuccess(answer: ExamApi.Answer): string | undefined {
@@ -29,15 +30,16 @@ function getError(answer: ExamApi.Answer): string | undefined {
   }
 }
 
+/*
+
 function handleTranslate(text: string) {
   const encodedText = encodeURIComponent(text);
   const googleTranslateUrl = `https://translate.google.com/?sl=auto&tl=en&text=${encodedText}&op=translate`;
   window.open(googleTranslateUrl, '_blank');
 };
 
-
-const Answer: React.FC<{ answer: ExamApi.Answer, index: number }> = ({ answer, index }) => {
-  const locale = useLocaleCode();
+*/
+const Answer: React.FC<{ answer: ExamApi.Answer, index: number, locale: string }> = ({ answer, index, locale }) => {
   const { selectAnswer } = useExam();
   const success = getSuccess(answer);
   const fail = getError(answer);
@@ -46,20 +48,20 @@ const Answer: React.FC<{ answer: ExamApi.Answer, index: number }> = ({ answer, i
     <ListItemButton key={answer.tk} onClick={() => selectAnswer(answer.tk)} className={success ?? fail}>
       <ListItemIcon>{index + 1}.</ListItemIcon>
       <ListItemText primary={answer.text[locale]} />
-      <IconButton size="small"
-        onClick={(e) => {
-          e.stopPropagation();
-          handleTranslate(answer.text['ee']);
-        }}
-      >
-        <TranslateIcon fontSize='small' />
-      </IconButton>
     </ListItemButton>
   );
 }
 
 export const Question: React.FC<{ question: ExamApi.Question }> = ({ question }) => {
-  const locale = useLocaleCode();
+  const defaultLocale = useLocaleCode();
+  const [locale, setLocale] = React.useState(defaultLocale);
+
+
+  const toggleLocale = () => {
+    setLocale(prevLocale => (prevLocale === 'en' ? defaultLocale : 'en'));
+  };
+
+
   return (
     <Paper className='question'>
       <List component='nav' subheader={
@@ -68,14 +70,16 @@ export const Question: React.FC<{ question: ExamApi.Question }> = ({ question })
             <Typography>{question.text[locale]}</Typography>
             <Box flexGrow={1} />
             <Box className='question-actions'>
-              <QuestionTranslator text={question.text['en']} />
               <QuestionExplainer question={question} />
+              <Button variant="outlined" size="small" onClick={toggleLocale} sx={{ minWidth: 'auto' }}>
+                EN
+              </Button>
             </Box>
           </Box>
         </ListSubheader>
       }>
         <Divider sx={{ my: 1 }} />
-        {question.answers.map((answer, index) => (<Answer key={answer.tk} index={index} answer={answer} />))}
+        {question.answers.map((answer, index) => (<Answer key={answer.tk} index={index} answer={answer} locale={locale} />))}
       </List>
     </Paper>
   );

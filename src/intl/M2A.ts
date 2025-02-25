@@ -468,7 +468,7 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": " Kõrgpinge alaldi."
+            "ee": "Kõrgpinge alaldi."
           }
         }
       ],
@@ -484,7 +484,7 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": ".6kHz -6dB pääsuriba juures. "
+            "ee": ".6kHz -6dB pääsuriba juures."
           }
         },
         {
@@ -502,7 +502,7 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": " 15kHz --6dB pääsuriba juures."
+            "ee": "15kHz --6dB pääsuriba juures."
           }
         }
       ],

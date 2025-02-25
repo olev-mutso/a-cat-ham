@@ -14,25 +14,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Kondensaatoris salvestatavat elektrilaengut."
+            "ee": "Kondensaatoris salvestatavat elektrilaengut.",
+            "en": "The electrical charge stored in a capacitor."
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Vooluringi poolt vahelduvvoolule osutatavat takistust."
+            "ee": "Vooluringi poolt vahelduvvoolule osutatavat takistust.",
+            "en": "The resistance offered by a circuit to alternating current."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Mahtuvust sisaldava vooluringi poolt vahelduvvoolule osutatavat takistust."
+            "ee": "Mahtuvust sisaldava vooluringi poolt vahelduvvoolule osutatavat takistust.",
+            "en": "The resistance offered to alternating current by a circuit containing capacitance."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Juhtivust"
+            "ee": "Juhtivust",
+            "en": "Conductivity"
           }
         }
       ],
