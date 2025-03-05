@@ -13,6 +13,7 @@ Tallinn Polytechnic School Amateur Radio club station
 
 ## Contesting
 
+* [ES1BBQ Logger](https://es1bbq.github.io/EDI/#)
 * [Submit logs](https://es7arl.carlnet.ee/ull/?p=saadalogi)
 * [Rules 2025](https://www.erau.ee/images/Voistlustulemused/ULL_KV/eesti%20ull%20karikavoistlused_juhend.pdf)
 * 2m contest
