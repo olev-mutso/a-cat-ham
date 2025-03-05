@@ -18,6 +18,9 @@ Tallinn Polytechnic School Amateur Radio club station
 * 2m contest
   * Operating notes + log setup
   * [Contest results 2025](https://es7arl.carlnet.ee/ull/?p=ULL2mKV&etapp=2025)
+  * Operating frequencies:
+    * **145.225 - 145.475**
+    * **145.525 - 145.575**
 * 70cm contest
   * Operating notes + log setup
   * [Contest results 2025](https://es7arl.carlnet.ee/ull/?p=ULL70cmKV&etapp=2025)
