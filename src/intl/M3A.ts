@@ -14,25 +14,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Väljundpinge lainesuse silumiseks"
+            "ee": "Väljundpinge lainesuse silumiseks",
+            "en": "To smooth the output voltage ripple"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Väljundpinge suurendamiseks."
+            "ee": "Väljundpinge suurendamiseks.",
+            "en": "To increase the output voltage"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Pingelangude võrdsustamiseks dioodidel ja pingeimpulsside kahjuliku mõju vähendamiseks."
+            "ee": "Pingelangude võrdsustamiseks dioodidel ja pingeimpulsside kahjuliku mõju vähendamiseks.",
+            "en": "To equalize voltage drops across diodes and reduce the harmful effects of voltage pulses"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Raadiohäirete vähendamiseks."
+            "ee": "Raadiohäirete vähendamiseks.",
+            "en": "To reduce radio interference"
           }
         }
       ],
@@ -48,25 +52,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Sile alalispinge."
+            "ee": "Sile alalispinge.",
+            "en": "Smooth DC voltage"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Sisendpinge sagedusega võrdne impulsside jada."
+            "ee": "Sisendpinge sagedusega võrdne impulsside jada.",
+            "en": "A sequence of pulses equal to the frequency of the input voltage"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Sisendpinge kahekordse sagedusega võrdne impulsside jada."
+            "ee": "Sisendpinge kahekordse sagedusega võrdne impulsside jada.",
+            "en": "A sequence of pulses equal to twice the frequency of the input voltage"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Kolmnurkimpulsside jada."
+            "ee": "Kolmnurkimpulsside jada.",
+            "en": "A sequence of triangular pulses"
           }
         }
       ],
@@ -82,25 +90,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Dioodid."
+            "ee": "Dioodid.",
+            "en": "Diodes"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Trafod ja transistorid."
+            "ee": "Trafod ja transistorid.",
+            "en": "Transformers and transistors"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Kondensaatorid ja drosselid."
+            "ee": "Kondensaatorid ja drosselid.",
+            "en": "Capacitors and chokes"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Transistorid ja drosselid."
+            "ee": "Transistorid ja drosselid.",
+            "en": "Transistors and chokes"
           }
         }
       ],
@@ -116,25 +128,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Veerand alaldi nominaalsest väljundpingest."
+            "ee": "Veerand alaldi nominaalsest väljundpingest.",
+            "en": "A quarter of the rectifier's nominal output voltage"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Võrdne alaldi väljundpingega."
+            "ee": "Võrdne alaldi väljundpingega.",
+            "en": "Equal to the rectifier output voltage"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Võrdne alaldi nominaalse väljundpinge kahekordse väärtusega."
+            "ee": "Võrdne alaldi nominaalse väljundpinge kahekordse väärtusega.",
+            "en": "Equivalent to twice the nominal output voltage of the rectifier"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Võrdne alaldi nominaalse väljundpinge neljakordse väärtusega."
+            "ee": "Võrdne alaldi nominaalse väljundpinge neljakordse väärtusega.",
+            "en": "Equal to four times the nominal output voltage of the rectifier"
           }
         }
       ],
@@ -150,25 +166,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Märgatavalt kõrgem."
+            "ee": "Märgatavalt kõrgem.",
+            "en": "Noticeably higher"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Enamvähem sama."
+            "ee": "Enamvähem sama.",
+            "en": "More or less the same"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Võrdne liini kahekordse impedantsiga."
+            "ee": "Võrdne liini kahekordse impedantsiga.",
+            "en": "Equal to twice the line impedance"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Võrdne liini impedantsi poole väärtusega."
+            "ee": "Võrdne liini impedantsi poole väärtusega.",
+            "en": "Equal to half the line impedance"
           }
         }
       ],
@@ -184,25 +204,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Pool alaldi nominaalsest väljundpingest."
+            "ee": "Pool alaldi nominaalsest väljundpingest.",
+            "en": "Half of the rectifier's nominal output voltage"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Alaldi nominaalse tipppinge ühe või kahekordne väärtus."
+            "ee": "Alaldi nominaalse tipppinge ühe või kahekordne väärtus.",
+            "en": "One or two times the nominal peak voltage of the rectifier"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Võrdne alaldi väljundpingega."
+            "ee": "Võrdne alaldi väljundpingega.",
+            "en": "Equal to the rectifier output voltage"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Võrdne alaldi neljakordse väljundpingega."
+            "ee": "Võrdne alaldi neljakordse väljundpingega.",
+            "en": "Equal rectifier with four times the output voltage"
           }
         }
       ],
@@ -218,25 +242,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Paralleelselt filterkondensaatoriga."
+            "ee": "Paralleelselt filterkondensaatoriga.",
+            "en": "In parallel with the filter capacitor"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Paralleelselt alaldi sisendiga."
+            "ee": "Paralleelselt alaldi sisendiga.",
+            "en": "In parallel with the rectifier input"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Paralleelselt väljundfiltri drosseliga."
+            "ee": "Paralleelselt väljundfiltri drosseliga.",
+            "en": "In parallel with the output filter choke"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Paralleelselt trafo primaarmähisega."
+            "ee": "Paralleelselt trafo primaarmähisega.",
+            "en": "In parallel with the primary winding of the transformer"
           }
         }
       ],
@@ -252,25 +280,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "90 kraadi."
+            "ee": "90 kraadi.",
+            "en": "90 degrees"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "180 kraadi."
+            "ee": "180 kraadi.",
+            "en": "180 degrees"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "360 kraadi"
+            "ee": "360 kraadi",
+            "en": "360 degrees"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "270 kraadi"
+            "ee": "270 kraadi",
+            "en": "270 degrees"
           }
         }
       ],
@@ -286,25 +318,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "90 kraadi."
+            "ee": "90 kraadi.",
+            "en": "90 degrees"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "180 kraadi."
+            "ee": "180 kraadi.",
+            "en": "180 degrees"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "360 kraadi"
+            "ee": "360 kraadi",
+            "en": "360 degrees"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "270 kraadi"
+            "ee": "270 kraadi",
+            "en": "270 degrees"
           }
         }
       ],
@@ -320,25 +356,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Kahe- või kolmekordistavad väljundpinget."
+            "ee": "Kahe- või kolmekordistavad väljundpinget.",
+            "en": "Double or triple the output voltage"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Kaitsevad teistest dioodidest kiiremini vastutakistust taastavaid dioode."
+            "ee": "Kaitsevad teistest dioodidest kiiremini vastutakistust taastavaid dioode.",
+            "en": "Protects diodes that recover resistance faster than other diodes"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Reguleerivad väljundpinget."
+            "ee": "Reguleerivad väljundpinget.",
+            "en": "Regulates output voltage"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Vähendavad raadiohäireid."
+            "ee": "Vähendavad raadiohäireid.",
+            "en": "Reduces radio interference"
           }
         }
       ],

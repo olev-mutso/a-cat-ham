@@ -14,25 +14,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Takistus suureneb 20% temperatuuri tõusmisel iga 10 kraadi võrra."
+            "ee": "Takistus suureneb 20% temperatuuri tõusmisel iga 10 kraadi võrra.",
+            "en": "Resistance increases by 20% for every 10 degrees Celsius increase in temperature."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Takistuse suurus ei muutu."
+            "ee": "Takistuse suurus ei muutu.",
+            "en": "The magnitude of the resistance does not change."
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Takistuse muutus sõltub takisti temperatuuritegurist sõltuvalt."
+            "ee": "Takistuse muutus sõltub takisti temperatuuritegurist sõltuvalt.",
+            "en": "The change in resistance depends on the temperature coefficient of the resistor."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Takistuse suurus muutub ajast sõltuvaks."
+            "ee": "Takistuse suurus muutub ajast sõltuvaks.",
+            "en": "The magnitude of the resistance changes with time."
           }
         }
       ],
@@ -48,25 +52,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Keraamilist ketaskondensaatorit."
+            "ee": "Keraamilist ketaskondensaatorit.",
+            "en": "Ceramic disc capacitor"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Muutuva mahtuvusega vaakumkondensaatorit."
+            "ee": "Muutuva mahtuvusega vaakumkondensaatorit.",
+            "en": "Variable capacitance vacuum capacitor"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Elektrolüütkondensaatorit."
+            "ee": "Elektrolüütkondensaatorit.",
+            "en": "Electrolytic capacitor"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Vilgukivikondensaatorit."
+            "ee": "Vilgukivikondensaatorit.",
+            "en": "Mica capacitor"
           }
         }
       ],
@@ -82,25 +90,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Suure mahtuvusega kondensaatorid."
+            "ee": "Suure mahtuvusega kondensaatorid.",
+            "en": "Large capacity capacitors"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Muutuva mahtuvusega vaakumkondensaatorid."
+            "ee": "Muutuva mahtuvusega vaakumkondensaatorid.",
+            "en": "Variable capacitance vacuum capacitors"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Keraamilised kondensaatorid."
+            "ee": "Keraamilised kondensaatorid.",
+            "en": "Ceramic capacitors"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Trimmerid."
+            "ee": "Trimmerid.",
+            "en": "Trimmerid"
           }
         }
       ],
@@ -116,25 +128,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Hajutatud elektromagnetism."
+            "ee": "Hajutatud elektromagnetism.",
+            "en": "Diffused electromagnetism"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Pöörisvoolud."
+            "ee": "Pöörisvoolud.",
+            "en": "Eddy currents"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Keerdudevaheline mahtuvus."
+            "ee": "Keerdudevaheline mahtuvus.",
+            "en": "Interturn capacitance"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Parasiithüsterees."
+            "ee": "Parasiithüsterees.",
+            "en": "Parasite hysteria"
           }
         }
       ],
@@ -150,25 +166,29 @@ export default {
         {
           "correct": true,
           "text": {
-            "ee": "Transformaator."
+            "ee": "Transformaator.",
+            "en": "Transformer"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Kondensaator."
+            "ee": "Kondensaator.",
+            "en": "Capacitor"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Diood."
+            "ee": "Diood.",
+            "en": "Diode"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Filterdrossel."
+            "ee": "Filterdrossel.",
+            "en": "Filter choke"
           }
         }
       ],
@@ -184,25 +204,29 @@ export default {
         {
           "correct": true,
           "text": {
-            "ee": "Magneetimisvooluks."
+            "ee": "Magneetimisvooluks.",
+            "en": "Magnetizing current"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Alalisvooluks."
+            "ee": "Alalisvooluks.",
+            "en": "For direct current"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Ergutusvooluks."
+            "ee": "Ergutusvooluks.",
+            "en": "For excitation current"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Stabiliseerimisvooluks."
+            "ee": "Stabiliseerimisvooluks.",
+            "en": "For stabilization current"
           }
         }
       ],
@@ -218,25 +242,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Džauli sekundis."
+            "ee": "Džauli sekundis.",
+            "en": "Joules per second"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Volt või volt-amper."
+            "ee": "Volt või volt-amper.",
+            "en": "Volt or volt-ampere"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Kulonit sekundis."
+            "ee": "Kulonit sekundis.",
+            "en": "Coulombs per second"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Vastupinge."
+            "ee": "Vastupinge.",
+            "en": "Back pressure"
           }
         }
       ],
@@ -252,25 +280,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Suurim siirdepinge, mida diood on võimeline taluma."
+            "ee": "Suurim siirdepinge, mida diood on võimeline taluma.",
+            "en": "The highest transient voltage that a diode is capable of withstanding"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "1,4 korda elektrivõrgu sagedus."
+            "ee": "1,4 korda elektrivõrgu sagedus.",
+            "en": "1.4 times the power grid frequency"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Mittejuhtivas suunas dioodi klemmidele rakendatud maksimaalne pinge."
+            "ee": "Mittejuhtivas suunas dioodi klemmidele rakendatud maksimaalne pinge.",
+            "en": "The maximum voltage applied to the terminals of a diode in the non-conducting direction"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "2,8 korda elektrivõrgu sagedus"
+            "ee": "2,8 korda elektrivõrgu sagedus",
+            "en": "2.8 times the power grid frequency"
           }
         }
       ],
@@ -286,25 +318,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Maksimaalne koormusimpedants, tipppinge."
+            "ee": "Maksimaalne koormusimpedants, tipppinge.",
+            "en": "Maximum load impedance, peak voltage"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Keskmine võimsus, keskmine pinge"
+            "ee": "Keskmine võimsus, keskmine pinge",
+            "en": "Average power, average voltage"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Maksimaalne vastupinge, keskmine pärivool."
+            "ee": "Maksimaalne vastupinge, keskmine pärivool.",
+            "en": "Maximum reverse voltage, average forward current"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Mahtuvuslik takistus, laviinpinge."
+            "ee": "Mahtuvuslik takistus, laviinpinge.",
+            "en": "Capacitive resistance, avalanche voltage"
           }
         }
       ],
@@ -320,25 +356,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Nende läheduse tõttu transformaatorile."
+            "ee": "Nende läheduse tõttu transformaatorile.",
+            "en": "Due to their proximity to the transformer"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Ülemäärase kuumenemise tõttu võivad rikneda."
+            "ee": "Ülemäärase kuumenemise tõttu võivad rikneda.",
+            "en": "They may deteriorate due to excessive heating"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Nende tundlikkuse tõttu siirdepingete mõjule."
+            "ee": "Nende tundlikkuse tõttu siirdepingete mõjule.",
+            "en": "Due to their sensitivity to transient voltages"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Nende kasutamise tõttu kõrgepingeseadmetes."
+            "ee": "Nende kasutamise tõttu kõrgepingeseadmetes.",
+            "en": "Due to their use in high voltage equipment"
           }
         }
       ],
@@ -354,19 +394,22 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Konstantne vool kõikuva pinge puhul."
+            "ee": "Konstantne vool kõikuva pinge puhul.",
+            "en": "Constant current with fluctuating voltage"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Konstantne pinge muutliku voolu puhul."
+            "ee": "Konstantne pinge muutliku voolu puhul.",
+            "en": "Constant voltage for variable current"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Sisemahtuvus, mis muutub sõltuvalt rakendatud pingest."
+            "ee": "Sisemahtuvus, mis muutub sõltuvalt rakendatud pingest.",
+            "en": "Internal capacitance that changes depending on the applied voltage"
           }
         }
       ],
@@ -382,25 +425,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Punktkontaktdiood."
+            "ee": "Punktkontaktdiood.",
+            "en": "Point contact diode"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Tunneldiood."
+            "ee": "Tunneldiood.",
+            "en": "Tunnel diode"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Ränialaldi."
+            "ee": "Ränialaldi.",
+            "en": "Silicon rectifier"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Pinddiood."
+            "ee": "Pinddiood.",
+            "en": "Pin diode"
           }
         }
       ],
@@ -416,25 +463,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Hoiab stabiilset pinget läbiva muutliku voolu puhul."
+            "ee": "Hoiab stabiilset pinget läbiva muutliku voolu puhul.",
+            "en": "Maintains stable voltage when passing through variable current"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Tema sisemahtuvus sõltub rakendatud pingest."
+            "ee": "Tema sisemahtuvus sõltub rakendatud pingest.",
+            "en": "Its internal capacitance depends on the applied voltage"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Omab negatiivse takistusega regiooni."
+            "ee": "Omab negatiivse takistusega regiooni.",
+            "en": "Has a negative resistance region"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "On väga kõrge vastupingega."
+            "ee": "On väga kõrge vastupingega.",
+            "en": "Has a very high backlash"
           }
         }
       ],
@@ -450,25 +501,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Stabiilse voolu allikas."
+            "ee": "Stabiilse voolu allikas.",
+            "en": "Stable current source"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Stabiilse pinge allikas."
+            "ee": "Stabiilse pinge allikas.",
+            "en": "Stable voltage source"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Kõrgsageduslik dioodlüliti."
+            "ee": "Kõrgsageduslik dioodlüliti.",
+            "en": "High frequency diode switch"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Kõrgpinge alaldi."
+            "ee": "Kõrgpinge alaldi.",
+            "en": "High voltage rectifier"
           }
         }
       ],
@@ -484,25 +539,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": ".6kHz -6dB pääsuriba juures."
+            "ee": ".6kHz -6dB pääsuriba juures.",
+            "en": ".6kHz at -6dB passband"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "2,1kHz –6dB pääsuriba juures."
+            "ee": "2,1kHz –6dB pääsuriba juures.",
+            "en": "2.1kHz at –6dB passband"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "500Hz --6dB pääsuriba juures."
+            "ee": "500Hz --6dB pääsuriba juures.",
+            "en": "At 500Hz --6dB passband"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "15kHz --6dB pääsuriba juures."
+            "ee": "15kHz --6dB pääsuriba juures.",
+            "en": "15kHz --6dB at the passband"
           }
         }
       ],

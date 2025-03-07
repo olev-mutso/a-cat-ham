@@ -14,25 +14,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Väga hea arusaadavus."
+            "ee": "Väga hea arusaadavus.",
+            "en": "Very good readability"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Lainetav heli."
+            "ee": "Lainetav heli.",
+            "en": "Wavy sound"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Ümberpööratud külgribad."
+            "ee": "Ümberpööratud külgribad.",
+            "en": "Inverted sidebars"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Sisisevad signaalid."
+            "ee": "Sisisevad signaalid.",
+            "en": "Hissing signals"
           }
         }
       ],
@@ -48,25 +52,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Päikese magnetvälja intensiivsus."
+            "ee": "Päikese magnetvälja intensiivsus.",
+            "en": "The intensity of the sun's magnetic field"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Maa poole pööratud Päikese küljel nähtavate plekkide arv."
+            "ee": "Maa poole pööratud Päikese küljel nähtavate plekkide arv.",
+            "en": "The number of sunspots visible on the side of the Sun facing Earth"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Päikese poolt kiiratav ioniseeriv energia."
+            "ee": "Päikese poolt kiiratav ioniseeriv energia.",
+            "en": "Ionizing energy emitted by the sun"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Päikesel nähtavate plekigruppide arv."
+            "ee": "Päikesel nähtavate plekigruppide arv.",
+            "en": "The number of sunspot groups visible on the Sun"
           }
         }
       ],
@@ -82,25 +90,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Päikese solar-fluks indeksi järsk langus."
+            "ee": "Päikese solar-fluks indeksi järsk langus.",
+            "en": "A sharp drop in the Sun's solar flux index"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Maa magnetvälja järsk muutus lühikese aja jooksul."
+            "ee": "Maa magnetvälja järsk muutus lühikese aja jooksul.",
+            "en": "A sudden change in the Earth's magnetic field over a short period of time"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Maa magnetpooluse nihe."
+            "ee": "Maa magnetpooluse nihe.",
+            "en": "Earth's magnetic pole shift"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Päikeseplekkide magnetvälja polaarsuse muutus."
+            "ee": "Päikeseplekkide magnetvälja polaarsuse muutus.",
+            "en": "Change in the polarity of the magnetic field of sunspots"
           }
         }
       ],
@@ -116,25 +128,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "1,5 sekundiga."
+            "ee": "1,5 sekundiga.",
+            "en": "1,5 sekundiga"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "8 minutiga."
+            "ee": "8 minutiga.",
+            "en": "In 8 minutes"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "20 kuni 40 tunniga."
+            "ee": "20 kuni 40 tunniga.",
+            "en": "Between 20 and 40 minutes"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "30 sekundiga."
+            "ee": "30 sekundiga.",
+            "en": "In 30 seconds"
           }
         }
       ],
@@ -150,25 +166,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Sporaadiline E-levi."
+            "ee": "Sporaadiline E-levi.",
+            "en": "Sporadic E propogation"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Lühikese hüppega levi."
+            "ee": "Lühikese hüppega levi.",
+            "en": "Spread with a short jump"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Raadiolaine peegeldumine troposfääri ja ionosfääri ebaühtluskohtadest (scatter)."
+            "ee": "Raadiolaine peegeldumine troposfääri ja ionosfääri ebaühtluskohtadest (scatter).",
+            "en": "Reflection of radio waves from irregularities in the troposphere and ionosphere (scatter)"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Signaalide peegeldumine meteooride jäljelt."
+            "ee": "Signaalide peegeldumine meteooride jäljelt.",
+            "en": "Reflection of signals from a meteor trail"
           }
         }
       ],
@@ -184,25 +204,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "D-kihis."
+            "ee": "D-kihis.",
+            "en": "D-layer"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "E-kihis."
+            "ee": "E-kihis.",
+            "en": "E-layer"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "F2-kihis."
+            "ee": "F2-kihis.",
+            "en": "F2-layer"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "F1-kihis."
+            "ee": "F1-kihis.",
+            "en": "F1-layer"
           }
         }
       ],
@@ -218,25 +242,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Väga hea raadioside kõrgematel geomagnetilistel laiuskraadidel."
+            "ee": "Väga hea raadioside kõrgematel geomagnetilistel laiuskraadidel.",
+            "en": "Very good radio communication at higher geomagnetic latitudes"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Halvenenud raadiolevi kõrgematel geomagnetilistel laiuskraadidel."
+            "ee": "Halvenenud raadiolevi kõrgematel geomagnetilistel laiuskraadidel.",
+            "en": "Deteriorated radio coverage at higher geomagnetic latitudes"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Suurenenud pinnalaine ulatus."
+            "ee": "Suurenenud pinnalaine ulatus.",
+            "en": "Increased surface wave range"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Raadioside täielik puudumine."
+            "ee": "Raadioside täielik puudumine.",
+            "en": "Complete lack of radio communication"
           }
         }
       ],
@@ -252,25 +280,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Minimaalne raadiolainete levi tõusunurk,mille juures raadiolained peegelduvad Maale tagasi ionosfääri teatud seisundi puhul."
+            "ee": "Minimaalne raadiolainete levi tõusunurk,mille juures raadiolained peegelduvad Maale tagasi ionosfääri teatud seisundi puhul.",
+            "en": "The minimum elevation angle of radio wave propagation at which radio waves are reflected back to Earth for a given state of the ionosphere"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Kompassi suund teie asukohast korrespondendi suunas."
+            "ee": "Kompassi suund teie asukohast korrespondendi suunas.",
+            "en": "Compass direction from your location to the correspondent"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Maksimaalne raadiolainete levi tõusunurk,mille juures raadiolained peegelduvad veel Maale tagasi ionosfääri teatud seisundi puhul."
+            "ee": "Maksimaalne raadiolainete levi tõusunurk,mille juures raadiolained peegelduvad veel Maale tagasi ionosfääri teatud seisundi puhul.",
+            "en": "The maximum elevation angle of radio wave propagation at which radio waves are still reflected back to Earth for a given state of the ionosphere"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Antenni poomi vertikaalnurk horisontaaltasapinna suhtes."
+            "ee": "Antenni poomi vertikaalnurk horisontaaltasapinna suhtes.",
+            "en": "The vertical angle of the antenna boom relative to the horizontal plane"
           }
         }
       ],
@@ -286,25 +318,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Kogu päev."
+            "ee": "Kogu päev.",
+            "en": "The whole day"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Mõnest minutist kuni mõne tunnini."
+            "ee": "Mõnest minutist kuni mõne tunnini.",
+            "en": "From a few minutes to a few hours"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Keskmiselt ühe nädala."
+            "ee": "Keskmiselt ühe nädala.",
+            "en": "On average, one week"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Kuni ühe kuuni."
+            "ee": "Kuni ühe kuuni.",
+            "en": "For one hour"
           }
         }
       ],
@@ -320,25 +356,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Ekvaatori laiuskraadidel."
+            "ee": "Ekvaatori laiuskraadidel.",
+            "en": "At equatorial latitudes"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "45 kraadist kõrgematel laiustel."
+            "ee": "45 kraadist kõrgematel laiustel.",
+            "en": "At latitudes above 45 degrees"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Kõikidel laiuskraadidel ühtemoodi."
+            "ee": "Kõikidel laiuskraadidel ühtemoodi.",
+            "en": "The same at all latitudes"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Polaarööga hõivatud laiuskraadidel."
+            "ee": "Polaarööga hõivatud laiuskraadidel.",
+            "en": "In latitudes occupied by the polar night"
           }
         }
       ],

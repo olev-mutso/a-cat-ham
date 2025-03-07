@@ -1,1183 +1,1183 @@
-subject_id,type,ee,en
-M1A,,Moodul M1A Raadio- ja elektrotehnika teooria.,
-,question,Mida tähendab termin impedants?,What does the term impedance mean?
-,,,
-,FALSE,Kondensaatoris salvestatavat elektrilaengut.,The electrical charge stored in a capacitor.
-,TRUE,Vooluringi poolt vahelduvvoolule osutatavat takistust.,The resistance offered by a circuit to alternating current.
-,FALSE,Mahtuvust sisaldava vooluringi poolt vahelduvvoolule osutatavat takistust.,The resistance offered to alternating current by a circuit containing capacitance.
-,FALSE,Juhtivust,Conductivity
-,,,
-,question,Kuidas nimetatakse mahtuvust ja induktiivsust sisaldava vooluringi poolt vahelduvvoole osutatavat takistust?,What is the name given to the resistance offered to alternating current by a circuit containing capacitance and inductance?
-,,,
-,FALSE,Oom.,
-,FALSE,Dzhaul.,
-,TRUE,Impedants.,
-,FALSE,Juhtivuseks.,
-,,,
-,question,Kuidas nimetatatkse induktiivsuse poolt vahelduvvoolule osutatavat takistust?,What is the name given to the resistance offered by an inductance to alternating current?
-,,,
-,FALSE,Takistus.,
-,TRUE,Reaktiivtakistus.,
-,FALSE,Näivjuhtivus.,
-,FALSE,Impedants.,
-,,,
-,question,Kuidas nimetatatkse mahtuvuse poolt vahelduvvoolule osutatavat takistust,What is the name given to the resistance offered by capacitance to alternating current?
-,,,
-,FALSE,Takistus.,
-,TRUE,Reaktiivtakistus.,
-,FALSE,Näivjuhtivus.,
-,FALSE,Impedants.,
-,,,
-,question,Kuidas reageerib induktiivsus vahelduvvoolule?,How does inductance respond to alternating current?
-,,,
-,FALSE,Vahelduvvoolu sageduse suurenedes reaktiivtakustus väheneb.,
-,FALSE,Vahelduvvoolu amplituude suurenedes suureneb ka reaktiivtakistus.,
-,TRUE,Vahelduvvoolu sageduse suurenedes reaktiivsus suureneb.,
-,FALSE,Vahelduvvoolu amplituude suurenedes väheneb reaktiivtakistus.,
-,,,
-,question,Kuidas reageerib mahtuvus vahelduvvoolule?,How does capacitance respond to alternating current?
-,,,
-,TRUE,Vahelduvvoolu sageduse suurenedes reaktiivtakustus väheneb.,
-,FALSE,Vahelduvvoolu amplituude suurenedes suureneb ka reaktiivtakistus.,
-,FALSE,Vahelduvvoolu sageduse suurenedes reaktiivsus suureneb.,
-,FALSE,Vahelduvvoolu amplituude suurenedes reaktiivtakistus väheneb.,
-,,,
-,question,Millal annab toiteallikas maksimaalse väljundenergia?,When does a power supply provide maximum output power?
-,,,
-,TRUE,Juhul kui koormusimpedants on võrdne vooluallika impedantsiga.,
-,FALSE,Kui seisulainetegur on saavutanud maksimaalväärtuse.,
-,FALSE,Kui raudsüdamikuga transformaatori asemel kasutatakse õhksüdamikuga transformaatorit.,
-,FALSE,Kui kasutatakse toroidtransformaatorit.,
-,,,
-,question,Mida tähendab termin impedantside sobitamine?,What does the term impedance matching mean?
-,,,
-,FALSE,Koormusimpedantsi toiteallika impedantsist palju suuremaks tegemine.,
-,TRUE,Koormusimpedantsi võrdsustamine toiteallika impedantsiga.,
-,FALSE,Baluni kasutamine antenni toitepunktis.,
-,FALSE,Saatja väljundimpedantsiga võrdse takistusega toitekaabli kasutamine.,
-,,,
-,question,Mis juhtub kui elektrilise koormuse impedants on võrdne toiteallika impedantsiga?,What happens when the impedance of an electrical load is equal to the impedance of the power source?
-,,,
-,FALSE,Toiteallikas juhib koormusesse minimaalse võimsuse.,
-,FALSE,Vool katkeb vooluahelas.,
-,TRUE,Toiteallikas juhib koormusesse maksimaalse võimsuse.,
-,FALSE,Väljundvõimsus langeb poole võrra.,
-,,,
-,question,Miks on impedantside sobitamine raadiotehnikas väga oluline?,Why is impedance matching very important in radio engineering?
-,,,
-,TRUE,Võimaldab toiteallikast juhtida koormusesse maksimaalse võimsuse.,
-,FALSE,Kindlustab vooluringi aktiiv- ja reaktiivtakistuse võrdsuse.,
-,FALSE,Kindlustab minimaalse võimsuse saamise toitallikast.,
-,FALSE,Vähendab elektrivõrgust tarbitavat võimsust.,
-,,,
-,question,Milline on reaktiivtakistuse mõõtühik?,What is the unit of measurement for reactance?
-,,,
-,TRUE,Oom.,
-,FALSE,Volt.,
-,FALSE,Amper.,
-,FALSE,Siimens.,
-,,,
-,question,Milline on impedantsi mõõtühik?,What is the unit of measurement for impedance?
-,,,
-,TRUE,Oom.,
-,FALSE,Volt.,
-,FALSE,Amper.,
-,FALSE,Siimens.,
-,,,
-,question,Mis on Bell?,What is a Bell?
-,,,
-,FALSE,Mahtuvuse muutumise mõõtühik.,
-,FALSE,Induktiivsuse muutumise mõõtühik.,
-,TRUE,Erinevate võimsuste suhte suurust väljendav ühik.,
-,FALSE,Seisulaine suhte mõõtühik.,
-,,,
-,question,Mis on detsibell?,What is a decibel?
-,,,
-,TRUE,"Võimsusnivoode suhte muutumine 0,1 Belli võrra.",
-,FALSE,"Võimsusnivoode suhte muutumine 0,01 Belli võrra.",
-,FALSE,Võimsusnivoode suhte muutumine 10 Belli võrra.,
-,FALSE,Võimsusnivoode suhte muutumine 0;001 Belli võrra.,
-,,,
-,question,Ligikaudu mitu detsibelli on vaevaltmärgatav helitugevuse muutus?,Approximately how many decibels is a barely noticeable change in volume?
-,,,
-,FALSE,12 dB.,
-,FALSE,6 dB.,
-,TRUE,1 dB.,
-,FALSE,3 dB.,
-,,,
-,question,Võimsuse suurenemine kaks korda on detsibellides:,The power increase by two times is in decibels:
-,,,
-,FALSE,1 dB.,
-,TRUE,3 dB.,
-,FALSE,6 dB.,
-,FALSE,12 dB.,
-,,,
-,question,Mitu korda suureneb võimsus 6 dB puhul?,How many times does the power increase for a 6 dB increase?
-,,,
-,FALSE,"1,5 korda.",
-,FALSE,2 korda.,
-,TRUE,4 korda.,
-,FALSE,"0,5 korda.",
-,,,
-,question,Mitu korda suureneb võimsus 3 dB puhul?,How many times does the power increase for 3 dB?
-,,,
-,FALSE,"1,5 korda.",
-,TRUE,2 korda.,
-,FALSE,4 korda.,
-,FALSE,"0,5 korda.",
-,,,
-,question,Signaali raport on ”10 dB üle S9”.Kui saatja võimsust vähendatakse 1500 vatilt 150 vatini kui suur on uus signaali tugevuse raport?,"The signal report is “10 dB above S9”. If the transmitter power is reduced from 1500 watts to 150 watts, what is the new signal strength report?"
-,,,
-,FALSE,S5.,
-,FALSE,S7.,
-,TRUE,S9.,
-,FALSE,S3.,
-,,,
-,question,Signaali raport on “20 dB üle S9”.Kui saatja võimsust vähendatakse 1500 vatilt 15 vatini kui suur on uus signaali tugevuse raport?,"The signal report is “20 dB above S9”. If the transmitter power is reduced from 1500 watts to 15 watts, what is the new signal strength report?"
-,,,
-,FALSE,S5.,
-,FALSE,S7.,
-,TRUE,S9.,
-,FALSE,S3.,
-,,,
-,question,Kui 1 amprilise vooluallikaga on ühendatud kaks paralleelselt lülitatud 10-oomist takistit kui suur vool läbib kumbagi takistit?,"If two 10-ohm resistors are connected in parallel to a 1-ampere current source, how much current will flow through each resistor?"
-,,,
-,FALSE,10 amprit.,
-,FALSE,1 amper.,
-,TRUE,"0,5 amprit.",
-,FALSE,"0,25 amprit.",
-,,,
-,question,Kui suur on kasutatav võimsus kui 400V pingega vooluallikas ühendatakse 800 oomise koormusega?,How much power is used when a 400V power source is connected to an 800 ohm load?
-,,,
-,FALSE,"0,5 vatti.",
-,TRUE,200 vatti.,
-,FALSE,400 vatti.,
-,FALSE,800 vatti.,
-,,,
-,question,Kui suur on 12V 0.2A vooluga indikaatorlambi võimsus?,What is the power of a 12V 0.2A indicator lamp?
-,,,
-,FALSE,60 vatti.,
-,FALSE,24 vatti.,
-,TRUE,"2,4 vatti.",
-,FALSE,"0,24 vatti.",
-,,,
-,question,"Kui suur võimsus eraldub 0,25 kilo-oomisel takistil kui teda läbib vool tugevusega 7,0 milliamprit?",How much power is dissipated in a 0.25 kilo-ohm resistor when a current of 7.0 milliamperes flows through it?
-,,,
-,FALSE,Ligikaudu 51 millivatti.,
-,FALSE,Ligikaudu 39 millivatti.,
-,TRUE,Ligikaudu 9 millivatti.,
-,FALSE,"Ligikaudu 0,9 millivatti.",
-,,,
-,question,Kui suur on mitmest takistist koosneva jadalülituse kogutakistus?,What is the total resistance of a series circuit consisting of several resistors?
-,,,
-,TRUE,Kogutakistus on võrdne kõikide takistite takistuste summaga.,
-,FALSE,Kogutakistus on väiksem kõige väiksema takisti takistuse väärtusest.,
-,FALSE,Kogutakistuse saame jagades takistite takistuste summa takistite arvuga.,
-,FALSE,Iga takisti tolerantsi tuleb suurendada proportsionaalselt takistite arvule.,
-,,,
-,question,Kui suur on kahe võrdse paralleelselt lülitatud takistist koosneva ahela kogutakistus?,What is the total resistance of a circuit consisting of two equal resistors connected in parallel?
-,,,
-,FALSE,Kahekordne ühe takisti takistuse väärtus.,
-,TRUE,Pool kummagi takisti takistuse väärtusest.,
-,FALSE,Kahekordne kummagi takisti väärtus.,
-,FALSE,Ei saa määrata takistite täpset takistust teadmata.,
-,,,
-,question,Mis on detsibell?,What is a decibel?
-,,,
-,TRUE,"Võimsusnivoode suhte muutumine 0,1 Belli võrra.",
-,FALSE,"Võimsusnivoode suhte muutumine 0,01 Belli võrra.",
-,FALSE,Võimsusnivoode suhte muutumine 10 Belli võrra.,
-,FALSE,Võimsusnivoode suhte muutumine 0;001 Belli võrra.,
-,,,
-,question,Kui suur on kahe paralleelselt ühendatud induktiivsuse koguväärtus?,What is the total value of two inductances connected in parallel?
-,,,
-,FALSE,Pool kummagi väärtusest vastastikust induktiivsust arvestamata.,
-,FALSE,Kahekordne kummagi induktiivsuse väärtus.,
-,FALSE,Kahekordne kummagi induktiivsuse väärtus.,
-,TRUE,Ei saa määrata induktiivsuste täpset suurust teadmata.,
-,,,
-,question,"Kui suur on pinge transformaatori 500 keerust koosneva sekundaarmähise klemmidel, kui 2200 keerust koosnev primaarmähis on lülitatud 220V vahelduvvooluvõrku?",What is the voltage at the terminals of the secondary winding of a transformer with 500 turns when the primary winding with 2200 turns is connected to a 220V AC network?
-,,,
-,FALSE,"526,5V.",
-,TRUE,50V.,
-,FALSE,26V.,
-,FALSE,13V,
-,,,
-,question,Kui suur on 200 oomise väljundtakistusega helisagedusvõimendi sobitamiseks 10-oomise valjuhääldiga vajaliku transformaatori mähiste keerdude suhe?,What is the turns ratio of the transformer windings required to match an audio frequency amplifier with an output impedance of 200 ohms to a 10 ohm loudspeaker?
-,,,
-,TRUE,4.47 : 1.,
-,FALSE,400: 1.,
-,FALSE,20 : 1.,
-,FALSE,10:1.,
-,,,
-,,,
-M2A,,Moodul M2A Raadio- ja elektrotehnika kompoonendid.,
-,question,Kuidas mõjub ümbruskonna temperatuur süsiniktakisti takistusele?,How does the ambient temperature affect the resistance of a carbon resistor?
-,,,
-,FALSE,Takistus suureneb 20% temperatuuri tõusmisel iga 10 kraadi võrra.,
-,FALSE,Takistuse suurus ei muutu.,
-,TRUE,Takistuse muutus sõltub takisti temperatuuritegurist sõltuvalt.,
-,FALSE,Takistuse suurus muutub ajast sõltuvaks.,
-,,,
-,question,Mis tüüpi kondensaatorit kasutatakse tihti võrgutoitealaldi silumisfiltris?,What type of capacitor is often used in the smoothing filter of a mains power rectifier?
-,,,
-,FALSE,Keraamilist ketaskondensaatorit.,
-,FALSE,Muutuva mahtuvusega vaakumkondensaatorit.,
-,TRUE,Elektrolüütkondensaatorit.,
-,FALSE,Vilgukivikondensaatorit.,
-,,,
-,question,Millised kondensaatorid lülitatakse rööbiti transformaatori sekundaarmähisega pingeimpulsside vähendamiseks?,What capacitors are connected in parallel with the secondary winding of a transformer to reduce voltage pulses?
-,,,
-,FALSE,Suure mahtuvusega kondensaatorid.,
-,FALSE,Muutuva mahtuvusega vaakumkondensaatorid.,
-,TRUE,Keraamilised kondensaatorid.,
-,FALSE,Trimmerid.,
-,,,
-,question,Mis tekitab poolide omaresonantsi?,What causes the self-resonance of coils?
-,,,
-,FALSE,Hajutatud elektromagnetism.,
-,FALSE,Pöörisvoolud.,
-,TRUE,Keerdudevaheline mahtuvus.,
-,FALSE,Parasiithüsterees.,
-,,,
-,question,Milline vooluringi komponent võimaldab suurendada vahelduvvoolu pinget 100 voldilt 1000 voldini?,Which circuit component allows you to increase the AC voltage from 100 volts to 1000 volts?
-,,,
-,TRUE,Transformaator.,
-,FALSE,Kondensaator.,
-,FALSE,Diood.,
-,FALSE,Filterdrossel.,
-,,,
-,question,Kuidas nimetatakse transformaatori primaarmähises voolavat voolu kui Sekundaarmähise külge pole koormust lülitatud?’,What is the name given to the current flowing in the primary winding of a transformer when there is no load connected to the secondary winding?
-,,,
-,TRUE,Magneetimisvooluks.,
-,FALSE,Alalisvooluks.,
-,FALSE,Ergutusvooluks.,
-,FALSE,Stabiliseerimisvooluks.,
-,,,
-,question,Mis suurustega iseloomustatakse tavaliselt jõutransformaatori primaar- ja sekundaarmähiseid?,What are the dimensions usually used to characterize the primary and secondary windings of a power transformer?
-,,,
-,FALSE,Džauli sekundis.,
-,TRUE,Volt või volt-amper.,
-,FALSE,Kulonit sekundis.,
-,FALSE,Vastupinge.,
-,,,
-,question,Mis on toiteseadme alalduselemendi vastupinge?,What is the reverse voltage of the rectifier element of a power supply?
-,,,
-,FALSE,"Suurim siirdepinge, mida diood on võimeline taluma.",
-,FALSE,"1,4 korda elektrivõrgu sagedus.",
-,TRUE,Mittejuhtivas suunas dioodi klemmidele rakendatud maksimaalne pinge.,
-,FALSE,"2,8 korda elektrivõrgu sagedus",
-,,,
-,question,"Millised on ränidioodide kaks parameetrit, mida ei või ületada?",What are the two parameters of silicon diodes that cannot be exceeded?
-,,,
-,FALSE,"Maksimaalne koormusimpedants, tipppinge.",
-,FALSE,"Keskmine võimsus, keskmine pinge",
-,TRUE,"Maksimaalne vastupinge, keskmine pärivool.",
-,FALSE,"Mahtuvuslik takistus, laviinpinge.",
-,,,
-,question,Miks peavad alaldi dioodid olema termaalselt kaitstud?,Why do rectifier diodes need to be thermally protected?
-,,,
-,FALSE,Nende läheduse tõttu transformaatorile.,
-,TRUE,Ülemäärase kuumenemise tõttu võivad rikneda.,
-,FALSE,Nende tundlikkuse tõttu siirdepingete mõjule.,
-,FALSE,Nende kasutamise tõttu kõrgepingeseadmetes.,
-,,,
-,question,Mis on Zener-dioodi (stabilitroni) peamine omadus?,What is the main characteristic of a Zener diode?
-,,,
-,FALSE,Konstantne vool kõikuva pinge puhul.,
-,TRUE,Konstantne pinge muutliku voolu puhul.,
-,FALSE,"Sisemahtuvus, mis muutub sõltuvalt rakendatud pingest.",
-,,,
-,question,Mis tüüpi diood on võimeline ostsilleerima ja ka võimendama?,What type of diode is capable of oscillating and also amplifying?
-,,,
-,FALSE,Punktkontaktdiood.,
-,TRUE,Tunneldiood.,
-,FALSE,Ränialaldi.,
-,FALSE,Pinddiood.,
-,,,
-,question,Mis on varaktordioodi peamine omadus?,What is the main characteristic of a varactor diode?
-,,,
-,FALSE,Hoiab stabiilset pinget läbiva muutliku voolu puhul.,
-,TRUE,Tema sisemahtuvus sõltub rakendatud pingest.,
-,FALSE,Omab negatiivse takistusega regiooni.,
-,FALSE,On väga kõrge vastupingega.,
-,,,
-,question,Milleks kasutatakse PIN dioodi?,What is a PIN diode used for?
-,,,
-,FALSE,Stabiilse voolu allikas.,
-,FALSE,Stabiilse pinge allikas.,
-,TRUE,Kõrgsageduslik dioodlüliti.,
-,FALSE,Kõrgpinge alaldi.,
-,,,
-,question,Kui suur on SSB telefonitööks vajaliku hea kvartsfiltri pääsuriba laius?,What is the passband width of a good quartz filter needed for SSB telephone work?
-,,,
-,FALSE,.6kHz -6dB pääsuriba juures.,
-,TRUE,"2,1kHz –6dB pääsuriba juures.",
-,FALSE,500Hz --6dB pääsuriba juures.,
-,FALSE,15kHz --6dB pääsuriba juures.,
-,,,
-,,,
-M3A,,Moodul M3A Raadio- ja elektrotehnika ahelad.,
-,question,Miks ühendatakse toitealaldi dioodidega paralleelselt kondensaator ja takisti?,Why are a capacitor and a resistor connected in parallel with the diodes in a power rectifier?
-,,,
-,FALSE,Väljundpinge lainesuse silumiseks,
-,FALSE,Väljundpinge suurendamiseks.,
-,TRUE,Pingelangude võrdsustamiseks dioodidel ja pingeimpulsside kahjuliku mõju vähendamiseks.,
-,FALSE,Raadiohäirete vähendamiseks.,
-,,,
-,question,Milline on täislaine alaldi väljundpinge filtreerimata kuju?,What is the unfiltered shape of the output voltage of a full-wave rectifier?
-,,,
-,FALSE,Sile alalispinge.,
-,FALSE,Sisendpinge sagedusega võrdne impulsside jada.,
-,TRUE,Sisendpinge kahekordse sagedusega võrdne impulsside jada.,
-,FALSE,Kolmnurkimpulsside jada.,
-,,,
-,question,Millised komponendid moodustavad toitealaldi filtri,What components make up a power rectifier filter?
-,,,
-,FALSE,Dioodid.,
-,FALSE,Trafod ja transistorid.,
-,TRUE,Kondensaatorid ja drosselid.,
-,FALSE,Transistorid ja drosselid.,
-,,,
-,question,Milline peab olema täisperioodalaldi alalduselemendi vastupinge suurus?,What should be the magnitude of the reverse voltage of the rectifier element of a full-wave rectifier?
-,,,
-,FALSE,Veerand alaldi nominaalsest väljundpingest.,
-,FALSE,Võrdne alaldi väljundpingega.,
-,TRUE,Võrdne alaldi nominaalse väljundpinge kahekordse väärtusega.,
-,FALSE,Võrdne alaldi nominaalse väljundpinge neljakordse väärtusega.,
-,,,
-,question,Milline peab olema transmissiooniliiniga ühendatud madalpääsfiltri impedants liini impedantsiga võrreldes?,What should be the impedance of a low-pass filter connected to a transmission line compared to the line impedance?
-,,,
-,FALSE,Märgatavalt kõrgem.,
-,TRUE,Enamvähem sama.,
-,FALSE,Võrdne liini kahekordse impedantsiga.,
-,FALSE,Võrdne liini impedantsi poole väärtusega.,
-,,,
-,question,Milline peab olema poolperioodalaldi alalduselemendi vastupinge suurus?,What should be the magnitude of the reverse voltage of the rectifier element of a half-wave rectifier?
-,,,
-,FALSE,Pool alaldi nominaalsest väljundpingest.,
-,TRUE,Alaldi nominaalse tipppinge ühe või kahekordne väärtus.,
-,FALSE,Võrdne alaldi väljundpingega.,
-,FALSE,Võrdne alaldi neljakordse väljundpingega.,
-,,,
-,question,Kuhu ühendatakse toitealaldi šunttakisti?,Where is the shunt resistor of the power rectifier connected?
-,,,
-,FALSE,Paralleelselt filterkondensaatoriga.,
-,FALSE,Paralleelselt alaldi sisendiga.,
-,TRUE,Paralleelselt väljundfiltri drosseliga.,
-,FALSE,Paralleelselt trafo primaarmähisega.,
-,,,
-,question,Mitu kraadi siinuslainest kasutab poolperioodalaldi?,How many degrees of a sine wave does a half-wave rectifier use?
-,,,
-,FALSE,90 kraadi.,
-,TRUE,180 kraadi.,
-,FALSE,360 kraadi,
-,FALSE,270 kraadi,
-,,,
-,question,Mitu kraadi siinuslainest kasutab täisperioodalaldi?,How many degrees of a sine wave does a full-wave rectifier use?
-,,,
-,FALSE,90 kraadi.,
-,FALSE,180 kraadi.,
-,TRUE,360 kraadi,
-,FALSE,270 kraadi,
-,,,
-,question,Mis funktsiooni täidavad kõrgepingealaldis dioodidega paralleelselt lülitatud kondensaatorid ja takistid?,What function do capacitors and resistors connected in parallel with high-voltage diodes perform?
-,,,
-,FALSE,Kahe- või kolmekordistavad väljundpinget.,
-,TRUE,Kaitsevad teistest dioodidest kiiremini vastutakistust taastavaid dioode.,
-,FALSE,Reguleerivad väljundpinget.,
-,FALSE,Vähendavad raadiohäireid.,
-,,,
-,,,
-M4A,,Moodul M4A Raadiovastuvõtuseadmed.,
-,question,Mis on produkt detektor?,What is a product detector?
-,,,
-,FALSE,"Detektor, mis annab ostsillaatorsignaali seguastme sisendisse.",
-,FALSE,"Võimendav detektor, mis kitsendab vastuvõtja võimenduskanali pääsuriba.",
-,TRUE,"Detektor, mis kasutab segustusprotsessis vastuvõtjas genereeritud kandesagedust.",
-,FALSE,"Detektor, mida kasutatakse ristmodulatsiooniproduktide detekteerimiseks.",
-,,,
-,question,Millised on põhilised seguastme väljundis esinevad sagedused?,What are the main frequencies present at the output of the mixer?
-,,,
-,FALSE,Sisendsignaali kahe- ja neljakordne sagedus.,
-,FALSE,"Sisendsageduste summa, vahe ja ruutjuurkordne sagedus.",
-,TRUE,Sisendsagedused ning summaarne ja vahesagedus.,
-,FALSE,"Sisendsageduste 1,414 ja 0,707 kordse sagedused.",
-,,,
-,question,Mida nimetatakse detekteerimiseks?,What is called detection?
-,,,
-,FALSE,Vastuvõetaval kandelainel oleva informatsiooni sumbutamist S-meetri tööleraken-damise eesmärgil.,
-,TRUE,Moduleeritud kõrgsagedussignaalilt informatsiooni eraldamine.,
-,FALSE,Kandelaine modulatsiooni.,
-,FALSE,Müra segustamine vastuvõetava signaaliga.,
-,,,
-,question,Mis on sagedusdiskriminaator?,What is a frequency discriminator?
-,,,
-,TRUE,FM signaalide detekteerimiseks kasutatav lülitus,
-,FALSE,Kahe kandelaine naabruses asuva parasiitsignaali filtreerimislülitus,
-,FALSE,Automaatne lainelülitus.,
-,FALSE,FM generaator.,
-,,,
-,question,Mida kasutatakse FM signaali detekteerimiseks?,What is used to detect an FM signal?
-,,,
-,FALSE,Balanssmodulaatorit.,
-,TRUE,Sagedusdiskriminaatorit.,
-,FALSE,Produkt detektorit.,
-,FALSE,Faasipöörajat.,
-,,,
-,question,Mida nimetatakse segustusprotsessiks?,What is the mixing process called?
-,,,
-,FALSE,Lairibavastuvõtjas müra kõrvaldamist faasivõrdluse teel.,
-,FALSE,Lairibavastuvõtjas müra kõrvaldamist faasinihke abil.,
-,TRUE,Kahe signaali liitmist summaarse- ja vahesageduse saamiseks.,
-,FALSE,Auroralevist põhjustatud moonutusi.,
-,,,
-,question,Mis eelised on sagedusmuundusprotsessil?,What are the advantages of the frequency conversion process?
-,,,
-,FALSE,Automaatselt toimiv müralukustus ja suurenenud selektiivsus.,
-,TRUE,Suurenenud selektiivsus ja optimaalne häälestatud võnkeringide konstruktsioon.,
-,FALSE,Automaatne signaali piiramine ja müralukustus.,
-,FALSE,Automaatne detekteerimine kõrgsagedusvõimendis ning suurenenud selektiivsus.,
-,,,
-,question,Mis on vahesagedusvõimendi?,What is an intermediate frequency amplifier?
-,,,
-,TRUE,Fikseeritult häälestatud pääsuribaga võimendi.,
-,FALSE,Vastuvõtja filter.,
-,FALSE,Vastuvõtja demodulaator.,
-,FALSE,Puhvervõimendi.,
-,,,
-,question,Mis vastuvõtjas juhtub kui väga tugev signaal jõuab seguastmeni?,What happens in a receiver when a very strong signal reaches the mixing stage?
-,,,
-,FALSE,Seguastmes genereeritakse parasiitsed segustusproduktid,
-,TRUE,Seguaste lakkab tüütamast.,
-,FALSE,Toimub automaatne signaali piiramine.,
-,FALSE,Geneeritakse tuikesagedus.,
-,,,
-,question,Mis on vastuvõtja kõrgsagedusvõimendi esmane ülesanne?,What is the primary function of a receivers high- frequency amplifier?
-,,,
-,FALSE,Kindlustada enamik vastuvõtja võimendusest.,
-,FALSE,Automaatse võimenduse reguleerimise süsteemi abil muuta parasiitsignaalide mahasurumise astet.,
-,TRUE,Parandada vastuvõtja mürategurit.,
-,FALSE,Tekitada automaatse võimendusregulatsiooni tööks vajalikku pinget.,
-,,,
-,question,Millised kaks faktorit määratlevad vastuvõtja tundlikkuse?,What two factors determine the sensitivity of a receiver?
-,,,
-,FALSE,Dünaamiline diapasoon ja kolmanda järgu lõikepunkt.,
-,FALSE,Hind ja kättesaadavus.,
-,TRUE,Ribalaius ja mürategur.,
-,FALSE,Intermodulatsioonimoonutused ja dünaamiline diapasoon.,
-,,,
-,,,
-M5A,,Moodul M5A Raadiosaateseadmed.,
-,question,Mis tüüpi sisendsignaali kasutatakse SSB saatja lineaarsuse kontrollimiseks?,What type of input signal is used to check the linearity of an SSB transmitter?
-,,,
-,FALSE,Tavalist kõnet.,
-,FALSE,Helisageduslikku siinuslainet,
-,TRUE,Kaht helisageduslikku siinuslainet,
-,FALSE,Helisageduslikku kantlainet.,
-,,,
-,question,Miks kasutatakse raadiosaatja kõrgepingealaldis šunttakistit?,Why is a high-voltage shunt resistor used in a radio transmitter?
-,,,
-,FALSE,Parandab pingeregulatsiooni.,
-,TRUE,Laadib filterkondensaatori tühjaks.,
-,FALSE,Kõrvaldab poolidelt elektrilöögi saamise ohu.,
-,FALSE,Elimineerib maaühenduse voolud.,
-,,,
-,question,Mida saab kontrollida kahe tooni testi abil?,What can be checked with the two-tone test?
-,,,
-,FALSE,Sagedusmodulatsiooni protsenti.,
-,FALSE,Kandesageduse faasinihet.,
-,TRUE,Kõrgsagedusvõimendi lineaarsust.,
-,FALSE,Sagedusdeviatsiooni,
-,,,
-,question,Miks on mõningates lampvõimendites vajalik neutralisatsioon?,Why is neutralization necessary in some tube amplifiers?
-,,,
-,FALSE,Häälestatud võnkeringides koormatud Q vähendamiseks.,
-,FALSE,Võre ja katoodi vahelise lekkevoolu vähendamiseks.,
-,TRUE,Elektroodidevahelise mahtuvuse tõttu tekkida võiva ostsilleerimise vältimiseks.,
-,FALSE,Tooriumoksiidi mõjul lambis tekkiva happe likvideerimiseks.,
-,,,
-,question,Milliseid kaht helisagedust võib kasutada SSB telefonisaatja lineaarsuse kontrollimiseks?,What two audio frequencies can be used to check the linearity of an SSB telephone transmitter?
-,,,
-,FALSE,Tuleb kasutada signaale sagedusega 20Hz ja 20000Hz.,
-,TRUE,"Võib kasutada suvalisi helisagedusi, mis paiknevad saatja helisagedustrakti pääsuribas tingimusel, et nad ei ole teineteisega harmoonilises suhtes.",
-,FALSE,Tuleb kasutada sagedusi 1200Hz ja 2400hz.,
-,FALSE,Tuleb kasutada saatja helisagedustraktis paiknevat ja teineteisega harmoonilises suhtes olevat helisagedust.,
-,,,
-,question,Mis tüüpi filter tuleb installeerida amatöörsaatjasse harmooniliste sageduste kiirguse vältimiseks?,What type of filter should be installed in an amateur transmitter to prevent the emission of harmonic frequencies?
-,,,
-,FALSE,Võtmeklõpsu filter.,
-,TRUE,Madalpääsfilter.,
-,FALSE,Kõrgpääsfilter.,
-,FALSE,CW filter.,
-,,,
-,question,Mida on vaja omada telefonitööks ettenähtud amatöörraadiojaamas?,What is needed for an amateur radio station intended for telephone work?
-,,,
-,FALSE,Splatteri filter.,
-,TRUE,Mikrofon.,
-,FALSE,Vastuvõtja helisagedusfilter.,
-,FALSE,Väljakutseautomaat.,
-,,,
-,question,"Monteerisite oma autosse VHF või UHF FM raadiojaama. Milline on antenni jaoks parim koht ,vältimaks juhi ja reisijate ülikõrgsagedusliku kiirituse ohtu?",You have installed a VHF or UHF FM radio station in your car. What is the best location for the antenna to avoid the risk of VHF radiation to the driver and passengers?
-,,,
-,TRUE,Katuse keskkoht.,
-,FALSE,Tuuleklaasi ülemine äär.,
-,FALSE,Ükskõik kummal esimesel poritiival.,
-,FALSE,Pagasiruumi luugil.,
-,,,
-,question,Mis on saatjas kasutatavate ekraanide otstarve?,What is the purpose of the screens used in the transmitter?
-,,,
-,FALSE,Moodustab strukturaalse madalpääsfiltri.,
-,TRUE,Likvideerib ebasoovitava kõrgsagedusliku kiirguse.,
-,FALSE,Takistab helisagedusliku tagasiside tekkimist saatjas.,
-,FALSE,Aitab säilitada saatjas paraja kõrgusega töötemperatuuri.,
-,,,
-,question,Miks kasutatakse nn. pii-filtrit saatja väljundis?,Why is a so-called pi filter used at the transmitter output?
-,,,
-,TRUE,Saatja väljundimpedantsi sobitamiseks antenni toiteliiniga ja parasiitkiirguse vähendamiseks.,
-,FALSE,Antenni poolt vastuvõetud mürasignaalide mahajuhtimiseks.,
-,FALSE,Antennis tekkinud staatiliste pingete saatjasse pääsu takistamiseks.,
-,FALSE,Saatja lõpplambi kõrgepinge pääsu takistamiseks antenni.,
-,,,
-,,,
-M6A,,Moodul M6A Antennid ja fiidrid.,
-,question,Miks kasutatakse sagedasti Yagi antenni 50 MHz sagedusalal?,Why is a Yagi antenna often used in the 50 MHz frequency band?
-,,,
-,FALSE,Annab horisontaaltasapinnas hea ringkiirguse.,
-,FALSE,"On väiksem, odavam ja kergem üles panna kui dipoolantenn.",
-,TRUE,Vähendab teiste jaamade poolt tekitatavaid interferentshäireid nii külg- kui tagasuunas.,
-,FALSE,Ei võta niipalju ruumi kui teised antennid.,
-,,,
-,question,Milline meetod on parim ebasümmeetrilise koaksiaalkaabli sobitamiseks Yagi antenniga?,What is the best method for matching an unbalanced coaxial cable to a Yagi antenna?
-,,,
-,FALSE,“T” -sobitus.,
-,FALSE,Delta sobitus.,
-,TRUE,Gamma sobitus.,
-,FALSE,Hairpin – sobitus.,
-,,,
-,question,Kuidas saab suurendada parasiitelementidega suundantenni sagedusriba laiust?,How can the bandwidth of a directional antenna be increased with parasitic elements?
-,,,
-,TRUE,Kasutada suurema läbimõõduga elemente.,
-,FALSE,Vähendada elementide vahet.,
-,FALSE,Kasutada teleskoopelemente.,
-,FALSE,Suurendada elementide arvu.,
-,,,
-,question,Kui suur on poollaine dipoolantenni toitepunkti impedants vabas ruumis?,What is the impedance of the feed point of a half-wave dipole antenna in free space?
-,,,
-,FALSE,"Ligikaudu 50 oomi, takistuslik.",
-,FALSE,"Ligikaudu 73 oomi, takistuslik ja induktiivne.",
-,TRUE,"Ligikaudu 73 oomi, takistuslik.",
-,FALSE,"300 oomi, takistslik.",
-,,,
-,question,Kui suur on dipoolantenni võimendus võrreldes isotroopse kiirgajaga?,How much is the gain of a dipole antenna compared to an isotropic radiator?
-,,,
-,FALSE,On võrdse võimendusega.,
-,TRUE,"Dipoolantenni võimendus on ligikaudu 2,3dB suurem.",
-,FALSE,"Dipoolantenni võimendus on 5,6dB.",
-,FALSE,"Dipoolantenni võimendus on 4,3dB.",
-,,,
-,question,Mida tähendab termin ette-taha suhe?,What does the term front-to-back ratio mean?
-,,,
-,FALSE,Direktorite ja reflektorite arvu suhet.,
-,TRUE,Antenni peakiire suunas kiiratava võimsuse ja täpselt vastassuunalise kiirgusvõimsuse suhet.,
-,FALSE,Aktiivse vibraatori asendit reflektori ja direktorite suhtes.,
-,FALSE,Reflektori ja vibraatoritepoolse poomipikkuse suhet.,
-,,,
-,question,Miks kasutatakse silikoonõli või autovaha TV-tüüpi lapikkaabli pinna katteks?,Why is silicone oil or car wax used to coat the surface of TV-type flat cable?
-,,,
-,FALSE,Skin- efekti vähendamiseks.,
-,TRUE,Mustuse ja niiskuse sadestumise vähendamiseks juhtmel.,
-,FALSE,Soojuse ärajuhtimiseks töötades kõrge seisulainega liinis.,
-,FALSE,Lindude eemalepeletamiseks antenni juurest.,
-,,,
-,question,Mis ühikutes väljendatakse kõrgsagedusliku toiteliini kadusid?,In what units are high-frequency power line losses expressed?
-,,,
-,FALSE,dB/km.,
-,FALSE,Bell/100m.,
-,TRUE,dB/100m.,
-,FALSE,Neper meetrile.,
-,,,
-,question,Mis juhtub dielektrikuskadudega toiteliinis töösageduse suurenemisel?,What happens to dielectric losses in a power line as the operating frequency increases?
-,,,
-,FALSE,Kaod vähenevad.,
-,TRUE,Kaod suurenevad.,
-,FALSE,Kaod jäävad samaks.,
-,FALSE,Kadude tõttu hakkab toitekaabel kuumenema.,
-,,,
-,question,Kuidas mõjutab koaksiaalkaabli impedants teda läbiva signaali sumbuvust?,How does the impedance of a coaxial cable affect the attenuation of a signal passing through it?
-,,,
-,TRUE,Sumbuvus on suurem sagedustel üle 144 MHz.,
-,FALSE,Sumbuvus on väiksem sagedustel üle 144 MHz.,
-,FALSE,"Sumbuvus on sagedustel kuni 1,5GHz enamvähem ühtlane",
-,FALSE,Sumbuvus on enamvähem ühtlane sagedustel kuni 200 GHz.,
-,,,
-,,,
-M7A,,Moodul M7A Raadiolevi.,
-,question,Mis iseloomustab nn. “backscatter” signaale?,What characterizes so-called “backscatter” signals?
-,,,
-,FALSE,Väga hea arusaadavus.,
-,TRUE,Lainetav heli.,
-,FALSE,Ümberpööratud külgribad.,
-,FALSE,Sisisevad signaalid.,
-,,,
-,question,Mis on solar-flux indeks?,What is the solar-flux index?
-,,,
-,FALSE,Päikese magnetvälja intensiivsus.,
-,FALSE,Maa poole pööratud Päikese küljel nähtavate plekkide arv.,
-,TRUE,Päikese poolt kiiratav ioniseeriv energia.,
-,FALSE,Päikesel nähtavate plekigruppide arv.,
-,,,
-,question,Mida nimetatakse geomagnetiliseks häireks?,What is called a geomagnetic disturbance?
-,,,
-,FALSE,Päikese solar-fluks indeksi järsk langus.,
-,TRUE,Maa magnetvälja järsk muutus lühikese aja jooksul.,
-,FALSE,Maa magnetpooluse nihe.,
-,FALSE,Päikeseplekkide magnetvälja polaarsuse muutus.,
-,,,
-,question,Kui kiiresti jõuab Päikeselt kiirguv laetud osakeste vool Maale?,How fast does the stream of charged particles emitted from the Sun reach Earth?
-,,,
-,FALSE,"1,5 sekundiga.",
-,FALSE,8 minutiga.,
-,TRUE,20 kuni 40 tunniga.,
-,FALSE,30 sekundiga.,
-,,,
-,question,"Milline raadiolainete levimehhanism võimaldab saadet vastu võtta pinnalaine ulatusest Kaugemal, kuid lähemal ionosfäärist peegeldunud lainest?","What radio wave propagation mechanism allows a broadcast to be received further away than the surface wave range, but closer than a wave reflected from the ionosphere?"
-,,,
-,FALSE,Sporaadiline E-levi.,
-,FALSE,Lühikese hüppega levi.,
-,TRUE,Raadiolaine peegeldumine troposfääri ja ionosfääri ebaühtluskohtadest (scatter).,
-,FALSE,Signaalide peegeldumine meteooride jäljelt.,
-,,,
-,question,Millises ionosfääri kihis kutsuvad äkilised ionosfääri häired esile raadiolainete suurenenud sumbuvuse?,In which layer of the ionosphere do sudden ionospheric disturbances cause increased attenuation of radio waves?
-,,,
-,FALSE,D-kihis.,
-,TRUE,E-kihis.,
-,FALSE,F2-kihis.,
-,FALSE,F1-kihis.,
-,,,
-,question,Kuidas mõjutab geomagnetiline torm raadiolainete levi?,How does a geomagnetic storm affect the propagation of radio waves?
-,,,
-,FALSE,Väga hea raadioside kõrgematel geomagnetilistel laiuskraadidel.,
-,TRUE,Halvenenud raadiolevi kõrgematel geomagnetilistel laiuskraadidel.,
-,FALSE,Suurenenud pinnalaine ulatus.,
-,FALSE,Raadioside täielik puudumine.,
-,,,
-,question,Mis on raadiolainete levi kriitiline nurk?,What is the critical angle for radio wave propagation?
-,,,
-,FALSE,"Minimaalne raadiolainete levi tõusunurk,mille juures raadiolained peegelduvad Maale tagasi ionosfääri teatud seisundi puhul.",
-,FALSE,Kompassi suund teie asukohast korrespondendi suunas.,
-,TRUE,"Maksimaalne raadiolainete levi tõusunurk,mille juures raadiolained peegelduvad veel Maale tagasi ionosfääri teatud seisundi puhul.",
-,FALSE,Antenni poomi vertikaalnurk horisontaaltasapinna suhtes.,
-,,,
-,question,Kui kaua tavaliselt kestavad ootamatud ionosfääri häired?,How long do unexpected ionospheric disturbances usually last?
-,,,
-,FALSE,Kogu päev.,
-,TRUE,Mõnest minutist kuni mõne tunnini.,
-,FALSE,Keskmiselt ühe nädala.,
-,FALSE,Kuni ühe kuuni.,
-,,,
-,question,Millistel laiuskraadidel esineb tavaliselt rohkem geomagnetilisi häireid?,At which latitudes do geomagnetic disturbances typically occur more frequently?
-,,,
-,FALSE,Ekvaatori laiuskraadidel.,
-,TRUE,45 kraadist kõrgematel laiustel.,
-,FALSE,Kõikidel laiuskraadidel ühtemoodi.,
-,FALSE,Polaarööga hõivatud laiuskraadidel.,
-,,,
-,,,
-M8A,,Moodul M8A Mõõtetehnika ja selle kasutamine.,
-,question,Milline mõõteriist sisaldab horisontaal- ja vertikaalkanali võimendi?,Which measuring instrument contains a horizontal and vertical channel amplifier?
-,,,
-,FALSE,Oommeeter.,
-,FALSE,Signaalgeneraator.,
-,TRUE,Ostsillograaf.,
-,FALSE,Ampermeeter.,
-,,,
-,question,Mis tüüpi signaale on võimalik ostsillograafi abil vaadelda?,What types of signals can be observed using an oscilloscope?
-,,,
-,TRUE,Suvalisi ajast sõltuvaid signaale instrumendi sagedusriba piires.,
-,FALSE,Rahvusvahelisi laevade lipusignaale.,
-,FALSE,Ookeanilaevade blinkersignaale.,
-,FALSE,Ioniseeritud atmosfäärikihtide poolt genereeritavaid signaale.,
-,,,
-,question,Mis seade on ostsillograaf?,What device is an oscillograph?
-,,,
-,FALSE,"Seade,mis näitab antenni kiirgustakistust.",
-,FALSE,"Seade,mis näitab antenni toiteliini seisulaine tegurit.",
-,TRUE,"Seade, mis võimaldab uurida kuvaril signaalide lainekuju.",
-,FALSE,Vooluringi takistust mõõtev seade.,
-,,,
-,question,Mis võib põhjustada ostsillograafi kineskoobi luminofoori riknemise?,What can cause the phosphor in an oscilloscopes kinescope to fail?
-,,,
-,FALSE,Vertikaalkanali võimendi ületüürimine.,
-,TRUE,Liig suur heleduse säting.,
-,FALSE,Kiire ebaõige fokuseerimine.,
-,FALSE,Kineskoobi kallutuselektroodide vahetu ühendamine skeemi.,
-,,,
-,question,Mis seade on antenni mürasild?,What device is an antenna noise bridge?
-,,,
-,FALSE,Seade antenni või muu elektrilise lülituse mürateguri mõõtmiseks.,
-,TRUE,Seade antenni või muu elektrilise lülituse impedantsi mõõtmiseks.,
-,FALSE,Seade vastuvõtjas esineva müra hävitamiseks.,
-,FALSE,Seade Päikese raadiokiirguse mõõtmiseks.,
-,,,
-,question,Kuhu ühendatakse antenni mürasild?,Where is the antenna noise bridge connected?
-,,,
-,FALSE,Seade ühendatakse antenni toitepunkti ja müra suurus loetakse seadme skaalalt.,
-,FALSE,Seade ühendatakse saatja ja antenni vahele ning häälestatakse minimaalse seisulaine teguri saavutamiseni.,
-,TRUE,Seade ühendatakse vastuvõtja ja tundmatu impedantsiga lülituse vahele ning häälestatakse minimaalse müra saavutamiseni.,
-,FALSE,Seade ühendatakse antenni ja antenni sobituslülituse vahele ning häälestatakse minimaalse seisulaine teguri saavutamiseni.,
-,,,
-,question,Mis seade on väljatugevuse mõõtja?,What device is a field strength meter?
-,,,
-,FALSE,"Seade, mis mõõdab seisulaine tegurit antenni toiteliinis.",
-,FALSE,Seade modulatsioonisügavuse määramiseks saatja väljundis.,
-,TRUE,Seade kõrgsagedussignaali suhtelise võimsuse mõõtmiseks.,
-,FALSE,Seade saatja keskmise väljundvõimsuse suurendamiseks.,
-,,,
-,question,"Kui palju tuleb suurendada saatja väljundvõimsusust,et saatja läheduses asuva vastuvõtja S-meetri näit suureneks S8-lt S9-ni ?",How much must the transmitter output power be increased so that the S-meter reading of the receiver located near the transmitter increases from S8 to S9?
-,,,
-,FALSE,Ligikaudu kaks korda,
-,FALSE,Ligikaudu kolm korda,
-,TRUE,Ligikaudu neli korda.,
-,FALSE,Ligikaudu viis korda,
-,,,
-,question,Milline on kõige sobivam lihtne instrument antenni kiirguse suunadiagrammi määramiseks horisontaaltasapinnas?,What is the most suitable simple instrument for determining the radiation pattern of an antenna in the horizontal plane?
-,,,
-,TRUE,Väljatugevuse mõõtja.,
-,FALSE,Antenni mürasild.,
-,FALSE,Tester.,
-,FALSE,Transmatch.,
-,,,
-,question,Millist seadet saab kasutada saatja väljundsignaalis esinevate intermodulatsiooni-moonutustes tekitatud parasiitsignaalide uurimiseks?,What device can be used to study parasitic signals caused by intermodulation distortion in the transmitter output signal?
-,,,
-,FALSE,Vattmeeter.,
-,TRUE,Spektrianalüsaator.,
-,FALSE,Loogikaskeemide analüsaator.,
-,FALSE,Mäluga reflektomeeter.,
-,,,
-,,,
-M9A,,Moodul M9A Raadiohäired ja elektromagnetiline ühildatavus (EMC).,
-,question,Mis on atmosfääriliste raadiohäirete peamine tekkepõhjus?,What is the main cause of atmospheric radio interference?
-,,,
-,FALSE,Päikeseplekid.,
-,TRUE,Äikesetormid.,
-,FALSE,Lennukid.,
-,FALSE,Ioniseeritud meteoorijäljed.,
-,,,
-,question,"Kuidas on võimalik kindlaks teha, kas raadiohäireid tekitav elektriliin asub teiemajas?",How can you determine if a power line causing radio interference is located in your house?
-,,,
-,FALSE,Kontrolli elektriliini pinget graafilise reflektomeetriga.,
-,FALSE,Kontrolli vahelduvvoolu lainekuju ostsillograafi abil.,
-,TRUE,Lülita välja maja elektrivõrgu pealüliti ja kuula patareitoitega raadiot.,
-,FALSE,Uuri elektrivõrgu pinget spektrianalüsaatoriga.,
-,,,
-,question,Kuidas on võimalik vähendada auto elektrigeneraatori poolt tekitatavaid raadiohäireid?,How can I reduce the radio interference caused by a cars generator?
-,,,
-,FALSE,Ühendada raadio toitejuhtmed akuga nii pikka teed mööda kui vähegi võimalik.,
-,TRUE,Ühendades raadio toitejuhtmed akuga lühimat võimalikku teed kaudu.,
-,FALSE,Ühendades kõrgpääsfiltri järjestikku raadiojaama auto pardavõrguga ühendavasse juhtmesse.,
-,FALSE,Lülitades filterkondensaatorid järjestikku alalisvoolu toitejuhtmesse.,
-,,,
-,question,Kuidas saab vähendada väga tugeva signaali toimel vastuvõtjas tekkivaid intermodulatsioonihäireid?,How can intermodulation interference caused by very strong signals in a receiver be reduced?
-,,,
-,FALSE,Vähendades vastuvõtja toitepinget.,
-,TRUE,Lülitades vastuvõtja sisendisse attenuaatori.,
-,FALSE,Kasutada vastuvõtja kõige kitsama pääsuribaga filtrit.,
-,FALSE,Kasutada vastuvõtja kõige laiema pääsuribaga filtrit.,
-,,,
-,question,Miks on kasulik omada vastuvõtja sisendis attenuaatorit?,Why is it useful to have an attenuator at the receiver input?
-,,,
-,FALSE,Vähendab vastuvõetava signaali ribalaiust.,
-,FALSE,Elimineerib isotroopilise kiirguse põhjustatud efekte.,
-,TRUE,Kaitseb vastuvõtja ülekoormamist erakordselt tugeva signaali poolt.,
-,FALSE,Vähendab antenni kiirgusdiagrammi nullide põhjustatud signaali nõrgenemise mõju.,
-,,,
-,question,"Teie naaber teatab,et tekitate häireid televisioonivastuvõtule.Teie olete aga kindel, et teie aparatuur töötab korralikult.Mida peate tegema?","Your neighbor reports that he is causing interference with your television reception. However, you are sure that your equipment is working properly. What should you do?"
-,,,
-,FALSE,Lülitate kohe oma saatja välja ja pöördute Tehnilise Järelevalve Ameti poole abi saamiseks.,
-,TRUE,"Kontakteerudes naabriga proovite välja selgitada, kas tõepoolest teie töö eetris on TV-häirete tekkepõhjuseks.",
-,FALSE,Monteerite saatja väljundisse kõrgpääsfiltri ja televiisori sisendisse madal-pääsfiltri,
-,FALSE,"Jätkate tööd tavalisel moel, kuna teil ei ole mingit legaalset põhjust interferents-häirete vähendamiseks või elimineerimiseks.",
-,,,
-,question,Mis tüüpi filter tuleb kõigepealt paigaldada amatöörraadiojaama harmooniliste sageduste kiirguse vältimiseks?,What type of filter should be installed first to prevent the emission of harmonic frequencies from an amateur radio station?
-,,,
-,FALSE,Võtmeklõpsu filter.,
-,TRUE,Madalpääsfilter.,
-,FALSE,Kõrgpääsfilter.,
-,FALSE,CW filter.,
-,,,
-,question,"Mis tüüpi interferentshäireid võib kiirata mitmebandi antenn,mis on ühendatud valesti häälestatud raadiojaama väljundisse?",What type of interference can be emitted by a multiband antenna connected to the output of a mistuned radio station?
-,,,
-,TRUE,Harmoonilisi sagedusi.,
-,FALSE,Aurora taolisi signaale.,
-,FALSE,Parasiitsignaale.,
-,FALSE,Intermodulatsioonihäireid.,
-,,,
-,question,"Mida tähendab väljend ""harmooniliste kiirgus""?","What does the expression ""harmonic radiation"" mean?"
-,,,
-,TRUE,Töösageduse täiskordsete sageduste kiirgus eetrisse.,
-,FALSE,50 Hz brummsagedusega moduleeritud signaalide kiirgus.,
-,FALSE,Lähedal paiknevates teistes saatjates võib tekkida liitmodulatsioon teie saatja töö tõttu.,
-,FALSE,Signaalide saatmine F kihis raadiosignaale peegeldava sektori tekitamiseks.,
-,,,
-,question,Milline filter tuleb paigutada televiisori sisendisse esmase abinõuna amatöörraadiojaama poolt tekitatud kõrgsagedusliku ülekoormuse vähendamiseks?,What filter should be placed at the television input as a first step to reduce high-frequency overload caused by an amateur radio station?
-,,,
-,TRUE,Kõrgpääsfilter.,
-,FALSE,Madalpääsfilter.,
-,FALSE,Ribafilter.,
-,FALSE,Režektorfilter.,
-,,,
-,,,
-M10A,,Moodul M10A Ohutustehnika,
-,question,Milline inimese keha organ on kõige tundlikum kõrgsagedusliku energia poolt põhjustatud kudede kuumenemise suhtes?,Which organ in the human body is most sensitive to tissue heating caused by high-frequency energy?
-,,,
-,TRUE,Silmad.,
-,FALSE,Käed.,
-,FALSE,Süda.,
-,FALSE,Maks.,
-,,,
-,question,"Tugev kõrgsagedusenergia kiirgus võib olenevalt lainepikkusest , kõrgsagedus-välja intensiivsusest ja muudest teguritest rikkuda inimkeha kudesid. Kuidas mõjub kiirgus kehakudedele?","Strong high-frequency energy radiation can damage human body tissues, depending on the wavelength, high-frequency field intensity, and other factors. How does radiation affect body tissues?"
-,,,
-,FALSE,Kutsub esile kiiritushaiguse.,
-,TRUE,Kuumendab kudesid.,
-,FALSE,Jahutab kudesid.,
-,FALSE,Põhjustab kudedes geneetilisi muutusi.,
-,,,
-,question,"Kui suur võib maksimaalselt olla inimkeha läbiv vahelduvvool, mis endast ei kujuta veel ohtu?",What is the maximum alternating current that can pass through the human body without posing a danger?
-,,,
-,FALSE,1000A,
-,FALSE,"0,1A",
-,TRUE,10mA,
-,FALSE,50uA,
-,,,
-,question,Mida tuleb teha kõigepealt kui näed voolujuhtmetesse kinnijäänud inimest?,What should you do first if you see someone stuck in power lines?
-,,,
-,TRUE,"Hakkad otsima telefoni, et abi kutsuda.",
-,FALSE,Mingi voolu mittejuhtiva eseme abil vabastad kannatanu juhtmetest ja alustad kohe südame kaudse massaaži ja kunstliku hingamise tegemist samaaegselt hüüdes abi järele.,
-,FALSE,Viskad elektrijuhtmetele mingi maandusjuhtme.,
-,FALSE,"Otsid lülitit, et vool välja lülitada.",
-,,,
-,question,"Kui tahad teha mõningaid häälestusoperatsioone oma VHF/UHF raadiojaama juures,mida peab tegema enne jaama sisselülitamist?","If you want to perform some tuning operations on your VHF/UHF radio station, what should you do before turning on the station?"
-,,,
-,FALSE,Tuleb maha võtta kõik varjestused-ekraanid maksimaalse jahutuse saamiseks.,
-,FALSE,Lülitada sisse mürasild interferentshäirete vähendamiseks.,
-,TRUE,"Tuleb veenduda,et kõik varjestused on kinnitatud oma kohale.",
-,FALSE,"Vaadata,et interferentshäirete vältimiseks ükski antenn ei oleks jaama külge ühendatud.",
-,,,
-,question,Mida peab silmas pidama kui taod antennimasti tõmmitsate kinnitusvaiu maasse?,What should you keep in mind when driving an antenna mast into the ground?
-,,,
-,FALSE,Et vai ei asuks antennimastile liialt lähedal.,
-,FALSE,Et vai oleks küllaldase pikkusega.,
-,TRUE,"Et löögisuuna pikendusel ei seisaks inimesi, keda varre otsast juhuslikult äralendav kirves või vasar võiks vigastada.",
-,FALSE,Kas löögiriista vars on küllaldase pikkusega.,
-,,,
-,question,Mida tuleb jälgida raiudes puid välipäeva või kokkutuleku lõkke jaoks?,What should you keep in mind when cutting wood for a campfire or a gathering?
-,,,
-,FALSE,Kas puud on küllaldaselt kuivad.,
-,TRUE,"Tuleb seista jalad harki, et juhuslikul puust möödalöömisel kirves ei tabaks jalgu.",
-,FALSE,Usaldada see töö kellelegi teisele.,
-,FALSE,"Mõelda sellele, kas raieluba sai hangitud.",
-,,,
-,question,Mida tuleb silmas pidada antennimasti püstitamisel või antenni vedamisel majade vahele?,What should be kept in mind when erecting an antenna mast or moving an antenna between houses?
-,,,
-,FALSE,Kas antenn maast vaadatuna jätab kena mulje.,
-,FALSE,Ega antenn mitte kuskil naabrimehe krundi nurgast üle ei käiks.,
-,TRUE,"Et antenn püstitamisel, pööramisel või tuule käes kõikudes mitte kuskil ei puudutaks elektriülekandeliinide juhtmeid.",
-,FALSE,Et tõmmitsad ei oleks liialt pingule tõmmatud.,
-,,,
-,question,Tehes tööd kõrgel antennimasti otsas tuleb jälgida et....,Tehes tööd kõrgel antennimasti otsas tuleb jälgida et....
-,,,
-,FALSE,Lähiajal ei oleks oodata piksevihma.,
-,TRUE,"Kasutatavad tööriistad oleksid paigutatud ja kinnitatud selliselt, et nad ei saaks allolijatele pähe kukkuda.",
-,FALSE,"Kas kõik vajalik on kaasas, et ei peaks mitu korda üles - alla ronima.",
-,FALSE,Et jalanõude tallad ei oleks libedad.,
-,,,
-,question,Kui oled autoga sõitnud välipäevale peab silmas pidama.,"If you are driving to a field trip, keep this in mind."
-,,,
-,FALSE,Kas tagasisõiduks bensiini jätkub.,
-,FALSE,"Et mitte mingisugust auto osa ei oleks kasutatud antenni, antenni- või jõukaablite kinnituspunktidena, mis auto suvalisel ärasõidul viib kaasa pool laagrit koos kallite aparaatidega ja võib põhjustada õnnetusi inimestega.",
-,TRUE,Et auto ei saaks iseenesest liikuma hakata.,
-,FALSE,Et autoraadio liigse kuulamise tulemusel jääks auto akusse veel energiat mootori käivitamiseks.,
-,,,
-,,,
-M11A,,Moodul M11A Amatöörraadiojaama opereerimise reeglid ja protseduurid,
-,question,Mis on kõige olulisem tegur töösageduse valikul teil kasutada lubatud sagedusalal?,What is the most important factor in choosing the operating frequency within the frequency range you are allowed to use?
-,,,
-,TRUE,Sagedus ei tohi olla hõivatud teiste amatööride poolt.,
-,FALSE,Peate kuulma sel sagedusel mõnd jaama veendumaks et teid võidaks kuulda.,
-,FALSE,Teie antenn peab olema resonantsis antud sagedusel.,
-,FALSE,"Peate veenduma,et seisulainetegur antenni toitejuhtmes oleks piisavalt kõrge.",
-,,,
-,question,"Soovite suvise päeva õhtupoolikul sidet saada amatööriga, kes asub teist ligikaudu 2000km eemal. Milline band sobiks edukaks sidepidamiseks kõige rohkem?",You want to communicate with an amateur who is approximately 2000km away from you on a summer afternoon. Which band would be most suitable for successful communication?
-,,,
-,FALSE,80 või 40 m band.,
-,TRUE,40 või 15 m band.,
-,FALSE,15 või 10 m band.,
-,FALSE,2m või 23 cm band.,
-,,,
-,question,Kuidas saab raadiojaama häälestamisel eetrisoleku aega viia miinimumini?,How can you minimize the time spent on air when tuning a radio station?
-,,,
-,FALSE,Kasutades suvalise pikkusega antenni.,
-,FALSE,Häälestades jaama esmalt 40m bandil siis minna üle teistele bandidele.,
-,TRUE,Kasutades jaama häälestamiseks antenni ekvivalenti (dummy load).,
-,FALSE,Kasutades koaksiaalkaabli asemel lapikjuhet.,
-,,,
-,question,Peate sidet oma sõbraga Tartust ja äkki kuulete oma sagedusel hädaabikutset. Mida teete?,You are in touch with your friend in Tartu and suddenly you hear an emergency call on your frequency. What do you do?
-,,,
-,FALSE,"Teatate jaamale, et sagedus on hõivatud.",
-,TRUE,Hakkate otsekohe hädaabikutse infovahetust kirja panema.,
-,FALSE,Helistate Päästeametisse.,
-,FALSE,Helistate Tehnilise Järelevalve Ametisse.,
-,,,
-,question,"Milline on Morsekoodis antud standardse väljakutse ""CQ"" formaat?","What is the format of a standard ""CQ"" call in Morse code?"
-,,,
-,TRUE,"Saadate kolm korda ""CQ"", millele järgneb protseduurisignaal ""DE"" ja kolm korda oma kutsungi.",
-,FALSE,"Saadate ""CQ"" kolm korda,""DE"" üks kord ja oma kutsungi ka üks kord.",
-,FALSE,"Saadate ""CQ"" kümme korda, ""DE"" üks kord ja oma kutsung üks kord.",
-,FALSE,"Saadate pidevalt ""CQ"" kuni keegi kutsub teid.",
-,,,
-,question,"Kuidas te vastate ""CQ"" väljakutsele?","How do you respond to the ""CQ"" challenge?"
-,,,
-,FALSE,Saadate oma kutsungit neli korda.,
-,TRUE,"Saadate teise jaama kutsungi kaks korda, ""DE"" ja oma kutsungi kaks korda.",
-,FALSE,"Saadate teise jaama kutsungi üks kord,""DE"" ja oma kutsungi neli korda.",
-,FALSE,"Saadate oma kutsungi, nime, jaama asukoha ja signaali rapordi.",
-,,,
-,question,"Millise kiirusega tuleb saata ""CQ""?","At what speed should ""CQ"" be sent?"
-,,,
-,FALSE,Aeglasemalt kui 25 märki minutis.,
-,FALSE,"Suurima kiirusega, mida teie võti on võimeline arendama.",
-,TRUE,"Kiirusega, millist olete ise võimeline korralikult vastu võtma.",
-,FALSE,Suurima kiirusegamillega olete võimeline oma võtit manipuleerima.,
-,,,
-,question,Mis tähendus on Morsekoodi liittähtedel AR ?,What is the meaning of the Morse code letters AR?
-,,,
-,FALSE,Vastaku ainult kutsutud jaam.,
-,FALSE,Kõik on korralikult vastu võetud.,
-,TRUE,Saate lõpp.,
-,FALSE,Parimad tervitused.,
-,,,
-,question,Mida tähendavad Morsekoodis saadetud liittähed SK ?,What do the compound letters SK sent in Morse code mean?
-,,,
-,FALSE,Enam-vähem korralikult vastu võetud.,
-,FALSE,Parimad tevitused.,
-,TRUE,Side lõpp.,
-,FALSE,Oodake.,
-,,,
-,question,Mida tähendavad Morsekoodis saadetud liittähed KN ?,What do the compound letters KN sent in Morse code mean?
-,,,
-,FALSE,Murrujoon.,
-,FALSE,Side lõpp.,
-,TRUE,Vastaku ainult kutsutud jaam.,
-,FALSE,Saatke nüüd.,
-,,,
-,question,"Milleks kasutatakse signaali ""CQ"" ?","What is the ""CQ"" signal used for?"
-,,,
-,FALSE,"Teisele jaamale märguandmiseks, et kutsute teda veerand tunni pärast.",
-,FALSE,"Märguandmiseks,et proovite uut antenni ja väljakutsetele ei vasta.",
-,TRUE,"Üldväljakutse märkimaks,et üritate kellegagi ühendust luua.",
-,FALSE,Ainult kutsutud jaam tohib vastata.,
-,,,
-,question,Mida tähendab lühend QRS ?,What does the abbreviation QRS mean?
-,,,
-,FALSE,Mind segavad staatilised häired.,
-,TRUE,Saatke aeglasemalt.,
-,FALSE,Saatke RST raport.,
-,FALSE,Raadiojaama asukoht on ...,
-,,,
-,question,Mida tähendab lühend QTH ?,What does the abbreviation QTH mean?
-,,,
-,FALSE,Kellaaeg on ...,
-,FALSE,Minu nimi on ...,
-,TRUE,Minu asukoht on ...,
-,FALSE,Lõpetage saatmine.,
-,,,
-,question,Milline on standardse telefoniväljakutse formaat?,What is the format of a standard telephone call?
-,,,
-,FALSE,"Saadate teise jaama kutsungi vähemalt kümme korda, siis sõnad ""this is"", seejärel oma kutsung vähemalt kaks korda.",
-,FALSE,"Saadate fraasi ""CQ"" vähemalt viis korda, siis ""this is"" ja oma kutsung üks kord.",
-,TRUE,"Saadate fraasi ""CQ"" kolm korda, ""this is"" ja oma kutsungi kolm korda.",
-,FALSE,"Saadate fraasi ""CQ"" vähemalt kümme korda, ""this is"" ja oma kutsungi ühe korra.",
-,,,
-,question,Kuidas te vastate raadiotelefoni väljakutsele?,How do you respond to the radiotelephone challenge?
-,,,
-,FALSE,"Saadate teise jaama kutsungit kümme korda ,siis ""this is"" ja oma kutsungit vähe-malt kaks korda.",
-,FALSE,"Saadate teise jaama kutsungit veerimistabelit kasutades vähemalt viis korda, ""this is"" ja oma kutsungit vähemalt üks kord.",
-,TRUE,"Saadate teise jaama kutsungit ühe korra,""this is"" ja oma kutsungit veerimista-belit kasutades ühe korra.",
-,FALSE,"Saadate teise jaama kutsungit kolm korda, ""this is"" ja oma kutsungit veerimistabelit kasutades vähemalt viis korda.",
-,,,
-,question,Kuidas tuleb veerimistabeli abil saata kutsung ES9A ?,How should the call sign ES9A be sent using the scrolling table?
-,,,
-,FALSE,Eemeli Sagari Nine Aarne.,
-,TRUE,Echo Sierra Nine Alfa.,
-,FALSE,Edward Santiago Nine Alabama.,
-,FALSE,Echo Sugar Nine America.,
-,,,
-,question,Kuidas veeritakse kutsungit AE0LQY ?,How is the call sign AE0LQY spelled?
-,,,
-,FALSE,Able Easy Zero Lima Quebec Yankee.,
-,FALSE,Arizona Equador Zero London Queen Yesterday.,
-,TRUE,Alfa Echo Zero Lima Quebec Yankee.,
-,FALSE,Able Easy Zero Love Queen Yoke.,
-,,,
-,question,Mida tähendab lühend AS ?,What does the abbreviation AS mean?
-,,,
-,FALSE,Aktsiaselts.,
-,FALSE,Asu saatele.,
-,TRUE,Oodake.,
-,FALSE,Mis on teie nimi?,
-,,,
-,question,Mida tähendab R RST signaali raportis?,What does R mean in the RST signal report?
-,,,
-,FALSE,Signaali taastumist.,
-,FALSE,CW tooni resonantsi.,
-,TRUE,Signaali loetavust.,
-,FALSE,Signaalitugevuse värelemise astet.,
-,,,
-,question,Mida tähendab lühend QSL?,What does the abbreviation QSL mean?
-,,,
-,FALSE,Kas pean saatma teile oma jaamapäeviku?,
-,TRUE,Kas võite kinnitada minu saadetud teate kättesaamist?,
-,FALSE,Kas pean saatma aeglasemalt?,
-,FALSE,Kes mind kutsub?,
-,,,
-,,,
-M12A,,Moodul M12A Amatöörraadioside siseriiklik ja rahvusvaheline õiguslik regulatsioon.,
-,question,Mida loetakse amatöörraadiojaamaks?,What is considered an amateur radio station?
-,,,
-,FALSE,Tehases valmistatud raadiosideaparatuuri ja selle energiatoite seadmete kogumit.,
-,TRUE,"Tehniliste seadmete kogumit, mida raadioamatöör võib kasutada amatöörraadiosideks Tehnilise Järelevalve Ameti poolt väljastatud tööloa alusel.",
-,FALSE,"Tehniliste seadmete kogumit, mida raadioamatöör võiks kasutada amatöörraadiosideks ka ilma Tehnilise Järelevalve Ameti poolt väljastatavat tööluba omamata.",
-,FALSE,"Raadiosideaparatuuri, mis on valmistatud amatööri enda poolt ja mõeldud kasutamiseks amatöörraadiosideks ka väljapoole Eesti territooriumi.",
-,,,
-,question,Amatöörraadiojaama tehniliste seadmete kogumikku kuuluvad:,The collection of technical equipment for an amateur radio station includes:
-,,,
-,FALSE,Saatja ja vastuvõtja.,
-,FALSE,"Saatja, vastuvõtja ja energiatoite seade.",
-,TRUE,"Saatja, vastuvõtja, lõppseade ja antenn(id).",
-,FALSE,Saatja ja selle lõppseade.,
-,,,
-,question,Amatöör-vahendusraadiojaamaks loetakse:,An amateur radio station is considered to be:
-,,,
-,TRUE,"Kindlal sagedusel või sagedustel toimivat amatöörraadiojaama, mille vahendusel teostatakse vastuvõetavate sõnaliste või digitaalsete saadete edastamist reaalajas või läbi vahemälu.",
-,FALSE,Avakosmoses paiknevat raadiojaama.,
-,FALSE,"Amatöörraadiojaama, mille kaudu edastatakse ainult ringteateid.",
-,FALSE,"Amatöörraadiojaama, mille poolt genereeritavat signaali kasutatakse ainult raadiolevi tingimuste hindamiseks.",
-,,,
-,question,Amatöörraadiomajakaks loetakse:,An amateur radio beacon is considered to be:
-,,,
-,FALSE,"Avakosmoses paiknevat amatöörraadiojaama, mille vahendusel teostatakse raadio-levi tingimuste võrdlust.",
-,TRUE,"Automaatselt toimivat amatöörraadiojaama, mida kasutatakse väljatugevuse mõõt-misel, antennide häälestamisel ja raadiolevi tingimuste hindamisel.",
-,FALSE,"Ühiskasutusega amatöörraadiojaama, mida võib sidepidamiseks kasutada mitu raadioamatööri.",
-,FALSE,"Ainult amatöörraadiojaama, mis toimib majakana raadiospordi võistluste finišis.",
-,,,
-,question,Ühiskasutusega amatöörraadiojaamaks loetakse:,A shared amateur radio station is considered to be:
-,,,
-,FALSE,"Amatöörraadiojaama, mis toimib ainult teatud kindlal sagedusel ja kellaajal.",
-,FALSE,"Amatöörraadiojaama, mida võivad kasutada ka raadioamatööri kvalifikatsiooni mitteomavad isikud.",
-,TRUE,"Amatöörraadiojaama, mis kuulub juriidilisele isikule või ERAÜ juures registreeritud raadioamatööride kollektiivile.",
-,FALSE,Kõik amatöörraadiojaamad.,
-,,,
-,question,Amatöörraadiojaama registreeritud asukohaks loetakse:,The registered location of an amateur radio station is considered to be:
-,,,
-,FALSE,"Asukoht, kust konkreetne raadiojaam antud ajahetkel väljub eetrisse.",
-,FALSE,Amatöörraadiojaama valdaja elukoht.,
-,FALSE,"See asukoht, mille antud amatöörraadiojaama valdaja märgib päevikusse.",
-,,,
-,question,Amatöörraadiosideks loetakse:,Amateur radio parts are considered to be:
-,,,
-,TRUE,"Mittetulunduslikku raadiosidet, milles osalevad ainult raadioamatöörid.",
-,FALSE,"Raadiosidet, milles korrespondentide valik on vaba.",
-,FALSE,"Raadiosidet, kus osapooled vahetavad informatsiooni ainult morsekoodi abil.",
-,FALSE,"Raadiosidet, milles lisaks raadioamatööridele võivad korrespondentideks olla ka ametkondlikud raadiojaamad.",
-,,,
-,question,Amatöörraadiosidet tohib kasutada:,Amateur radio communications may be used:
-,,,
-,FALSE,"Sagedusalades, mis vastavad IARU 2.regiooni sagedusplaanile.",
-,TRUE,"Ainult sagedusalades, mis on eraldatud amatöörraadiosideks Eesti raadiosageduste plaaniga.",
-,FALSE,Ainult mitteavalike raadiosõnumite edastamiseks.,
-,FALSE,Ainult täiendavalt kodeeritud sõnumite edastamiseks.,
-,,,
-,question,Raadioamatööriks loetakse isikut:,A radio amateur is considered to be a person:
-,,,
-,FALSE,"Kes oma vanuse, raadiotehniliste teadmiste ja elukogemuste põhjal võib seda nimetust kanda",
-,FALSE,"Kes kasutab tavalist ,headest tavadest lähtuvat kõnekeelt raadioside pidamisel.",
-,TRUE,"Isikut, kes omab raadioamatööri kvalifikatsioonitunnistust.",
-,FALSE,Kes on ERAÜ tegevliige.,
-,,,
-,question,Amatöörraadiosides tohib edastada sihituseta või korrespondendita saateid:,Amateur radio stations may transmit untargeted or uncorrespondent programs:
-,,,
-,FALSE,Amatöörtelevisiooni saatja video- ja helikanali edastamiseks.,
-,TRUE,Amatöörraadiomajakate poolt.,
-,TRUE,Kõikidele Eesti raadioamatööridele määratud infoteadete edastamiseks.,
-,FALSE,Ainult Morse koodis tähestiku õppe-treeningtekstide edastamiseks.,
-,,,
-,question,Eesti amatöörraadiojaamale eraldatav kutsung koosneb:,The call sign assigned to an Estonian amateur radio station consists of:
-,,,
-,FALSE,"Kolmetähelisest eesliitest, kahekohalisest numbrist ja kolmetähelisest järelliitest.",
-,FALSE,"Ühetähelisest eesliitest, ühekohalisest numbrist ja neljatähelisest järelliitest.",
-,TRUE,"Kahetähelisest eesliitest, numbrist ja kuni kolmetähelisest järelliitest.",
-,FALSE,Kahekohalisest numbrilisest eesliitest ja kuni kolmetähelisest järelliitest.,
-,,,
-,question,Haapsalus registreeritud amatöörraadiojaama kutsung algab:,The callsign of the amateur radio station registered in Haapsalu begins:
-,,,
-,FALSE,ES1,
-,FALSE,ES2,
-,TRUE,ES3,
-,FALSE,ES0,
-,,,
-,question,Kutsung ES9Z kuulub piirkondlikult:,The call ES9Z belongs regionally to:
-,,,
-,FALSE,Hiiumaale.,
-,TRUE,"Üleriigiline, kasutamiseks ainult ERAÜ poolt.",
-,FALSE,Põlvamaale.,
-,FALSE,"Üleriigiline, kasutamiseks ainult Punase Risti poolt.",
-,,,
-,question,Kutsung ES2XX võib kuuluda millise klassi Eesti amatöörraadiojaamale?,The callsign ES2XX may belong to which class of Estonian amateur radio station?
-,,,
-,FALSE,C,
-,FALSE,B,
-,TRUE,A,
-,FALSE,On välja antud eriloa alusel.,
-,,,
-,question,Ühiskasutusega (raadioklubi) amatöörraadiojaamale omistatakse kutsung:,A shared (radio club) amateur radio station is assigned the call sign:
-,,,
-,FALSE,AAA-CCC,
-,TRUE,A-ZZ,
-,FALSE,XAA-ZZZ,
-,FALSE,ABC-DZZ,
-,,,
-,question,Ühiskasutusega (raadioklubi) amatöörraadiojaama vastutavaks järelvaatajaks võib olla ainult:,The responsible supervisor of a shared (radio club) amateur radio station may only be:
-,,,
-,TRUE,A-klassi kvalifikatsioonitunnistust omav raadioamatöör.,
-,FALSE,B-klassi kvalifikatsioonitunnistust omav raadioamatöör.,
-,FALSE,C-klassi kvalifikatsioonitunnistust omav raadioamatöör.,
-,FALSE,Riigiametnik.,
-,,,
-,question,Amatöörraadiojaama luba väljastatakse Tehnilise Järelevalve Ameti poolt kestvusega:,An amateur radio station license is issued by the Technical Surveillance Authority for a period of:
-,,,
-,FALSE,Tähtajatu.,
-,FALSE,1 aasta.,
-,FALSE,3 aastat.,
-,TRUE,5 aastat,
-,,,
-,question,Amatöörraadiojaama tohib kasutada:,An amateur radio station may be used:
-,,,
-,FALSE,Ainult raadioamatööri harmoneeritud kvalifikatsioonitunnistuse alusel.,
-,TRUE,Ainult kehtiva amatöörraadiojaama tööloa alusel.,
-,FALSE,Ainult raadioamatööri kvalifikatsioonieksami sooritamise tunnistuse alusel.,
-,FALSE,Ainult ERAÜ poolt väljaantud vastava loa alusel.,
-,,,
-,question,Amatöörraadiojaama tööluba kuulub hoidmisele:,An amateur radio station operating permit must be held by:
-,,,
-,FALSE,Raadiojaama valdaja elukohas.,
-,FALSE,Raadiojaama registreeritud asukohas.,
-,FALSE,Tehnilise Järelevalve Ametis.,
-,FALSE,Tehnilise Järelevalve Ameti lubade osakonnas.,
-,,,
-,question,Amatöörraadiojaama alaline (kohtpaikne) kasutamine väljaspool selle registreeritud asukohta ilma tööloa muutmiseta on lubatud:,Permanent (local) use of an amateur radio station outside its registered location without changing the operating permit is permitted:
-,,,
-,FALSE,Kolm kuud.,
-,FALSE,Viis kuud.,
-,FALSE,Kuus kuud.,
-,FALSE,Üks aasta.,
+subject_id,type,info,ee,en
+M1A,,,Moodul M1A Raadio- ja elektrotehnika teooria.,
+,question,,Mida tähendab termin impedants?,What does the term impedance mean?
+,,,,
+,FALSE,,Kondensaatoris salvestatavat elektrilaengut.,The electrical charge stored in a capacitor.
+,TRUE,,Vooluringi poolt vahelduvvoolule osutatavat takistust.,The resistance offered by a circuit to alternating current.
+,FALSE,,Mahtuvust sisaldava vooluringi poolt vahelduvvoolule osutatavat takistust.,The resistance offered to alternating current by a circuit containing capacitance.
+,FALSE,,Juhtivust,Conductivity
+,,,,
+,question,,Kuidas nimetatakse mahtuvust ja induktiivsust sisaldava vooluringi poolt vahelduvvoole osutatavat takistust?,What is the name given to the resistance offered to alternating current by a circuit containing capacitance and inductance?
+,,,,
+,FALSE,,Oom.,Oom
+,FALSE,,Dzhaul.,Joule
+,TRUE,,Impedants.,Impedance
+,FALSE,,Juhtivuseks.,Conductivity
+,,,,
+,question,,Kuidas nimetatatkse induktiivsuse poolt vahelduvvoolule osutatavat takistust?,What is the name given to the resistance offered by an inductance to alternating current?
+,,,,
+,FALSE,,Takistus.,Resistance
+,TRUE,,Reaktiivtakistus.,Reactance
+,FALSE,,Näivjuhtivus.,Apparent conductivity
+,FALSE,,Impedants.,Impedance
+,,,,
+,question,,Kuidas nimetatatkse mahtuvuse poolt vahelduvvoolule osutatavat takistust,What is the name given to the resistance offered by capacitance to alternating current?
+,,,,
+,FALSE,,Takistus.,Resistance
+,TRUE,,Reaktiivtakistus.,Reactance
+,FALSE,,Näivjuhtivus.,Apparent conductivity
+,FALSE,,Impedants.,Impedance
+,,,,
+,question,,Kuidas reageerib induktiivsus vahelduvvoolule?,How does inductance respond to alternating current?
+,,,,
+,FALSE,,Vahelduvvoolu sageduse suurenedes reaktiivtakustus väheneb.,"As the frequency of the alternating current increases, the reactance decreases."
+,FALSE,,Vahelduvvoolu amplituude suurenedes suureneb ka reaktiivtakistus.,"As the amplitude of the alternating current increases, the reactance also increases."
+,TRUE,,Vahelduvvoolu sageduse suurenedes reaktiivsus suureneb.,"As the frequency of the alternating current increases, reactance increases."
+,FALSE,,Vahelduvvoolu amplituude suurenedes väheneb reaktiivtakistus.,"As the amplitude of the alternating current increases, the reactance decreases."
+,,,,
+,question,,Kuidas reageerib mahtuvus vahelduvvoolule?,How does capacitance respond to alternating current?
+,,,,
+,TRUE,,Vahelduvvoolu sageduse suurenedes reaktiivtakustus väheneb.,"As the frequency of the alternating current increases, reactance decreases."
+,FALSE,,Vahelduvvoolu amplituude suurenedes suureneb ka reaktiivtakistus.,"As the amplitude of the alternating current increases, reactance also increases."
+,FALSE,,Vahelduvvoolu sageduse suurenedes reaktiivsus suureneb.,"As the frequency of the alternating current increases, reactance increases."
+,FALSE,,Vahelduvvoolu amplituude suurenedes reaktiivtakistus väheneb.,"As the amplitude of the alternating current increases, the reactance decreases."
+,,,,
+,question,,Millal annab toiteallikas maksimaalse väljundenergia?,When does a power supply provide maximum output power?
+,,,,
+,TRUE,,Juhul kui koormusimpedants on võrdne vooluallika impedantsiga.,In the case where the load impedance is equal to the current source impedance.
+,FALSE,,Kui seisulainetegur on saavutanud maksimaalväärtuse.,When the standing wave factor has reached its maximum value.
+,FALSE,,Kui raudsüdamikuga transformaatori asemel kasutatakse õhksüdamikuga transformaatorit.,If an air-core transformer is used instead of an iron-core transformer.
+,FALSE,,Kui kasutatakse toroidtransformaatorit.,If a toroidal transformer is used.
+,,,,
+,question,,Mida tähendab termin impedantside sobitamine?,What does the term impedance matching mean?
+,,,,
+,FALSE,,Koormusimpedantsi toiteallika impedantsist palju suuremaks tegemine.,Making the load impedance much larger than the power source impedance.
+,TRUE,,Koormusimpedantsi võrdsustamine toiteallika impedantsiga.,Matching the load impedance to the power source impedance.
+,FALSE,,Baluni kasutamine antenni toitepunktis.,Using a balun at the antenna feed point.
+,FALSE,,Saatja väljundimpedantsiga võrdse takistusega toitekaabli kasutamine.,Using a power cable with a resistance equal to the transmitter output impedance.
+,,,,
+,question,,Mis juhtub kui elektrilise koormuse impedants on võrdne toiteallika impedantsiga?,What happens when the impedance of an electrical load is equal to the impedance of the power source?
+,,,,
+,FALSE,,Toiteallikas juhib koormusesse minimaalse võimsuse.,The power supply delivers minimal power to the load.
+,FALSE,,Vool katkeb vooluahelas.,The current is interrupted in the circuit.
+,TRUE,,Toiteallikas juhib koormusesse maksimaalse võimsuse.,The power supply delivers maximum power to the load.
+,FALSE,,Väljundvõimsus langeb poole võrra.,The output power is halved.
+,,,,
+,question,,Miks on impedantside sobitamine raadiotehnikas väga oluline?,Why is impedance matching very important in radio engineering?
+,,,,
+,TRUE,,Võimaldab toiteallikast juhtida koormusesse maksimaalse võimsuse.,Allows maximum power to be delivered from the power source to the load.
+,FALSE,,Kindlustab vooluringi aktiiv- ja reaktiivtakistuse võrdsuse.,Ensures equality of active and reactive resistance in the circuit.
+,FALSE,,Kindlustab minimaalse võimsuse saamise toitallikast.,Ensures minimum power is obtained from the power source.
+,FALSE,,Vähendab elektrivõrgust tarbitavat võimsust.,Reduces power consumption from the electrical grid.
+,,,,
+,question,,Milline on reaktiivtakistuse mõõtühik?,What is the unit of measurement for reactance?
+,,,,
+,TRUE,,Oom.,Oom
+,FALSE,,Volt.,Volt
+,FALSE,,Amper.,Amp
+,FALSE,,Siimens.,Siemens
+,,,,
+,question,,Milline on impedantsi mõõtühik?,What is the unit of measurement for impedance?
+,,,,
+,TRUE,,Oom.,Oom
+,FALSE,,Volt.,Volt
+,FALSE,,Amper.,Amp
+,FALSE,,Siimens.,Siemens
+,,,,
+,question,,Mis on Bell?,What is a Bell?
+,,,,
+,FALSE,,Mahtuvuse muutumise mõõtühik.,A unit of measurement for change in capacitance.
+,FALSE,,Induktiivsuse muutumise mõõtühik.,A unit of measurement for change in inductance.
+,TRUE,,Erinevate võimsuste suhte suurust väljendav ühik.,A unit expressing the size of the ratio of different powers.
+,FALSE,,Seisulaine suhte mõõtühik.,A unit of measurement for the standing wave ratio.
+,,,,
+,question,,Mis on detsibell?,What is a decibel?
+,,,,
+,TRUE,,"Võimsusnivoode suhte muutumine 0,1 Belli võrra.",A change in the ratio of power levels by 0.1 Bell.
+,FALSE,,"Võimsusnivoode suhte muutumine 0,01 Belli võrra.",A change in the ratio of power levels by 0.01 Bell.
+,FALSE,,Võimsusnivoode suhte muutumine 10 Belli võrra.,A change in the ratio of power levels by 10 Bells.
+,FALSE,,Võimsusnivoode suhte muutumine 0;001 Belli võrra.,A change in the ratio of power levels by 0.001 Bell.
+,,,,
+,question,,Ligikaudu mitu detsibelli on vaevaltmärgatav helitugevuse muutus?,Approximately how many decibels is a barely noticeable change in volume?
+,,,,
+,FALSE,,12 dB.,12dB
+,FALSE,,6 dB.,6dB
+,TRUE,,1 dB.,1dB
+,FALSE,,3 dB.,3dB
+,,,,
+,question,,Võimsuse suurenemine kaks korda on detsibellides:,The power increase by two times is in decibels:
+,,,,
+,FALSE,,1 dB.,1dB
+,TRUE,,3 dB.,3dB
+,FALSE,,6 dB.,6dB
+,FALSE,,12 dB.,12dB
+,,,,
+,question,,Mitu korda suureneb võimsus 6 dB puhul?,How many times does the power increase for a 6 dB increase?
+,,,,
+,FALSE,,"1,5 korda.",1.5 times
+,FALSE,,2 korda.,2 times
+,TRUE,,4 korda.,4 times
+,FALSE,,"0,5 korda.",0.5 times
+,,,,
+,question,,Mitu korda suureneb võimsus 3 dB puhul?,How many times does the power increase for 3 dB?
+,,,,
+,FALSE,,"1,5 korda.",1.5 times
+,TRUE,,2 korda.,2 times
+,FALSE,,4 korda.,4 times
+,FALSE,,"0,5 korda.",0.5 times
+,,,,
+,question,,Signaali raport on ”10 dB üle S9”.Kui saatja võimsust vähendatakse 1500 vatilt 150 vatini kui suur on uus signaali tugevuse raport?,"The signal report is “10 dB above S9”. If the transmitter power is reduced from 1500 watts to 150 watts, what is the new signal strength report?"
+,,,,
+,FALSE,,S5.,S5
+,FALSE,,S7.,S7
+,TRUE,,S9.,S9
+,FALSE,,S3.,S3
+,,,,
+,question,,Signaali raport on “20 dB üle S9”.Kui saatja võimsust vähendatakse 1500 vatilt 15 vatini kui suur on uus signaali tugevuse raport?,"The signal report is “20 dB above S9”. If the transmitter power is reduced from 1500 watts to 15 watts, what is the new signal strength report?"
+,,,,
+,FALSE,,S5.,S5
+,FALSE,,S7.,S7
+,TRUE,,S9.,S9
+,FALSE,,S3.,S3
+,,,,
+,question,,Kui 1 amprilise vooluallikaga on ühendatud kaks paralleelselt lülitatud 10-oomist takistit kui suur vool läbib kumbagi takistit?,"If two 10-ohm resistors are connected in parallel to a 1-ampere current source, how much current will flow through each resistor?"
+,,,,
+,FALSE,,10 amprit.,10 amps
+,FALSE,,1 amper.,1 amp
+,TRUE,,"0,5 amprit.",0.5 amps
+,FALSE,,"0,25 amprit.",0.25 amps
+,,,,
+,question,,Kui suur on kasutatav võimsus kui 400V pingega vooluallikas ühendatakse 800 oomise koormusega?,How much power is used when a 400V power source is connected to an 800 ohm load?
+,,,,
+,FALSE,,"0,5 vatti.",0.5 watts
+,TRUE,,200 vatti.,200 watts
+,FALSE,,400 vatti.,400 watts
+,FALSE,,800 vatti.,800 watts
+,,,,
+,question,,Kui suur on 12V 0.2A vooluga indikaatorlambi võimsus?,What is the power of a 12V 0.2A indicator lamp?
+,,,,
+,FALSE,,60 vatti.,60 watts
+,FALSE,,24 vatti.,24 watts
+,TRUE,,"2,4 vatti.",2.4 watts
+,FALSE,,"0,24 vatti.",0.25 watts
+,,,,
+,question,,"Kui suur võimsus eraldub 0,25 kilo-oomisel takistil kui teda läbib vool tugevusega 7,0 milliamprit?",How much power is dissipated in a 0.25 kilo-ohm resistor when a current of 7.0 milliamperes flows through it?
+,,,,
+,FALSE,,Ligikaudu 51 millivatti.,Approximately 51 milliwatts
+,FALSE,,Ligikaudu 39 millivatti.,Approximately 39 milliwatts.
+,TRUE,,Ligikaudu 9 millivatti.,Approximately 9 milliwatts.
+,FALSE,,"Ligikaudu 0,9 millivatti.",Approximately 0.9 milliwatts.
+,,,,
+,question,,Kui suur on mitmest takistist koosneva jadalülituse kogutakistus?,What is the total resistance of a series circuit consisting of several resistors?
+,,,,
+,TRUE,,Kogutakistus on võrdne kõikide takistite takistuste summaga.,The total resistance is equal to the sum of the resistances of all resistors.
+,FALSE,,Kogutakistus on väiksem kõige väiksema takisti takistuse väärtusest.,The total resistance is less than the resistance value of the smallest resistor.
+,FALSE,,Kogutakistuse saame jagades takistite takistuste summa takistite arvuga.,We get the total resistance by dividing the sum of the resistances of the resistors by the number of resistors.
+,FALSE,,Iga takisti tolerantsi tuleb suurendada proportsionaalselt takistite arvule.,The tolerance of each resistor must be increased in proportion to the number of resistors.
+,,,,
+,question,,Kui suur on kahe võrdse paralleelselt lülitatud takistist koosneva ahela kogutakistus?,What is the total resistance of a circuit consisting of two equal resistors connected in parallel?
+,,,,
+,FALSE,,Kahekordne ühe takisti takistuse väärtus.,Double the resistance value of one resistor.
+,TRUE,,Pool kummagi takisti takistuse väärtusest.,Half the resistance value of each resistor.
+,FALSE,,Kahekordne kummagi takisti väärtus.,Double the value of each resistor.
+,FALSE,,Ei saa määrata takistite täpset takistust teadmata.,Ei saa määrata takistite täpset takistust teadmata.
+,,,,
+,question,,Mis on detsibell?,What is a decibel?
+,,,,
+,TRUE,,"Võimsusnivoode suhte muutumine 0,1 Belli võrra.",A change in the ratio of power levels by 0.1 Bell.
+,FALSE,,"Võimsusnivoode suhte muutumine 0,01 Belli võrra.",A change in the ratio of power levels by 0.01 Bell.
+,FALSE,,Võimsusnivoode suhte muutumine 10 Belli võrra.,A change in the ratio of power levels by 10 Bell.
+,FALSE,,Võimsusnivoode suhte muutumine 0.001 Belli võrra.,A change in the ratio of power levels by 0.001 Bell.
+,,,,
+,question,,Kui suur on kahe paralleelselt ühendatud induktiivsuse koguväärtus?,What is the total value of two inductances connected in parallel?
+,,,,
+,FALSE,,Pool kummagi väärtusest vastastikust induktiivsust arvestamata.,"Half the value of each, excluding mutual inductance."
+,FALSE,,Kahekordne kummagi induktiivsuse väärtus.,Double the value of each inductance.
+,FALSE,,Kahekordne kummagi induktiivsuse väärtus.,Double the value of each inductance.
+,TRUE,,Ei saa määrata induktiivsuste täpset suurust teadmata.,It is impossible to determine the exact size of the inductances without knowing them.
+,,,,
+,question,,"Kui suur on pinge transformaatori 500 keerust koosneva sekundaarmähise klemmidel, kui 2200 keerust koosnev primaarmähis on lülitatud 220V vahelduvvooluvõrku?",What is the voltage at the terminals of the secondary winding of a transformer with 500 turns when the primary winding with 2200 turns is connected to a 220V AC network?
+,,,,
+,FALSE,,"526,5V.",526.5 volts
+,TRUE,,50V.,50 volts
+,FALSE,,26V.,26 volts
+,FALSE,,13V,13 volts
+,,,,
+,question,,Kui suur on 200 oomise väljundtakistusega helisagedusvõimendi sobitamiseks 10-oomise valjuhääldiga vajaliku transformaatori mähiste keerdude suhe?,What is the turns ratio of the transformer windings required to match an audio frequency amplifier with an output impedance of 200 ohms to a 10 ohm loudspeaker?
+,,,,
+,TRUE,,4.47 : 1.,4.47 : 1
+,FALSE,,400: 1.,400: 1
+,FALSE,,20 : 1.,20 : 1
+,FALSE,,10:1.,10:1
+,,,,
+,,,,
+M2A,,,Moodul M2A Raadio- ja elektrotehnika kompoonendid.,
+,question,,Kuidas mõjub ümbruskonna temperatuur süsiniktakisti takistusele?,How does the ambient temperature affect the resistance of a carbon resistor?
+,,,,
+,FALSE,,Takistus suureneb 20% temperatuuri tõusmisel iga 10 kraadi võrra.,Resistance increases by 20% for every 10 degrees Celsius increase in temperature.
+,FALSE,,Takistuse suurus ei muutu.,The magnitude of the resistance does not change.
+,TRUE,,Takistuse muutus sõltub takisti temperatuuritegurist sõltuvalt.,The change in resistance depends on the temperature coefficient of the resistor.
+,FALSE,,Takistuse suurus muutub ajast sõltuvaks.,The magnitude of the resistance changes with time.
+,,,,
+,question,,Mis tüüpi kondensaatorit kasutatakse tihti võrgutoitealaldi silumisfiltris?,What type of capacitor is often used in the smoothing filter of a mains power rectifier?
+,,,,
+,FALSE,,Keraamilist ketaskondensaatorit.,Ceramic disc capacitor
+,FALSE,,Muutuva mahtuvusega vaakumkondensaatorit.,Variable capacitance vacuum capacitor
+,TRUE,,Elektrolüütkondensaatorit.,Electrolytic capacitor
+,FALSE,,Vilgukivikondensaatorit.,Mica capacitor
+,,,,
+,question,,Millised kondensaatorid lülitatakse rööbiti transformaatori sekundaarmähisega pingeimpulsside vähendamiseks?,What capacitors are connected in parallel with the secondary winding of a transformer to reduce voltage pulses?
+,,,,
+,FALSE,,Suure mahtuvusega kondensaatorid.,Large capacity capacitors
+,FALSE,,Muutuva mahtuvusega vaakumkondensaatorid.,Variable capacitance vacuum capacitors
+,TRUE,,Keraamilised kondensaatorid.,Ceramic capacitors
+,FALSE,,Trimmerid.,Trimmerid
+,,,,
+,question,,Mis tekitab poolide omaresonantsi?,What causes the self-resonance of coils?
+,,,,
+,FALSE,,Hajutatud elektromagnetism.,Diffused electromagnetism
+,FALSE,,Pöörisvoolud.,Eddy currents
+,TRUE,,Keerdudevaheline mahtuvus.,Interturn capacitance
+,FALSE,,Parasiithüsterees.,Parasite hysteria
+,,,,
+,question,,Milline vooluringi komponent võimaldab suurendada vahelduvvoolu pinget 100 voldilt 1000 voldini?,Which circuit component allows you to increase the AC voltage from 100 volts to 1000 volts?
+,,,,
+,TRUE,,Transformaator.,Transformer
+,FALSE,,Kondensaator.,Capacitor
+,FALSE,,Diood.,Diode
+,FALSE,,Filterdrossel.,Filter choke
+,,,,
+,question,,Kuidas nimetatakse transformaatori primaarmähises voolavat voolu kui Sekundaarmähise külge pole koormust lülitatud?’,What is the name given to the current flowing in the primary winding of a transformer when there is no load connected to the secondary winding?
+,,,,
+,TRUE,,Magneetimisvooluks.,Magnetizing current
+,FALSE,,Alalisvooluks.,For direct current
+,FALSE,,Ergutusvooluks.,For excitation current
+,FALSE,,Stabiliseerimisvooluks.,For stabilization current
+,,,,
+,question,,Mis suurustega iseloomustatakse tavaliselt jõutransformaatori primaar- ja sekundaarmähiseid?,What are the dimensions usually used to characterize the primary and secondary windings of a power transformer?
+,,,,
+,FALSE,,Džauli sekundis.,Joules per second
+,TRUE,,Volt või volt-amper.,Volt or volt-ampere
+,FALSE,,Kulonit sekundis.,Coulombs per second
+,FALSE,,Vastupinge.,Back pressure
+,,,,
+,question,,Mis on toiteseadme alalduselemendi vastupinge?,What is the reverse voltage of the rectifier element of a power supply?
+,,,,
+,FALSE,,"Suurim siirdepinge, mida diood on võimeline taluma.",The highest transient voltage that a diode is capable of withstanding
+,FALSE,,"1,4 korda elektrivõrgu sagedus.",1.4 times the power grid frequency
+,TRUE,,Mittejuhtivas suunas dioodi klemmidele rakendatud maksimaalne pinge.,The maximum voltage applied to the terminals of a diode in the non-conducting direction
+,FALSE,,"2,8 korda elektrivõrgu sagedus",2.8 times the power grid frequency
+,,,,
+,question,,"Millised on ränidioodide kaks parameetrit, mida ei või ületada?",What are the two parameters of silicon diodes that cannot be exceeded?
+,,,,
+,FALSE,,"Maksimaalne koormusimpedants, tipppinge.","Maximum load impedance, peak voltage"
+,FALSE,,"Keskmine võimsus, keskmine pinge","Average power, average voltage"
+,TRUE,,"Maksimaalne vastupinge, keskmine pärivool.","Maximum reverse voltage, average forward current"
+,FALSE,,"Mahtuvuslik takistus, laviinpinge.","Capacitive resistance, avalanche voltage"
+,,,,
+,question,,Miks peavad alaldi dioodid olema termaalselt kaitstud?,Why do rectifier diodes need to be thermally protected?
+,,,,
+,FALSE,,Nende läheduse tõttu transformaatorile.,Due to their proximity to the transformer
+,TRUE,,Ülemäärase kuumenemise tõttu võivad rikneda.,They may deteriorate due to excessive heating
+,FALSE,,Nende tundlikkuse tõttu siirdepingete mõjule.,Due to their sensitivity to transient voltages
+,FALSE,,Nende kasutamise tõttu kõrgepingeseadmetes.,Due to their use in high voltage equipment
+,,,,
+,question,,Mis on Zener-dioodi (stabilitroni) peamine omadus?,What is the main characteristic of a Zener diode?
+,,,,
+,FALSE,,Konstantne vool kõikuva pinge puhul.,Constant current with fluctuating voltage
+,TRUE,,Konstantne pinge muutliku voolu puhul.,Constant voltage for variable current
+,FALSE,,"Sisemahtuvus, mis muutub sõltuvalt rakendatud pingest.",Internal capacitance that changes depending on the applied voltage
+,,,,
+,question,,Mis tüüpi diood on võimeline ostsilleerima ja ka võimendama?,What type of diode is capable of oscillating and also amplifying?
+,,,,
+,FALSE,,Punktkontaktdiood.,Point contact diode
+,TRUE,,Tunneldiood.,Tunnel diode
+,FALSE,,Ränialaldi.,Silicon rectifier
+,FALSE,,Pinddiood.,Pin diode
+,,,,
+,question,,Mis on varaktordioodi peamine omadus?,What is the main characteristic of a varactor diode?
+,,,,
+,FALSE,,Hoiab stabiilset pinget läbiva muutliku voolu puhul.,Maintains stable voltage when passing through variable current
+,TRUE,,Tema sisemahtuvus sõltub rakendatud pingest.,Its internal capacitance depends on the applied voltage
+,FALSE,,Omab negatiivse takistusega regiooni.,Has a negative resistance region
+,FALSE,,On väga kõrge vastupingega.,Has a very high backlash
+,,,,
+,question,,Milleks kasutatakse PIN dioodi?,What is a PIN diode used for?
+,,,,
+,FALSE,,Stabiilse voolu allikas.,Stable current source
+,FALSE,,Stabiilse pinge allikas.,Stable voltage source
+,TRUE,,Kõrgsageduslik dioodlüliti.,High frequency diode switch
+,FALSE,,Kõrgpinge alaldi.,High voltage rectifier
+,,,,
+,question,,Kui suur on SSB telefonitööks vajaliku hea kvartsfiltri pääsuriba laius?,What is the passband width of a good quartz filter needed for SSB telephone work?
+,,,,
+,FALSE,,.6kHz -6dB pääsuriba juures.,.6kHz at -6dB passband
+,TRUE,,"2,1kHz –6dB pääsuriba juures.",2.1kHz at –6dB passband
+,FALSE,,500Hz --6dB pääsuriba juures.,At 500Hz --6dB passband
+,FALSE,,15kHz --6dB pääsuriba juures.,15kHz --6dB at the passband
+,,,,
+,,,,
+M3A,,,Moodul M3A Raadio- ja elektrotehnika ahelad.,
+,question,,Miks ühendatakse toitealaldi dioodidega paralleelselt kondensaator ja takisti?,Why are a capacitor and a resistor connected in parallel with the diodes in a power rectifier?
+,,,,
+,FALSE,,Väljundpinge lainesuse silumiseks,To smooth the output voltage ripple
+,FALSE,,Väljundpinge suurendamiseks.,To increase the output voltage
+,TRUE,,Pingelangude võrdsustamiseks dioodidel ja pingeimpulsside kahjuliku mõju vähendamiseks.,To equalize voltage drops across diodes and reduce the harmful effects of voltage pulses
+,FALSE,,Raadiohäirete vähendamiseks.,To reduce radio interference
+,,,,
+,question,,Milline on täislaine alaldi väljundpinge filtreerimata kuju?,What is the unfiltered shape of the output voltage of a full-wave rectifier?
+,,,,
+,FALSE,,Sile alalispinge.,Smooth DC voltage
+,FALSE,,Sisendpinge sagedusega võrdne impulsside jada.,A sequence of pulses equal to the frequency of the input voltage
+,TRUE,,Sisendpinge kahekordse sagedusega võrdne impulsside jada.,A sequence of pulses equal to twice the frequency of the input voltage
+,FALSE,,Kolmnurkimpulsside jada.,A sequence of triangular pulses
+,,,,
+,question,,Millised komponendid moodustavad toitealaldi filtri,What components make up a power rectifier filter?
+,,,,
+,FALSE,,Dioodid.,Diodes
+,FALSE,,Trafod ja transistorid.,Transformers and transistors
+,TRUE,,Kondensaatorid ja drosselid.,Capacitors and chokes
+,FALSE,,Transistorid ja drosselid.,Transistors and chokes
+,,,,
+,question,,Milline peab olema täisperioodalaldi alalduselemendi vastupinge suurus?,What should be the magnitude of the reverse voltage of the rectifier element of a full-wave rectifier?
+,,,,
+,FALSE,,Veerand alaldi nominaalsest väljundpingest.,A quarter of the rectifier's nominal output voltage
+,FALSE,,Võrdne alaldi väljundpingega.,Equal to the rectifier output voltage
+,TRUE,,Võrdne alaldi nominaalse väljundpinge kahekordse väärtusega.,Equivalent to twice the nominal output voltage of the rectifier
+,FALSE,,Võrdne alaldi nominaalse väljundpinge neljakordse väärtusega.,Equal to four times the nominal output voltage of the rectifier
+,,,,
+,question,,Milline peab olema transmissiooniliiniga ühendatud madalpääsfiltri impedants liini impedantsiga võrreldes?,What should be the impedance of a low-pass filter connected to a transmission line compared to the line impedance?
+,,,,
+,FALSE,,Märgatavalt kõrgem.,Noticeably higher
+,TRUE,,Enamvähem sama.,More or less the same
+,FALSE,,Võrdne liini kahekordse impedantsiga.,Equal to twice the line impedance
+,FALSE,,Võrdne liini impedantsi poole väärtusega.,Equal to half the line impedance
+,,,,
+,question,,Milline peab olema poolperioodalaldi alalduselemendi vastupinge suurus?,What should be the magnitude of the reverse voltage of the rectifier element of a half-wave rectifier?
+,,,,
+,FALSE,,Pool alaldi nominaalsest väljundpingest.,Half of the rectifier's nominal output voltage
+,TRUE,,Alaldi nominaalse tipppinge ühe või kahekordne väärtus.,One or two times the nominal peak voltage of the rectifier
+,FALSE,,Võrdne alaldi väljundpingega.,Equal to the rectifier output voltage
+,FALSE,,Võrdne alaldi neljakordse väljundpingega.,Equal rectifier with four times the output voltage
+,,,,
+,question,,Kuhu ühendatakse toitealaldi šunttakisti?,Where is the shunt resistor of the power rectifier connected?
+,,,,
+,FALSE,,Paralleelselt filterkondensaatoriga.,In parallel with the filter capacitor
+,FALSE,,Paralleelselt alaldi sisendiga.,In parallel with the rectifier input
+,TRUE,,Paralleelselt väljundfiltri drosseliga.,In parallel with the output filter choke
+,FALSE,,Paralleelselt trafo primaarmähisega.,In parallel with the primary winding of the transformer
+,,,,
+,question,,Mitu kraadi siinuslainest kasutab poolperioodalaldi?,How many degrees of a sine wave does a half-wave rectifier use?
+,,,,
+,FALSE,,90 kraadi.,90 degrees
+,TRUE,,180 kraadi.,180 degrees
+,FALSE,,360 kraadi,360 degrees
+,FALSE,,270 kraadi,270 degrees
+,,,,
+,question,,Mitu kraadi siinuslainest kasutab täisperioodalaldi?,How many degrees of a sine wave does a full-wave rectifier use?
+,,,,
+,FALSE,,90 kraadi.,90 degrees
+,FALSE,,180 kraadi.,180 degrees
+,TRUE,,360 kraadi,360 degrees
+,FALSE,,270 kraadi,270 degrees
+,,,,
+,question,,Mis funktsiooni täidavad kõrgepingealaldis dioodidega paralleelselt lülitatud kondensaatorid ja takistid?,What function do capacitors and resistors connected in parallel with high-voltage diodes perform?
+,,,,
+,FALSE,,Kahe- või kolmekordistavad väljundpinget.,Double or triple the output voltage
+,TRUE,,Kaitsevad teistest dioodidest kiiremini vastutakistust taastavaid dioode.,Protects diodes that recover resistance faster than other diodes
+,FALSE,,Reguleerivad väljundpinget.,Regulates output voltage
+,FALSE,,Vähendavad raadiohäireid.,Reduces radio interference
+,,,,
+,,,,
+M4A,,,Moodul M4A Raadiovastuvõtuseadmed.,
+,question,,Mis on produkt detektor?,What is a product detector?
+,,,,
+,FALSE,,"Detektor, mis annab ostsillaatorsignaali seguastme sisendisse.",A detector that provides an oscillator signal to the input of a mixing stage
+,FALSE,,"Võimendav detektor, mis kitsendab vastuvõtja võimenduskanali pääsuriba.",Amplifying detector that narrows the passband of the receiver's amplification channel
+,TRUE,,"Detektor, mis kasutab segustusprotsessis vastuvõtjas genereeritud kandesagedust.",A detector that uses the carrier frequency generated in the receiver in a mixing process
+,FALSE,,"Detektor, mida kasutatakse ristmodulatsiooniproduktide detekteerimiseks.",Detector used to detect cross-modulation products
+,,,,
+,question,,Millised on põhilised seguastme väljundis esinevad sagedused?,What are the main frequencies present at the output of the mixer?
+,,,,
+,FALSE,,Sisendsignaali kahe- ja neljakordne sagedus.,Double and quadruple frequency of the input signal
+,FALSE,,"Sisendsageduste summa, vahe ja ruutjuurkordne sagedus.","Sum, difference, and square root frequency of input frequencies"
+,TRUE,,Sisendsagedused ning summaarne ja vahesagedus.,Input frequencies and total and intermediate frequencies
+,FALSE,,"Sisendsageduste 1,414 ja 0,707 kordse sagedused.","Sisendsageduste 1,414 ja 0,707 kordse sagedused"
+,,,,
+,question,,Mida nimetatakse detekteerimiseks?,What is called detection?
+,,,,
+,FALSE,,Vastuvõetaval kandelainel oleva informatsiooni sumbutamist S-meetri tööleraken-damise eesmärgil.,Attenuation of the information on the received carrier wave for the purpose of operating the S-meter
+,TRUE,,Moduleeritud kõrgsagedussignaalilt informatsiooni eraldamine.,Extracting information from a modulated high-frequency signal
+,FALSE,,Kandelaine modulatsiooni.,Carrier modulation
+,FALSE,,Müra segustamine vastuvõetava signaaliga.,Mixing noise with an acceptable signal
+,,,,
+,question,,Mis on sagedusdiskriminaator?,What is a frequency discriminator?
+,,,,
+,TRUE,,FM signaalide detekteerimiseks kasutatav lülitus,Circuit used to detect FM signals
+,FALSE,,Kahe kandelaine naabruses asuva parasiitsignaali filtreerimislülitus,Filtering circuit for parasitic signals located adjacent to two carriers
+,FALSE,,Automaatne lainelülitus.,Automatic wave switching
+,FALSE,,FM generaator.,FM generator
+,,,,
+,question,,Mida kasutatakse FM signaali detekteerimiseks?,What is used to detect an FM signal?
+,,,,
+,FALSE,,Balanssmodulaatorit.,Balance modulator
+,TRUE,,Sagedusdiskriminaatorit.,Frequency discriminator
+,FALSE,,Produkt detektorit.,Product detector
+,FALSE,,Faasipöörajat.,Phase inverter
+,,,,
+,question,,Mida nimetatakse segustusprotsessiks?,What is the mixing process called?
+,,,,
+,FALSE,,Lairibavastuvõtjas müra kõrvaldamist faasivõrdluse teel.,Noise elimination in a wideband receiver by phase comparison
+,FALSE,,Lairibavastuvõtjas müra kõrvaldamist faasinihke abil.,Noise elimination in a wideband receiver using phase shift
+,TRUE,,Kahe signaali liitmist summaarse- ja vahesageduse saamiseks.,Adding two signals to obtain the sum and intermediate frequencies
+,FALSE,,Auroralevist põhjustatud moonutusi.,Distortion caused by aurora spread
+,,,,
+,question,,Mis eelised on sagedusmuundusprotsessil?,What are the advantages of the frequency conversion process?
+,,,,
+,FALSE,,Automaatselt toimiv müralukustus ja suurenenud selektiivsus.,Automatically functioning noise lock and increased selectivity
+,TRUE,,Suurenenud selektiivsus ja optimaalne häälestatud võnkeringide konstruktsioon.,Increased selectivity and optimal tuned oscillator circuit design
+,FALSE,,Automaatne signaali piiramine ja müralukustus.,Automatic signal limiting and noise blocking
+,FALSE,,Automaatne detekteerimine kõrgsagedusvõimendis ning suurenenud selektiivsus.,Automatic detection in the high-frequency amplifier and increased selectivity
+,,,,
+,question,,Mis on vahesagedusvõimendi?,What is an intermediate frequency amplifier?
+,,,,
+,TRUE,,Fikseeritult häälestatud pääsuribaga võimendi.,Fixed-tuned passband amplifier
+,FALSE,,Vastuvõtja filter.,Receiver filter
+,FALSE,,Vastuvõtja demodulaator.,Receiver demodulator
+,FALSE,,Puhvervõimendi.,Buffer amplifier
+,,,,
+,question,,Mis vastuvõtjas juhtub kui väga tugev signaal jõuab seguastmeni?,What happens in a receiver when a very strong signal reaches the mixing stage?
+,,,,
+,FALSE,,Seguastmes genereeritakse parasiitsed segustusproduktid,Parasitic mixing products are generated in the mixing stage
+,TRUE,,Seguaste lakkab töötamast.,The mixer stops working
+,FALSE,,Toimub automaatne signaali piiramine.,Automatic signal limiting occurs
+,FALSE,,Geneeritakse tuikesagedus.,A pulse rate is generated
+,,,,
+,question,,Mis on vastuvõtja kõrgsagedusvõimendi esmane ülesanne?,What is the primary function of a receivers high- frequency amplifier?
+,,,,
+,FALSE,,Kindlustada enamik vastuvõtja võimendusest.,Ensure most of the receiver gain
+,FALSE,,Automaatse võimenduse reguleerimise süsteemi abil muuta parasiitsignaalide mahasurumise astet.,Use the automatic gain control system to change the degree of suppression of parasitic signals
+,TRUE,,Parandada vastuvõtja mürategurit.,Improve the noise figure of the receiver
+,FALSE,,Tekitada automaatse võimendusregulatsiooni tööks vajalikku pinget.,Generate the voltage required for automatic gain control to operate
+,,,,
+,question,,Millised kaks faktorit määratlevad vastuvõtja tundlikkuse?,What two factors determine the sensitivity of a receiver?
+,,,,
+,FALSE,,Dünaamiline diapasoon ja kolmanda järgu lõikepunkt.,Dynamic range and third-order intercept
+,FALSE,,Hind ja kättesaadavus.,Price and availability
+,TRUE,,Ribalaius ja mürategur.,Bandwidth and noise figure
+,FALSE,,Intermodulatsioonimoonutused ja dünaamiline diapasoon.,Intermodulation distortion and dynamic range
+,,,,
+,,,,
+M5A,,,Moodul M5A Raadiosaateseadmed.,
+,question,,Mis tüüpi sisendsignaali kasutatakse SSB saatja lineaarsuse kontrollimiseks?,What type of input signal is used to check the linearity of an SSB transmitter?
+,,,,
+,FALSE,,Tavalist kõnet.,Normal speech
+,FALSE,,Helisageduslikku siinuslainet,Audio frequency sine wave
+,TRUE,,Kaht helisageduslikku siinuslainet,Two audio frequency sine waves
+,FALSE,,Helisageduslikku kantlainet.,Audio frequency cantilever
+,,,,
+,question,,Miks kasutatakse raadiosaatja kõrgepingealaldis šunttakistit?,Why is a high-voltage shunt resistor used in a radio transmitter?
+,,,,
+,FALSE,,Parandab pingeregulatsiooni.,Improves voltage regulation
+,TRUE,,Laadib filterkondensaatori tühjaks.,Discharges the filter capacitor
+,FALSE,,Kõrvaldab poolidelt elektrilöögi saamise ohu.,Eliminates the risk of electric shock from coils
+,FALSE,,Elimineerib maaühenduse voolud.,Eliminates ground fault currents
+,,,,
+,question,,Mida saab kontrollida kahe tooni testi abil?,What can be checked with the two-tone test?
+,,,,
+,FALSE,,Sagedusmodulatsiooni protsenti.,Frequency modulation percentage
+,FALSE,,Kandesageduse faasinihet.,Carrier frequency phase shift
+,TRUE,,Kõrgsagedusvõimendi lineaarsust.,Linearity of the high-frequency amplifier
+,FALSE,,Sagedusdeviatsiooni,Frequency deviation
+,,,,
+,question,,Miks on mõningates lampvõimendites vajalik neutralisatsioon?,Why is neutralization necessary in some tube amplifiers?
+,,,,
+,FALSE,,Häälestatud võnkeringides koormatud Q vähendamiseks.,To reduce the loaded Q in tuned oscillator circuits
+,FALSE,,Võre ja katoodi vahelise lekkevoolu vähendamiseks.,To reduce the leakage current between the grid and the cathode
+,TRUE,,Elektroodidevahelise mahtuvuse tõttu tekkida võiva ostsilleerimise vältimiseks.,To prevent oscillation that may occur due to capacitance between electrodes
+,FALSE,,Tooriumoksiidi mõjul lambis tekkiva happe likvideerimiseks.,To eliminate the acid produced in the lamp by the effect of thorium oxide
+,,,,
+,question,,Milliseid kaht helisagedust võib kasutada SSB telefonisaatja lineaarsuse kontrollimiseks?,What two audio frequencies can be used to check the linearity of an SSB telephone transmitter?
+,,,,
+,FALSE,,Tuleb kasutada signaale sagedusega 20Hz ja 20000Hz.,Signals with frequencies of 20Hz and 20000Hz must be used
+,TRUE,,"Võib kasutada suvalisi helisagedusi, mis paiknevad saatja helisagedustrakti pääsuribas tingimusel, et nad ei ole teineteisega harmoonilises suhtes.","Any audio frequencies that are within the passband of the transmitter's audio frequency range can be used, provided that they are not in a harmonic relationship with each other"
+,FALSE,,Tuleb kasutada sagedusi 1200Hz ja 2400hz.,Frequencies of 1200Hz and 2400hz must be used
+,FALSE,,Tuleb kasutada saatja helisagedustraktis paiknevat ja teineteisega harmoonilises suhtes olevat helisagedust.,Audio frequencies that are within the transmitter's audio frequency range and in harmonic relationship with each other must be used
+,,,,
+,question,,Mis tüüpi filter tuleb installeerida amatöörsaatjasse harmooniliste sageduste kiirguse vältimiseks?,What type of filter should be installed in an amateur transmitter to prevent the emission of harmonic frequencies?
+,,,,
+,FALSE,,Võtmeklõpsu filter.,Key click filter
+,TRUE,,Madalpääsfilter.,Low-pass filter
+,FALSE,,Kõrgpääsfilter.,High-pass filter
+,FALSE,,CW filter.,CW filter
+,,,,
+,question,,Mida on vaja omada telefonitööks ettenähtud amatöörraadiojaamas?,What is needed for an amateur radio station intended for telephone work?
+,,,,
+,FALSE,,Splatteri filter.,Splatter filter
+,TRUE,,Mikrofon.,Microphone
+,FALSE,,Vastuvõtja helisagedusfilter.,Receiver audio frequency filter
+,FALSE,,Väljakutseautomaat.,Recorded CQ calls
+,,,,
+,question,,"Monteerisite oma autosse VHF või UHF FM raadiojaama. Milline on antenni jaoks parim koht ,vältimaks juhi ja reisijate ülikõrgsagedusliku kiirituse ohtu?",You have installed a VHF or UHF FM radio station in your car. What is the best location for the antenna to avoid the risk of VHF radiation to the driver and passengers?
+,,,,
+,TRUE,,Katuse keskkoht.,The center of the roof
+,FALSE,,Tuuleklaasi ülemine äär.,The upper edge of the windshield
+,FALSE,,Ükskõik kummal esimesel poritiival.,Whichever is on the first fender
+,FALSE,,Pagasiruumi luugil.,On the trunk lid
+,,,,
+,question,,Mis on saatjas kasutatavate ekraanide otstarve?,What is the purpose of the screens used in the transmitter?
+,,,,
+,FALSE,,Moodustab strukturaalse madalpääsfiltri.,Forms a structural low-pass filter
+,TRUE,,Likvideerib ebasoovitava kõrgsagedusliku kiirguse.,Eliminates unwanted high-frequency radiation
+,FALSE,,Takistab helisagedusliku tagasiside tekkimist saatjas.,Prevents audio frequency feedback from occurring in the transmitter
+,FALSE,,Aitab säilitada saatjas paraja kõrgusega töötemperatuuri.,Helps maintain the transmitter at the proper operating temperature
+,,,,
+,question,,Miks kasutatakse nn. pii-filtrit saatja väljundis?,Why is a so-called pi filter used at the transmitter output?
+,,,,
+,TRUE,,Saatja väljundimpedantsi sobitamiseks antenni toiteliiniga ja parasiitkiirguse vähendamiseks.,To match the transmitter output impedance to the antenna feed line and reduce parasitic radiation
+,FALSE,,Antenni poolt vastuvõetud mürasignaalide mahajuhtimiseks.,To reject noise signals received by the antenna
+,FALSE,,Antennis tekkinud staatiliste pingete saatjasse pääsu takistamiseks.,To prevent static voltages generated in the antenna from entering the transmitter
+,FALSE,,Saatja lõpplambi kõrgepinge pääsu takistamiseks antenni.,To prevent high voltage from the transmitter's output lamp from reaching the antenna
+,,,,
+,,,,
+M6A,,,Moodul M6A Antennid ja fiidrid.,
+,question,,Miks kasutatakse sagedasti Yagi antenni 50 MHz sagedusalal?,Why is a Yagi antenna often used in the 50 MHz frequency band?
+,,,,
+,FALSE,,Annab horisontaaltasapinnas hea ringkiirguse.,Provides good circular radiation in the horizontal plane
+,FALSE,,"On väiksem, odavam ja kergem üles panna kui dipoolantenn.","It is smaller, cheaper and easier to set up than a dipole antenna"
+,TRUE,,Vähendab teiste jaamade poolt tekitatavaid interferentshäireid nii külg- kui tagasuunas.,Reduces interference from other stations both to the side and to the rear
+,FALSE,,Ei võta niipalju ruumi kui teised antennid.,Doesn't take up as much space as other antennas
+,,,,
+,question,,Milline meetod on parim ebasümmeetrilise koaksiaalkaabli sobitamiseks Yagi antenniga?,What is the best method for matching an unbalanced coaxial cable to a Yagi antenna?
+,,,,
+,FALSE,,“T” -sobitus.,“T” match
+,FALSE,,Delta sobitus.,Delta match
+,TRUE,,Gamma sobitus.,Gamma match
+,FALSE,,Hairpin – sobitus.,Hairpin match
+,,,,
+,question,,Kuidas saab suurendada parasiitelementidega suundantenni sagedusriba laiust?,How can the bandwidth of a directional antenna be increased with parasitic elements?
+,,,,
+,TRUE,,Kasutada suurema läbimõõduga elemente.,Use elements with larger diameters
+,FALSE,,Vähendada elementide vahet.,Reduce the spacing between elements
+,FALSE,,Kasutada teleskoopelemente.,Use telescopic elements
+,FALSE,,Suurendada elementide arvu.,Increase the number of elements
+,,,,
+,question,,Kui suur on poollaine dipoolantenni toitepunkti impedants vabas ruumis?,What is the impedance of the feed point of a half-wave dipole antenna in free space?
+,,,,
+,FALSE,,"Ligikaudu 50 oomi, takistuslik.","Approximately 50 ohms, resistive"
+,FALSE,,"Ligikaudu 73 oomi, takistuslik ja induktiivne.","Approximately 73 ohms, resistive and inductive"
+,TRUE,,"Ligikaudu 73 oomi, takistuslik.","Approximately 73 ohms, resistive"
+,FALSE,,"300 oomi, takistslik.","300 ohms, resistive"
+,,,,
+,question,,Kui suur on dipoolantenni võimendus võrreldes isotroopse kiirgajaga?,How much is the gain of a dipole antenna compared to an isotropic radiator?
+,,,,
+,FALSE,,On võrdse võimendusega.,It has equal amplification
+,TRUE,,"Dipoolantenni võimendus on ligikaudu 2,3dB suurem.",The gain of the dipole antenna is approximately 2.3dB higher
+,FALSE,,"Dipoolantenni võimendus on 5,6dB.",The gain of the dipole antenna is 5.6dB
+,FALSE,,"Dipoolantenni võimendus on 4,3dB.",The gain of the dipole antenna is 4.3dB
+,,,,
+,question,,Mida tähendab termin ette-taha suhe?,What does the term front-to-back ratio mean?
+,,,,
+,FALSE,,Direktorite ja reflektorite arvu suhet.,The ratio of the number of directors and reflectors
+,TRUE,,Antenni peakiire suunas kiiratava võimsuse ja täpselt vastassuunalise kiirgusvõimsuse suhet.,The ratio of the power radiated in the direction of the antenna's main beam to the power radiated in the exact opposite direction
+,FALSE,,Aktiivse vibraatori asendit reflektori ja direktorite suhtes.,The position of the active vibrator relative to the reflector and directors
+,FALSE,,Reflektori ja vibraatoritepoolse poomipikkuse suhet.,The ratio of the boom length between the reflector and the vibrators
+,,,,
+,question,,Miks kasutatakse silikoonõli või autovaha TV-tüüpi lapikkaabli pinna katteks?,Why is silicone oil or car wax used to coat the surface of TV-type flat cable?
+,,,,
+,FALSE,,Skin- efekti vähendamiseks.,To reduce the skin effect
+,TRUE,,Mustuse ja niiskuse sadestumise vähendamiseks juhtmel.,To reduce dirt and moisture buildup on the cord
+,FALSE,,Soojuse ärajuhtimiseks töötades kõrge seisulainega liinis.,To dissipate heat when working on a line with high standing waves
+,FALSE,,Lindude eemalepeletamiseks antenni juurest.,To scare birds away from the antenna
+,,,,
+,question,,Mis ühikutes väljendatakse kõrgsagedusliku toiteliini kadusid?,In what units are high-frequency power line losses expressed?
+,,,,
+,FALSE,,dB/km.,dB/km
+,FALSE,,Bell/100m.,Bell/100m
+,TRUE,,dB/100m.,dB/100m
+,FALSE,What's a neper? https://en.wikipedia.org/wiki/Neper,Neper meetrile.,Neper to the meter
+,,,,
+,question,,Mis juhtub dielektrikuskadudega toiteliinis töösageduse suurenemisel?,What happens to dielectric losses in a power line as the operating frequency increases?
+,,,,
+,FALSE,,Kaod vähenevad.,Losses decrease
+,TRUE,,Kaod suurenevad.,Losses increase
+,FALSE,,Kaod jäävad samaks.,Losses remain the same
+,FALSE,,Kadude tõttu hakkab toitekaabel kuumenema.,"Due to losses, the power cable starts to heat up"
+,,,,
+,question,,Kuidas mõjutab koaksiaalkaabli impedants teda läbiva signaali sumbuvust?,How does the impedance of a coaxial cable affect the attenuation of a signal passing through it?
+,,,,
+,TRUE,,Sumbuvus on suurem sagedustel üle 144 MHz.,The attenuation is higher at frequencies above 144 MHz
+,FALSE,,Sumbuvus on väiksem sagedustel üle 144 MHz.,The attenuation is lower at frequencies above 144 MHz
+,FALSE,,"Sumbuvus on sagedustel kuni 1,5GHz enamvähem ühtlane",The attenuation is more or less uniform at frequencies up to 1.5GHz
+,FALSE,,Sumbuvus on enamvähem ühtlane sagedustel kuni 200 GHz.,The attenuation is more or less uniform at frequencies up to 200 GHz
+,,,,
+,,,,
+M7A,,,Moodul M7A Raadiolevi.,
+,question,,Mis iseloomustab nn. “backscatter” signaale?,What characterizes so-called “backscatter” signals?
+,,,,
+,FALSE,,Väga hea arusaadavus.,Very good readability
+,TRUE,,Lainetav heli.,Wavy sound
+,FALSE,,Ümberpööratud külgribad.,Inverted sidebars
+,FALSE,,Sisisevad signaalid.,Hissing signals
+,,,,
+,question,,Mis on solar-flux indeks?,What is the solar-flux index?
+,,,,
+,FALSE,,Päikese magnetvälja intensiivsus.,The intensity of the sun's magnetic field
+,FALSE,,Maa poole pööratud Päikese küljel nähtavate plekkide arv.,The number of sunspots visible on the side of the Sun facing Earth
+,TRUE,,Päikese poolt kiiratav ioniseeriv energia.,Ionizing energy emitted by the sun
+,FALSE,,Päikesel nähtavate plekigruppide arv.,The number of sunspot groups visible on the Sun
+,,,,
+,question,,Mida nimetatakse geomagnetiliseks häireks?,What is called a geomagnetic disturbance?
+,,,,
+,FALSE,,Päikese solar-fluks indeksi järsk langus.,A sharp drop in the Sun's solar flux index
+,TRUE,,Maa magnetvälja järsk muutus lühikese aja jooksul.,A sudden change in the Earth's magnetic field over a short period of time
+,FALSE,,Maa magnetpooluse nihe.,Earth's magnetic pole shift
+,FALSE,,Päikeseplekkide magnetvälja polaarsuse muutus.,Change in the polarity of the magnetic field of sunspots
+,,,,
+,question,,Kui kiiresti jõuab Päikeselt kiirguv laetud osakeste vool Maale?,How fast does the stream of charged particles emitted from the Sun reach Earth?
+,,,,
+,FALSE,,"1,5 sekundiga.","1,5 sekundiga"
+,FALSE,,8 minutiga.,In 8 minutes
+,TRUE,,20 kuni 40 tunniga.,Between 20 and 40 minutes
+,FALSE,,30 sekundiga.,In 30 seconds
+,,,,
+,question,,"Milline raadiolainete levimehhanism võimaldab saadet vastu võtta pinnalaine ulatusest Kaugemal, kuid lähemal ionosfäärist peegeldunud lainest?","What radio wave propagation mechanism allows a broadcast to be received further away than the surface wave range, but closer than a wave reflected from the ionosphere?"
+,,,,
+,FALSE,,Sporaadiline E-levi.,Sporadic E propogation
+,FALSE,,Lühikese hüppega levi.,Spread with a short jump
+,TRUE,,Raadiolaine peegeldumine troposfääri ja ionosfääri ebaühtluskohtadest (scatter).,Reflection of radio waves from irregularities in the troposphere and ionosphere (scatter)
+,FALSE,,Signaalide peegeldumine meteooride jäljelt.,Reflection of signals from a meteor trail
+,,,,
+,question,,Millises ionosfääri kihis kutsuvad äkilised ionosfääri häired esile raadiolainete suurenenud sumbuvuse?,In which layer of the ionosphere do sudden ionospheric disturbances cause increased attenuation of radio waves?
+,,,,
+,FALSE,,D-kihis.,D-layer
+,TRUE,,E-kihis.,E-layer
+,FALSE,,F2-kihis.,F2-layer
+,FALSE,,F1-kihis.,F1-layer
+,,,,
+,question,,Kuidas mõjutab geomagnetiline torm raadiolainete levi?,How does a geomagnetic storm affect the propagation of radio waves?
+,,,,
+,FALSE,,Väga hea raadioside kõrgematel geomagnetilistel laiuskraadidel.,Very good radio communication at higher geomagnetic latitudes
+,TRUE,,Halvenenud raadiolevi kõrgematel geomagnetilistel laiuskraadidel.,Deteriorated radio coverage at higher geomagnetic latitudes
+,FALSE,,Suurenenud pinnalaine ulatus.,Increased surface wave range
+,FALSE,,Raadioside täielik puudumine.,Complete lack of radio communication
+,,,,
+,question,,Mis on raadiolainete levi kriitiline nurk?,What is the critical angle for radio wave propagation?
+,,,,
+,FALSE,,"Minimaalne raadiolainete levi tõusunurk,mille juures raadiolained peegelduvad Maale tagasi ionosfääri teatud seisundi puhul.",The minimum elevation angle of radio wave propagation at which radio waves are reflected back to Earth for a given state of the ionosphere
+,FALSE,,Kompassi suund teie asukohast korrespondendi suunas.,Compass direction from your location to the correspondent
+,TRUE,,"Maksimaalne raadiolainete levi tõusunurk,mille juures raadiolained peegelduvad veel Maale tagasi ionosfääri teatud seisundi puhul.",The maximum elevation angle of radio wave propagation at which radio waves are still reflected back to Earth for a given state of the ionosphere
+,FALSE,,Antenni poomi vertikaalnurk horisontaaltasapinna suhtes.,The vertical angle of the antenna boom relative to the horizontal plane
+,,,,
+,question,,Kui kaua tavaliselt kestavad ootamatud ionosfääri häired?,How long do unexpected ionospheric disturbances usually last?
+,,,,
+,FALSE,,Kogu päev.,The whole day
+,TRUE,,Mõnest minutist kuni mõne tunnini.,From a few minutes to a few hours
+,FALSE,,Keskmiselt ühe nädala.,"On average, one week"
+,FALSE,,Kuni ühe kuuni.,For one hour
+,,,,
+,question,,Millistel laiuskraadidel esineb tavaliselt rohkem geomagnetilisi häireid?,At which latitudes do geomagnetic disturbances typically occur more frequently?
+,,,,
+,FALSE,,Ekvaatori laiuskraadidel.,At equatorial latitudes
+,TRUE,,45 kraadist kõrgematel laiustel.,At latitudes above 45 degrees
+,FALSE,,Kõikidel laiuskraadidel ühtemoodi.,The same at all latitudes
+,FALSE,,Polaarööga hõivatud laiuskraadidel.,In latitudes occupied by the polar night
+,,,,
+,,,,
+M8A,,,Moodul M8A Mõõtetehnika ja selle kasutamine.,
+,question,,Milline mõõteriist sisaldab horisontaal- ja vertikaalkanali võimendi?,Which measuring instrument contains a horizontal and vertical channel amplifier?
+,,,,
+,FALSE,,Oommeeter.,Ohmmeter
+,FALSE,,Signaalgeneraator.,Signal generator
+,TRUE,,Ostsillograaf.,Oscilloscope
+,FALSE,,Ampermeeter.,Ammeter
+,,,,
+,question,,Mis tüüpi signaale on võimalik ostsillograafi abil vaadelda?,What types of signals can be observed using an oscilloscope?
+,,,,
+,TRUE,,Suvalisi ajast sõltuvaid signaale instrumendi sagedusriba piires.,Any time-dependent signals within the instrument's frequency band
+,FALSE,,Rahvusvahelisi laevade lipusignaale.,International ship flag signals
+,FALSE,,Ookeanilaevade blinkersignaale.,Blinker signals of ocean-going ships
+,FALSE,,Ioniseeritud atmosfäärikihtide poolt genereeritavaid signaale.,Aid signals generated by ionized atmospheric layers
+,,,,
+,question,,Mis seade on ostsillograaf?,What device is an oscillograph?
+,,,,
+,FALSE,,"Seade,mis näitab antenni kiirgustakistust.",A device that indicates the radiation resistance of an antenna
+,FALSE,,"Seade,mis näitab antenni toiteliini seisulaine tegurit.",A device that indicates the standing wave factor of an antenna feed line
+,TRUE,,"Seade, mis võimaldab uurida kuvaril signaalide lainekuju.",A device that allows you to examine the waveform of signals on a display
+,FALSE,,Vooluringi takistust mõõtev seade.,A device that measures the resistance of a circuit
+,,,,
+,question,,Mis võib põhjustada ostsillograafi kineskoobi luminofoori riknemise?,What can cause the phosphor in an oscilloscopes kinescope to fail?
+,,,,
+,FALSE,,Vertikaalkanali võimendi ületüürimine.,Overdriving the vertical channel amplifier
+,TRUE,,Liig suur heleduse säting.,Brightness setting too high
+,FALSE,,Kiire ebaõige fokuseerimine.,Fast incorrect focusing
+,FALSE,,Kineskoobi kallutuselektroodide vahetu ühendamine skeemi.,Direct connection of the kinescope tilt electrodes to the diagram
+,,,,
+,question,,Mis seade on antenni mürasild?,What device is an antenna noise bridge?
+,,,,
+,FALSE,,Seade antenni või muu elektrilise lülituse mürateguri mõõtmiseks.,A device for measuring the noise figure of an antenna or other electrical circuit
+,TRUE,,Seade antenni või muu elektrilise lülituse impedantsi mõõtmiseks.,A device for measuring the impedance of an antenna or other electrical circuit
+,FALSE,,Seade vastuvõtjas esineva müra hävitamiseks.,A device for eliminating noise in a receiver
+,FALSE,,Seade Päikese raadiokiirguse mõõtmiseks.,A device for measuring solar radio radiation
+,,,,
+,question,,Kuhu ühendatakse antenni mürasild?,Where is the antenna noise bridge connected?
+,,,,
+,FALSE,,Seade ühendatakse antenni toitepunkti ja müra suurus loetakse seadme skaalalt.,The device is connected to the antenna power point and the noise level is read from the device scale
+,FALSE,,Seade ühendatakse saatja ja antenni vahele ning häälestatakse minimaalse seisulaine teguri saavutamiseni.,The device is connected between the transmitter and the antenna and tuned until the minimum standing wave factor is achieved
+,TRUE,,Seade ühendatakse vastuvõtja ja tundmatu impedantsiga lülituse vahele ning häälestatakse minimaalse müra saavutamiseni.,The device is connected between the receiver and a circuit with unknown impedance and tuned to achieve minimum noise
+,FALSE,,Seade ühendatakse antenni ja antenni sobituslülituse vahele ning häälestatakse minimaalse seisulaine teguri saavutamiseni.,The device is connected between the antenna and the antenna matching circuit and tuned until the minimum standing wave factor is achieved
+,,,,
+,question,,Mis seade on väljatugevuse mõõtja?,What device is a field strength meter?
+,,,,
+,FALSE,,"Seade, mis mõõdab seisulaine tegurit antenni toiteliinis.",A device that measures the standing wave factor in an antenna feed line
+,FALSE,,Seade modulatsioonisügavuse määramiseks saatja väljundis.,A device for determining the modulation depth at the transmitter output
+,TRUE,,Seade kõrgsagedussignaali suhtelise võimsuse mõõtmiseks.,A device for measuring the relative power of a high-frequency signal
+,FALSE,,Seade saatja keskmise väljundvõimsuse suurendamiseks.,A device for increasing the average output power of a transmitter
+,,,,
+,question,,"Kui palju tuleb suurendada saatja väljundvõimsusust,et saatja läheduses asuva vastuvõtja S-meetri näit suureneks S8-lt S9-ni ?",How much must the transmitter output power be increased so that the S-meter reading of the receiver located near the transmitter increases from S8 to S9?
+,,,,
+,FALSE,,Ligikaudu kaks korda,Approximately two times
+,FALSE,,Ligikaudu kolm korda,Approximately three times
+,TRUE,,Ligikaudu neli korda.,Approximately four times
+,FALSE,,Ligikaudu viis korda,Approximatley 5 times
+,,,,
+,question,,Milline on kõige sobivam lihtne instrument antenni kiirguse suunadiagrammi määramiseks horisontaaltasapinnas?,What is the most suitable simple instrument for determining the radiation pattern of an antenna in the horizontal plane?
+,,,,
+,TRUE,,Väljatugevuse mõõtja.,Field strength meter
+,FALSE,,Antenni mürasild.,Antenna noise bridge
+,FALSE,,Tester.,Tester
+,FALSE,,Transmatch.,Transmatch
+,,,,
+,question,,Millist seadet saab kasutada saatja väljundsignaalis esinevate intermodulatsiooni-moonutustes tekitatud parasiitsignaalide uurimiseks?,What device can be used to study parasitic signals caused by intermodulation distortion in the transmitter output signal?
+,,,,
+,FALSE,,Vattmeeter.,Wattmeter
+,TRUE,,Spektrianalüsaator.,Spectrum analyser
+,FALSE,,Loogikaskeemide analüsaator.,Logic circuit analyzer
+,FALSE,,Mäluga reflektomeeter.,Reflectometer with memory
+,,,,
+,,,,
+M9A,,,Moodul M9A Raadiohäired ja elektromagnetiline ühildatavus (EMC).,
+,question,,Mis on atmosfääriliste raadiohäirete peamine tekkepõhjus?,What is the main cause of atmospheric radio interference?
+,,,,
+,FALSE,,Päikeseplekid.,Sunspots
+,TRUE,,Äikesetormid.,Lightning storms
+,FALSE,,Lennukid.,Airplanes
+,FALSE,,Ioniseeritud meteoorijäljed.,Ionized meteor trails
+,,,,
+,question,,"Kuidas on võimalik kindlaks teha, kas raadiohäireid tekitav elektriliin asub teiemajas?",How can you determine if a power line causing radio interference is located in your house?
+,,,,
+,FALSE,,Kontrolli elektriliini pinget graafilise reflektomeetriga.,Check the power line voltage with a graphic reflectometer
+,FALSE,,Kontrolli vahelduvvoolu lainekuju ostsillograafi abil.,Check the AC waveform using an oscilloscope
+,TRUE,,Lülita välja maja elektrivõrgu pealüliti ja kuula patareitoitega raadiot.,Turn off the main switch in your house and listen to a battery-powered radio
+,FALSE,,Uuri elektrivõrgu pinget spektrianalüsaatoriga.,Check the voltage of the power grid with a spectrum analyzer
+,,,,
+,question,,Kuidas on võimalik vähendada auto elektrigeneraatori poolt tekitatavaid raadiohäireid?,How can I reduce the radio interference caused by a cars generator?
+,,,,
+,FALSE,,Ühendada raadio toitejuhtmed akuga nii pikka teed mööda kui vähegi võimalik.,Connect the radio power wires to the battery as far as possible
+,TRUE,,Ühendades raadio toitejuhtmed akuga lühimat võimalikku teed kaudu.,Connecting the radio power wires to the battery via the shortest possible route
+,FALSE,,Ühendades kõrgpääsfiltri järjestikku raadiojaama auto pardavõrguga ühendavasse juhtmesse.,By connecting a high-pass filter in series to the wire connecting the radio station to the car's on-board network
+,FALSE,,Lülitades filterkondensaatorid järjestikku alalisvoolu toitejuhtmesse.,By connecting filter capacitors in series to the DC power line
+,,,,
+,question,,Kuidas saab vähendada väga tugeva signaali toimel vastuvõtjas tekkivaid intermodulatsioonihäireid?,How can intermodulation interference caused by very strong signals in a receiver be reduced?
+,,,,
+,FALSE,,Vähendades vastuvõtja toitepinget.,By reducing the receiver's supply voltage
+,TRUE,,Lülitades vastuvõtja sisendisse attenuaatori.,By switching on an attenuator at the receiver input
+,FALSE,,Kasutada vastuvõtja kõige kitsama pääsuribaga filtrit.,Use the narrowest passband filter on the receiver
+,FALSE,,Kasutada vastuvõtja kõige laiema pääsuribaga filtrit.,Use the filter with the widest passband of the receiver
+,,,,
+,question,,Miks on kasulik omada vastuvõtja sisendis attenuaatorit?,Why is it useful to have an attenuator at the receiver input?
+,,,,
+,FALSE,,Vähendab vastuvõetava signaali ribalaiust.,Reduces the bandwidth of the received signal
+,FALSE,,Elimineerib isotroopilise kiirguse põhjustatud efekte.,Eliminates effects caused by isotropic radiation
+,TRUE,,Kaitseb vastuvõtja ülekoormamist erakordselt tugeva signaali poolt.,Protects the receiver from being overloaded by an exceptionally strong signal
+,FALSE,,Vähendab antenni kiirgusdiagrammi nullide põhjustatud signaali nõrgenemise mõju.,Reduces the effect of signal attenuation caused by nulls in the antenna radiation pattern
+,,,,
+,question,,"Teie naaber teatab,et tekitate häireid televisioonivastuvõtule.Teie olete aga kindel, et teie aparatuur töötab korralikult.Mida peate tegema?","Your neighbor reports that he is causing interference with your television reception. However, you are sure that your equipment is working properly. What should you do?"
+,,,,
+,FALSE,,Lülitate kohe oma saatja välja ja pöördute Tehnilise Järelevalve Ameti poole abi saamiseks.,You immediately turn off your transmitter and contact the Technical Surveillance Authority for assistance
+,TRUE,,"Kontakteerudes naabriga proovite välja selgitada, kas tõepoolest teie töö eetris on TV-häirete tekkepõhjuseks.","By contacting your neighbor, you try to find out whether your work on the air is indeed the cause of the TV interference"
+,FALSE,,Monteerite saatja väljundisse kõrgpääsfiltri ja televiisori sisendisse madal-pääsfiltri,You install a high-pass filter on the transmitter output and a low-pass filter on the television input
+,FALSE,,"Jätkate tööd tavalisel moel, kuna teil ei ole mingit legaalset põhjust interferents-häirete vähendamiseks või elimineerimiseks.","You continue to work as usual, as you have no legal reason to reduce or eliminate interference"
+,,,,
+,question,,Mis tüüpi filter tuleb kõigepealt paigaldada amatöörraadiojaama harmooniliste sageduste kiirguse vältimiseks?,What type of filter should be installed first to prevent the emission of harmonic frequencies from an amateur radio station?
+,,,,
+,FALSE,,Võtmeklõpsu filter.,Key click filter
+,TRUE,,Madalpääsfilter.,Low-pass filter
+,FALSE,,Kõrgpääsfilter.,High-pass filter
+,FALSE,,CW filter.,CW filter
+,,,,
+,question,,"Mis tüüpi interferentshäireid võib kiirata mitmebandi antenn,mis on ühendatud valesti häälestatud raadiojaama väljundisse?",What type of interference can be emitted by a multiband antenna connected to the output of a mistuned radio station?
+,,,,
+,TRUE,,Harmoonilisi sagedusi.,Harmonic frequencies
+,FALSE,,Aurora taolisi signaale.,Aurora-like signals
+,FALSE,,Parasiitsignaale.,Parasitic signals
+,FALSE,,Intermodulatsioonihäireid.,Intermodulation interference
+,,,,
+,question,,"Mida tähendab väljend ""harmooniliste kiirgus""?","What does the expression ""harmonic radiation"" mean?"
+,,,,
+,TRUE,,Töösageduse täiskordsete sageduste kiirgus eetrisse.,Emission of frequencies that are multiples of the operating frequency into the air
+,FALSE,,50 Hz brummsagedusega moduleeritud signaalide kiirgus.,Radiation of modulated signals with a hum frequency of 50 Hz
+,FALSE,,Lähedal paiknevates teistes saatjates võib tekkida liitmodulatsioon teie saatja töö tõttu.,Intermodulation may occur in other nearby transmitters due to the operation of your transmitter
+,FALSE,,Signaalide saatmine F kihis raadiosignaale peegeldava sektori tekitamiseks.,Sending signals in the F layer to create a sector that reflects radio signals
+,,,,
+,question,,Milline filter tuleb paigutada televiisori sisendisse esmase abinõuna amatöörraadiojaama poolt tekitatud kõrgsagedusliku ülekoormuse vähendamiseks?,What filter should be placed at the television input as a first step to reduce high-frequency overload caused by an amateur radio station?
+,,,,
+,TRUE,,Kõrgpääsfilter.,High-pass filter
+,FALSE,,Madalpääsfilter.,Low-pass filter
+,FALSE,,Ribafilter.,Bandpass filter
+,FALSE,,Režektorfilter.,Rejector filter
+,,,,
+,,,,
+M10A,,,Moodul M10A Ohutustehnika,
+,question,,Milline inimese keha organ on kõige tundlikum kõrgsagedusliku energia poolt põhjustatud kudede kuumenemise suhtes?,Which organ in the human body is most sensitive to tissue heating caused by high-frequency energy?
+,,,,
+,TRUE,,Silmad.,Eyes
+,FALSE,,Käed.,Hands
+,FALSE,,Süda.,Heart
+,FALSE,,Maks.,Liver
+,,,,
+,question,,"Tugev kõrgsagedusenergia kiirgus võib olenevalt lainepikkusest , kõrgsagedus-välja intensiivsusest ja muudest teguritest rikkuda inimkeha kudesid. Kuidas mõjub kiirgus kehakudedele?","Strong high-frequency energy radiation can damage human body tissues, depending on the wavelength, high-frequency field intensity, and other factors. How does radiation affect body tissues?"
+,,,,
+,FALSE,,Kutsub esile kiiritushaiguse.,Causes radiation sickness.
+,TRUE,,Kuumendab kudesid.,Heats tissues.
+,FALSE,,Jahutab kudesid.,Cools tissues.
+,FALSE,,Põhjustab kudedes geneetilisi muutusi.,Causes genetic changes in tissues.
+,,,,
+,question,,"Kui suur võib maksimaalselt olla inimkeha läbiv vahelduvvool, mis endast ei kujuta veel ohtu?",What is the maximum alternating current that can pass through the human body without posing a danger?
+,,,,
+,FALSE,,1000A,1000 A
+,FALSE,,"0,1A",0.1 A
+,TRUE,,10mA,10 mA
+,FALSE,,50uA,50 uA
+,,,,
+,question,,Mida tuleb teha kõigepealt kui näed voolujuhtmetesse kinnijäänud inimest?,What should you do first if you see someone stuck in power lines?
+,,,,
+,TRUE,,"Hakkad otsima telefoni, et abi kutsuda.",You start looking for the phone to call for help.
+,FALSE,,Mingi voolu mittejuhtiva eseme abil vabastad kannatanu juhtmetest ja alustad kohe südame kaudse massaaži ja kunstliku hingamise tegemist samaaegselt hüüdes abi järele.,"Using a non-conductive object, free the victim from the wires and immediately begin performing indirect heart massage and artificial respiration while simultaneously calling for help."
+,FALSE,,Viskad elektrijuhtmetele mingi maandusjuhtme.,You throw some kind of ground wire on the electrical wires.
+,FALSE,,"Otsid lülitit, et vool välja lülitada.",Looking for a switch to turn off the power.
+,,,,
+,question,,"Kui tahad teha mõningaid häälestusoperatsioone oma VHF/UHF raadiojaama juures,mida peab tegema enne jaama sisselülitamist?","If you want to perform some tuning operations on your VHF/UHF radio station, what should you do before turning on the station?"
+,,,,
+,FALSE,,Tuleb maha võtta kõik varjestused-ekraanid maksimaalse jahutuse saamiseks.,All shielding and screens must be removed to achieve maximum cooling.
+,FALSE,,Lülitada sisse mürasild interferentshäirete vähendamiseks.,Turn on the noise bridge to reduce interference.
+,TRUE,,"Tuleb veenduda,et kõik varjestused on kinnitatud oma kohale.",You must make sure that all shielding is secured in place.
+,FALSE,,"Vaadata,et interferentshäirete vältimiseks ükski antenn ei oleks jaama külge ühendatud.",Make sure that no antenna is connected to the station to avoid interference.
+,,,,
+,question,,Mida peab silmas pidama kui taod antennimasti tõmmitsate kinnitusvaiu maasse?,What should you keep in mind when driving an antenna mast into the ground?
+,,,,
+,FALSE,,Et vai ei asuks antennimastile liialt lähedal.,So that the pole is not too close to the antenna mast.
+,FALSE,,Et vai oleks küllaldase pikkusega.,So that the stake is of sufficient length.
+,TRUE,,"Et löögisuuna pikendusel ei seisaks inimesi, keda varre otsast juhuslikult äralendav kirves või vasar võiks vigastada.",So that there are no people standing in the extended direction of impact who could be injured by an axe or hammer accidentally flying off the end of the handle.
+,FALSE,,Kas löögiriista vars on küllaldase pikkusega.,Is the handle of the percussion instrument of sufficient length?
+,,,,
+,question,,Mida tuleb jälgida raiudes puid välipäeva või kokkutuleku lõkke jaoks?,What should you keep in mind when cutting wood for a campfire or a gathering?
+,,,,
+,FALSE,,Kas puud on küllaldaselt kuivad.,Are the trees dry enough?
+,TRUE,,"Tuleb seista jalad harki, et juhuslikul puust möödalöömisel kirves ei tabaks jalgu.","You have to stand with your feet apart so that if you accidentally miss a tree, the axe doesn't hit your feet."
+,FALSE,,Usaldada see töö kellelegi teisele.,Entrust this job to someone else.
+,FALSE,,"Mõelda sellele, kas raieluba sai hangitud.",Think about whether a logging permit was obtained.
+,,,,
+,question,,Mida tuleb silmas pidada antennimasti püstitamisel või antenni vedamisel majade vahele?,What should be kept in mind when erecting an antenna mast or moving an antenna between houses?
+,,,,
+,FALSE,,Kas antenn maast vaadatuna jätab kena mulje.,Does the antenna make a nice impression when viewed from the ground?
+,FALSE,,Ega antenn mitte kuskil naabrimehe krundi nurgast üle ei käiks.,The antenna would not cross the corner of the neighbor's plot anywhere.
+,TRUE,,"Et antenn püstitamisel, pööramisel või tuule käes kõikudes mitte kuskil ei puudutaks elektriülekandeliinide juhtmeid.","So that the antenna does not touch any power transmission line wires when erected, rotated, or swayed in the wind."
+,FALSE,,Et tõmmitsad ei oleks liialt pingule tõmmatud.,So that the pullers are not pulled too tight.
+,,,,
+,question,,Tehes tööd kõrgel antennimasti otsas tuleb jälgida et....,"When working high up on an antenna mast, you must ensure that..."
+,,,,
+,FALSE,,Lähiajal ei oleks oodata piksevihma.,No thunderstorms are expected in the near future.
+,TRUE,,"Kasutatavad tööriistad oleksid paigutatud ja kinnitatud selliselt, et nad ei saaks allolijatele pähe kukkuda.",The tools used would be placed and secured in such a way that they could not fall on the heads of those below.
+,FALSE,,"Kas kõik vajalik on kaasas, et ei peaks mitu korda üles - alla ronima.",Is everything you need included so you don't have to climb up and down multiple times?
+,FALSE,,Et jalanõude tallad ei oleks libedad.,So that the soles of your shoes are not slippery.
+,,,,
+,question,,Kui oled autoga sõitnud välipäevale peab silmas pidama.,"If you are driving to a field trip, keep this in mind."
+,,,,
+,FALSE,,Kas tagasisõiduks bensiini jätkub.,Will there be enough gasoline for the return trip?
+,FALSE,,"Et mitte mingisugust auto osa ei oleks kasutatud antenni, antenni- või jõukaablite kinnituspunktidena, mis auto suvalisel ärasõidul viib kaasa pool laagrit koos kallite aparaatidega ja võib põhjustada õnnetusi inimestega.","That no part of the car is used as an antenna, antenna or power cable attachment point, which, if the car is driven away, will take half the camp with it along with expensive equipment and could cause accidents with people."
+,TRUE,,Et auto ei saaks iseenesest liikuma hakata.,So that the car cannot start moving by itself.
+,FALSE,,Et autoraadio liigse kuulamise tulemusel jääks auto akusse veel energiat mootori käivitamiseks.,"So that as a result of listening to the car radio too much, there would still be energy left in the car battery to start the engine."
+,,,,
+,,,,
+M11A,,,Moodul M11A Amatöörraadiojaama opereerimise reeglid ja protseduurid,
+,question,,Mis on kõige olulisem tegur töösageduse valikul teil kasutada lubatud sagedusalal?,What is the most important factor in choosing the operating frequency within the frequency range you are allowed to use?
+,,,,
+,TRUE,,Sagedus ei tohi olla hõivatud teiste amatööride poolt.,The frequency must not be occupied by other amateurs.
+,FALSE,,Peate kuulma sel sagedusel mõnd jaama veendumaks et teid võidaks kuulda.,You need to listen to a station on that frequency to make sure you can be heard.
+,FALSE,,Teie antenn peab olema resonantsis antud sagedusel.,Your antenna must be in resonance at a given frequency.
+,FALSE,,"Peate veenduma,et seisulainetegur antenni toitejuhtmes oleks piisavalt kõrge.",You need to make sure that the standing wave factor in the antenna feed line is high enough.
+,,,,
+,question,,"Soovite suvise päeva õhtupoolikul sidet saada amatööriga, kes asub teist ligikaudu 2000km eemal. Milline band sobiks edukaks sidepidamiseks kõige rohkem?",You want to communicate with an amateur who is approximately 2000km away from you on a summer afternoon. Which band would be most suitable for successful communication?
+,,,,
+,FALSE,,80 või 40 m band.,80 or 40 meter band
+,TRUE,,40 või 15 m band.,40 or 15 meter band
+,FALSE,,15 või 10 m band.,15 or 10 meter band
+,FALSE,,2m või 23 cm band.,2 meter or 23 cm band
+,,,,
+,question,,Kuidas saab raadiojaama häälestamisel eetrisoleku aega viia miinimumini?,How can you minimize the time spent on air when tuning a radio station?
+,,,,
+,FALSE,,Kasutades suvalise pikkusega antenni.,Using an antenna of any length.
+,FALSE,,Häälestades jaama esmalt 40m bandil siis minna üle teistele bandidele.,"When tuning the station first on the 40m band, then switch to other bands."
+,TRUE,,Kasutades jaama häälestamiseks antenni ekvivalenti (dummy load).,Using an antenna equivalent (dummy load) to tune the station.
+,FALSE,,Kasutades koaksiaalkaabli asemel lapikjuhet.,Using a flat cable instead of a coaxial cable.
+,,,,
+,question,,Peate sidet oma sõbraga Tartust ja äkki kuulete oma sagedusel hädaabikutset. Mida teete?,You are in touch with your friend in Tartu and suddenly you hear an emergency call on your frequency. What do you do?
+,,,,
+,FALSE,,"Teatate jaamale, et sagedus on hõivatud.",You inform the station that the frequency is busy.
+,TRUE,,Hakkate otsekohe hädaabikutse infovahetust kirja panema.,You will immediately begin recording the emergency call information exchange.
+,FALSE,,Helistate Päästeametisse.,You call the Rescue Board.
+,FALSE,,Helistate Tehnilise Järelevalve Ametisse.,You call the Technical Surveillance Authority.
+,,,,
+,question,,"Milline on Morsekoodis antud standardse väljakutse ""CQ"" formaat?","What is the format of a standard ""CQ"" call in Morse code?"
+,,,,
+,TRUE,,"Saadate kolm korda ""CQ"", millele järgneb protseduurisignaal ""DE"" ja kolm korda oma kutsungi.","You send ""CQ"" three times, followed by the procedure signal ""DE"" and your callsign three times"
+,FALSE,,"Saadate ""CQ"" kolm korda,""DE"" üks kord ja oma kutsungi ka üks kord.","You send ""CQ"" three times, ""DE"" once, and your callsign once"
+,FALSE,,"Saadate ""CQ"" kümme korda, ""DE"" üks kord ja oma kutsung üks kord.","You send ""CQ"" ten times, ""DE"" once, and your callsign once"
+,FALSE,,"Saadate pidevalt ""CQ"" kuni keegi kutsub teid.","You keep sending ""CQ"" until someone calls you"
+,,,,
+,question,,"Kuidas te vastate ""CQ"" väljakutsele?","How do you respond to someone calling ""CQ""?"
+,,,,
+,FALSE,,Saadate oma kutsungit neli korda.,You send your callsign four times
+,TRUE,,"Saadate teise jaama kutsungi kaks korda, ""DE"" ja oma kutsungi kaks korda.","You send the other station's call sign twice, ""DE"", and your call sign twice"
+,FALSE,,"Saadate teise jaama kutsungi üks kord,""DE"" ja oma kutsungi neli korda.","You send the other station's call sign once, ""DE"", and your call sign four times"
+,FALSE,,"Saadate oma kutsungi, nime, jaama asukoha ja signaali rapordi.","You send your call sign, name, station location, and signal report"
+,,,,
+,question,,"Millise kiirusega tuleb saata ""CQ""?","At what speed should ""CQ"" be sent?"
+,,,,
+,FALSE,,Aeglasemalt kui 25 märki minutis.,Slower than 25 characters per minute
+,FALSE,,"Suurima kiirusega, mida teie võti on võimeline arendama.",At the highest speed that your key is capable of developing
+,TRUE,,"Kiirusega, millist olete ise võimeline korralikult vastu võtma.",At a speed that you are able to properly receive
+,FALSE,,Suurima kiirusegamillega olete võimeline oma võtit manipuleerima.,The fastest speed at which you are able to manipulate your key
+,,,,
+,question,,Mis tähendus on Morsekoodi liittähtedel AR ?,What is the meaning of the Morse code letters AR?
+,,,,
+,FALSE,,Vastaku ainult kutsutud jaam.,Only the called station should answer
+,FALSE,,Kõik on korralikult vastu võetud.,Everything has been properly received
+,TRUE,,Saate lõpp.,End of the current transmission
+,FALSE,,Parimad tervitused.,Best regards
+,,,,
+,question,,Mida tähendavad Morsekoodis saadetud liittähed SK ?,What do the compound letters SK sent in Morse code mean?
+,,,,
+,FALSE,,Enam-vähem korralikult vastu võetud.,More or less properly received
+,FALSE,,Parimad tevitused.,Best regards
+,TRUE,,Side lõpp.,End of the QSO / contact
+,FALSE,,Oodake.,Wait
+,,,,
+,question,,Mida tähendavad Morsekoodis saadetud liittähed KN ?,What do the compound letters KN sent in Morse code mean?
+,,,,
+,FALSE,,Murrujoon.,Murrujoon
+,FALSE,,Side lõpp.,End of the current transmission
+,TRUE,,Vastaku ainult kutsutud jaam.,Only the called station should answer
+,FALSE,,Saatke nüüd.,Saatke nüüd
+,,,,
+,question,,"Milleks kasutatakse signaali ""CQ"" ?","What is the ""CQ"" signal used for?"
+,,,,
+,FALSE,,"Teisele jaamale märguandmiseks, et kutsute teda veerand tunni pärast.",To signal to another station that you will call them in a quarter of an hour
+,FALSE,,"Märguandmiseks,et proovite uut antenni ja väljakutsetele ei vasta.",To indicate that you are trying a new antenna and it is not responding to the challenges
+,TRUE,,"Üldväljakutse märkimaks,et üritate kellegagi ühendust luua.",A general call to indicate that you are trying to connect with someone
+,FALSE,,Ainult kutsutud jaam tohib vastata.,Only the called station may answer
+,,,,
+,question,,Mida tähendab lühend QRS ?,What does the abbreviation QRS mean?
+,,,,
+,FALSE,,Mind segavad staatilised häired.,I'm bothered by static.
+,TRUE,,Saatke aeglasemalt.,Send slower
+,FALSE,,Saatke RST raport.,Send RST report
+,FALSE,,Raadiojaama asukoht on ...,Radio station location is...
+,,,,
+,question,,Mida tähendab lühend QTH ?,What does the abbreviation QTH mean?
+,,,,
+,FALSE,,Kellaaeg on ...,The time is...
+,FALSE,,Minu nimi on ...,My name is...
+,TRUE,,Minu asukoht on ...,My location is...
+,FALSE,,Lõpetage saatmine.,Stop sending
+,,,,
+,question,,Milline on standardse telefoniväljakutse formaat?,What is the format of a standard telephone call?
+,,,,
+,FALSE,,"Saadate teise jaama kutsungi vähemalt kümme korda, siis sõnad ""this is"", seejärel oma kutsung vähemalt kaks korda.","You send the other station's call sign at least ten times, then the words ""this is"", then your call sign at least twice."
+,FALSE,,"Saadate fraasi ""CQ"" vähemalt viis korda, siis ""this is"" ja oma kutsung üks kord.","You send the phrase ""CQ"" at least five times, then ""this is"" and your callsign once."
+,TRUE,,"Saadate fraasi ""CQ"" kolm korda, ""this is"" ja oma kutsungi kolm korda.","You send the phrase ""CQ"" three times, ""this is"" and your callsign three times."
+,FALSE,,"Saadate fraasi ""CQ"" vähemalt kümme korda, ""this is"" ja oma kutsungi ühe korra.","You will send the phrase ""CQ"" at least ten times, ""this is"" and your callsign once."
+,,,,
+,question,,Kuidas te vastate raadiotelefoni väljakutsele?,How do you respond someone calling CQ on Phone mode?
+,,,,
+,FALSE,,"Saadate teise jaama kutsungit kümme korda ,siis ""this is"" ja oma kutsungit vähe-malt kaks korda.","You send the other station's call sign ten times, then ""this is"" and your call sign at least twice."
+,FALSE,,"Saadate teise jaama kutsungit veerimistabelit kasutades vähemalt viis korda, ""this is"" ja oma kutsungit vähemalt üks kord.","You send the other station's call sign using the rolling table at least five times, ""this is"" and your call sign at least once."
+,TRUE,,"Saadate teise jaama kutsungit ühe korra,""this is"" ja oma kutsungit veerimista-belit kasutades ühe korra.","You send the other station's call sign once, ""this is"" and your call sign once using the phonetic alphabet."
+,FALSE,,"Saadate teise jaama kutsungit kolm korda, ""this is"" ja oma kutsungit veerimistabelit kasutades vähemalt viis korda.","You send the other station's call sign three times, ""this is"" and your call sign using the phonetic alphabet at least five times."
+,,,,
+,question,,Kuidas tuleb veerimistabeli abil saata kutsung ES9A ?,How should the call sign ES9A be sent using the scrolling table?
+,,,,
+,FALSE,,Eemeli Sagari Nine Aarne.,Eemeli Sagari Nine Aarne.
+,TRUE,,Echo Sierra Nine Alfa.,Echo Sierra Nine Alfa.
+,FALSE,,Edward Santiago Nine Alabama.,Edward Santiago Nine Alabama.
+,FALSE,,Echo Sugar Nine America.,Echo Sugar Nine America.
+,,,,
+,question,,Kuidas veeritakse kutsungit AE0LQY ?,How is the call sign AE0LQY spelled?
+,,,,
+,FALSE,,Able Easy Zero Lima Quebec Yankee.,Able Easy Zero Lima Quebec Yankee.
+,FALSE,,Arizona Equador Zero London Queen Yesterday.,Arizona Equador Zero London Queen Yesterday.
+,TRUE,,Alfa Echo Zero Lima Quebec Yankee.,Alfa Echo Zero Lima Quebec Yankee.
+,FALSE,,Able Easy Zero Love Queen Yoke.,Able Easy Zero Love Queen Yoke.
+,,,,
+,question,,Mida tähendab lühend AS ?,What does the abbreviation AS mean?
+,,,,
+,FALSE,,Aktsiaselts.,Aktsiaselts
+,FALSE,,Asu saatele.,Get on the air
+,TRUE,,Oodake.,Wait
+,FALSE,,Mis on teie nimi?,What is your name?
+,,,,
+,question,,Mida tähendab R RST signaali raportis?,What does R mean in the RST signal report?
+,,,,
+,FALSE,,Signaali taastumist.,Signal recovery
+,FALSE,,CW tooni resonantsi.,CW tone resonance
+,TRUE,,Signaali loetavust.,Signal readability
+,FALSE,,Signaalitugevuse värelemise astet.,The degree of signal strength flicker
+,,,,
+,question,,Mida tähendab lühend QSL?,What does the abbreviation QSL mean?
+,,,,
+,FALSE,,Kas pean saatma teile oma jaamapäeviku?,Do I need to send you my station logbook?
+,TRUE,,Kas võite kinnitada minu saadetud teate kättesaamist?,Can you confirm receipt of the message I sent?
+,FALSE,,Kas pean saatma aeglasemalt?,Kas pean saatma aeglasemalt?
+,FALSE,,Kes mind kutsub?,Who is calling me?
+,,,,
+,,,,
+M12A,,,Moodul M12A Amatöörraadioside siseriiklik ja rahvusvaheline õiguslik regulatsioon.,
+,question,,Mida loetakse amatöörraadiojaamaks?,What is considered an amateur radio station?
+,,,,
+,FALSE,,Tehases valmistatud raadiosideaparatuuri ja selle energiatoite seadmete kogumit.,A set of factory-made radio communications equipment and its power supply equipment.
+,TRUE,,"Tehniliste seadmete kogumit, mida raadioamatöör võib kasutada amatöörraadiosideks Tehnilise Järelevalve Ameti poolt väljastatud tööloa alusel.",A set of technical equipment that a radio amateur may use as amateur radio parts on the basis of a work permit issued by the Technical Surveillance Authority.
+,FALSE,,"Tehniliste seadmete kogumit, mida raadioamatöör võiks kasutada amatöörraadiosideks ka ilma Tehnilise Järelevalve Ameti poolt väljastatavat tööluba omamata.",A set of technical equipment that a radio amateur could use as amateur radio parts even without having a work permit issued by the Technical Surveillance Authority.
+,FALSE,,"Raadiosideaparatuuri, mis on valmistatud amatööri enda poolt ja mõeldud kasutamiseks amatöörraadiosideks ka väljapoole Eesti territooriumi.",Radio communications equipment that is made by the amateur himself and intended for use as amateur radio equipment outside the territory of Estonia.
+,,,,
+,question,,Amatöörraadiojaama tehniliste seadmete kogumikku kuuluvad:,The collection of technical equipment for an amateur radio station includes:
+,,,,
+,FALSE,,Saatja ja vastuvõtja.,Transmitter and receiver
+,FALSE,,"Saatja, vastuvõtja ja energiatoite seade.","Transmitter, receiver, and power supply device"
+,TRUE,,"Saatja, vastuvõtja, lõppseade ja antenn(id).","Transmitter, receiver, terminal device and antenna(s)."
+,FALSE,,Saatja ja selle lõppseade.,The transmitter and its terminal device.
+,,,,
+,question,,Amatöör-vahendusraadiojaamaks loetakse:,An amateur radio station is considered to be:
+,,,,
+,TRUE,,"Kindlal sagedusel või sagedustel toimivat amatöörraadiojaama, mille vahendusel teostatakse vastuvõetavate sõnaliste või digitaalsete saadete edastamist reaalajas või läbi vahemälu.","An amateur radio station operating on a specific frequency or frequencies, through which the transmission of received verbal or digital broadcasts is carried out in real time or through a cache."
+,FALSE,,Avakosmoses paiknevat raadiojaama.,A radio station located in outer space.
+,FALSE,,"Amatöörraadiojaama, mille kaudu edastatakse ainult ringteateid.",An amateur radio station that only transmits broadcast messages.
+,FALSE,,"Amatöörraadiojaama, mille poolt genereeritavat signaali kasutatakse ainult raadiolevi tingimuste hindamiseks.",An amateur radio station whose generated signal is used only to assess radio transmission conditions.
+,,,,
+,question,,Amatöörraadiomajakaks loetakse:,An amateur radio beacon is considered to be:
+,,,,
+,FALSE,,"Avakosmoses paiknevat amatöörraadiojaama, mille vahendusel teostatakse raadio-levi tingimuste võrdlust.","An amateur radio station located in outer space, through which radio broadcasting conditions are compared"
+,TRUE,,"Automaatselt toimivat amatöörraadiojaama, mida kasutatakse väljatugevuse mõõt-misel, antennide häälestamisel ja raadiolevi tingimuste hindamisel.","An automatically operating amateur radio station used for measuring field strength, tuning antennas, and assessing radio transmission conditions"
+,FALSE,,"Ühiskasutusega amatöörraadiojaama, mida võib sidepidamiseks kasutada mitu raadioamatööri.",A shared amateur radio station that can be used by several radio amateurs for communication
+,FALSE,,"Ainult amatöörraadiojaama, mis toimib majakana raadiospordi võistluste finišis.",Only an amateur radio station that acts as a beacon at the finish line of radio sports competitions
+,,,,
+,question,,Ühiskasutusega amatöörraadiojaamaks loetakse:,A shared amateur radio station is considered to be:
+,,,,
+,FALSE,,"Amatöörraadiojaama, mis toimib ainult teatud kindlal sagedusel ja kellaajal.",An amateur radio station that operates only on a specific frequency and time of day
+,FALSE,,"Amatöörraadiojaama, mida võivad kasutada ka raadioamatööri kvalifikatsiooni mitteomavad isikud.",An amateur radio station that can also be used by persons without amateur radio qualifications
+,TRUE,,"Amatöörraadiojaama, mis kuulub juriidilisele isikule või ERAÜ juures registreeritud raadioamatööride kollektiivile.",An amateur radio station owned by a legal entity or a collective of radio amateurs registered with the Estonian Radio and Television Association
+,FALSE,,Kõik amatöörraadiojaamad.,All amateur radio stations
+,,,,
+,question,,Amatöörraadiojaama registreeritud asukohaks loetakse:,The registered location of an amateur radio station is considered to be:
+,,,,
+,FALSE,,"Asukoht, kust konkreetne raadiojaam antud ajahetkel väljub eetrisse.",The location from which a specific radio station is broadcasting at a given time.
+,FALSE,,Amatöörraadiojaama valdaja elukoht.,Residence of the owner of the amateur radio station.
+,FALSE,,"See asukoht, mille antud amatöörraadiojaama valdaja märgib päevikusse.",This is the location that the owner of a given amateur radio station records in the logbook.
+,,,,
+,question,,Amatöörraadiosideks loetakse:,Amateur radio communication is considered to be:
+,,,,
+,TRUE,,"Mittetulunduslikku raadiosidet, milles osalevad ainult raadioamatöörid.",Non-profit radio communication in which only radio amateurs participate.
+,FALSE,,"Raadiosidet, milles korrespondentide valik on vaba.",Radio communication in which the choice of correspondents is free.
+,FALSE,,"Raadiosidet, kus osapooled vahetavad informatsiooni ainult morsekoodi abil.","Radio communication, where the parties exchange information only using Morse code."
+,FALSE,,"Raadiosidet, milles lisaks raadioamatööridele võivad korrespondentideks olla ka ametkondlikud raadiojaamad.","Radio communication, in which, in addition to radio amateurs, official radio stations can also be correspondents."
+,,,,
+,question,,Amatöörraadiosidet tohib kasutada:,Amateur radio communications may be used:
+,,,,
+,FALSE,,"Sagedusalades, mis vastavad IARU 2.regiooni sagedusplaanile.",In frequency bands that correspond to the IARU Region 2 frequency plan.
+,TRUE,,"Ainult sagedusalades, mis on eraldatud amatöörraadiosideks Eesti raadiosageduste plaaniga.",Only in frequency bands that are allocated for amateur radio by the Estonian radio frequency plan.
+,FALSE,,Ainult mitteavalike raadiosõnumite edastamiseks.,For non-public radio transmission only.
+,FALSE,,Ainult täiendavalt kodeeritud sõnumite edastamiseks.,Only for transmitting additionally encoded messages.
+,,,,
+,question,,Raadioamatööriks loetakse isikut:,A radio amateur is considered to be a person:
+,,,,
+,FALSE,,"Kes oma vanuse, raadiotehniliste teadmiste ja elukogemuste põhjal võib seda nimetust kanda","A person who, based on their age, radio technical knowledge and life experience, can bear this titlle"
+,FALSE,,"Kes kasutab tavalist ,headest tavadest lähtuvat kõnekeelt raadioside pidamisel.","A person who uses normal, good-practice spoken language when conducting radio communications"
+,TRUE,,"Isikut, kes omab raadioamatööri kvalifikatsioonitunnistust.",A person who holds a radio amateur qualification certificate
+,FALSE,,Kes on ERAÜ tegevliige.,A person who is an active member of the Estonian Amateur Radio League
+,,,,
+,question,,Amatöörraadiosides tohib edastada sihituseta või korrespondendita saateid:,Amateur radio stations may transmit untargeted or uncorrespondent programs:
+,,,,
+,FALSE,,Amatöörtelevisiooni saatja video- ja helikanali edastamiseks.,Amateur Television transmitter for transmitting video and audio channels.
+,TRUE,,Amatöörraadiomajakate poolt.,By amateur radio beacons.
+,TRUE,,Kõikidele Eesti raadioamatööridele määratud infoteadete edastamiseks.,For transmitting information messages designated for all Estonian radio amateurs.
+,FALSE,,Ainult Morse koodis tähestiku õppe-treeningtekstide edastamiseks.,Only for transmitting alphabet learning and training texts in Morse code.
+,,,,
+,question,,Eesti amatöörraadiojaamale eraldatav kutsung koosneb:,The call sign assigned to an Estonian amateur radio station consists of:
+,,,,
+,FALSE,,"Kolmetähelisest eesliitest, kahekohalisest numbrist ja kolmetähelisest järelliitest.","A three-letter prefix, a two-digit number, and a three-letter suffix."
+,FALSE,,"Ühetähelisest eesliitest, ühekohalisest numbrist ja neljatähelisest järelliitest.","A one-letter prefix, a one-digit number, and a four-letter suffix."
+,TRUE,,"Kahetähelisest eesliitest, numbrist ja kuni kolmetähelisest järelliitest.","A two-letter prefix, a number, and up to a three-letter suffix."
+,FALSE,,Kahekohalisest numbrilisest eesliitest ja kuni kolmetähelisest järelliitest.,A two-digit numeric prefix and up to a three-letter suffix.
+,,,,
+,question,,Haapsalus registreeritud amatöörraadiojaama kutsung algab:,The callsign of the amateur radio station registered in Haapsalu begins:
+,,,,
+,FALSE,,ES1,ES1
+,FALSE,,ES2,ES2
+,TRUE,,ES3,ES3
+,FALSE,,ES0,ES0
+,,,,
+,question,,Kutsung ES9Z kuulub piirkondlikult:,The call ES9Z belongs regionally to:
+,,,,
+,FALSE,,Hiiumaale.,Hiiumaa
+,TRUE,,"Üleriigiline, kasutamiseks ainult ERAÜ poolt.","Nationwide, for use only by the Estonian Amateur Radio League"
+,FALSE,,Põlvamaale.,Põlvamaa
+,FALSE,,"Üleriigiline, kasutamiseks ainult Punase Risti poolt.","Nationwide, for use only by the Red Cross."
+,,,,
+,question,,Kutsung ES2XX võib kuuluda millise klassi Eesti amatöörraadiojaamale?,The callsign ES2XX may belong to which class of Estonian amateur radio station?
+,,,,
+,FALSE,,C,C
+,FALSE,,B,B
+,TRUE,,A,A
+,FALSE,,On välja antud eriloa alusel.,Issued under special permission.
+,,,,
+,question,,Ühiskasutusega (raadioklubi) amatöörraadiojaamale omistatakse kutsung:,A shared (radio club) amateur radio station is assigned the call sign:
+,,,,
+,FALSE,,AAA-CCC,AAA-CCC
+,TRUE,,A-ZZ,A-ZZ
+,FALSE,,XAA-ZZZ,XAA-ZZZ
+,FALSE,,ABC-DZZ,ABC-DZZ
+,,,,
+,question,,Ühiskasutusega (raadioklubi) amatöörraadiojaama vastutavaks järelvaatajaks võib olla ainult:,The responsible supervisor of a shared (radio club) amateur radio station may only be:
+,,,,
+,TRUE,,A-klassi kvalifikatsioonitunnistust omav raadioamatöör.,A radio amateur holding an A-class license
+,FALSE,,B-klassi kvalifikatsioonitunnistust omav raadioamatöör.,A radio amateur holding a B-class license
+,FALSE,,C-klassi kvalifikatsioonitunnistust omav raadioamatöör.,A radio amateur holding a C-class license
+,FALSE,,Riigiametnik.,Government official
+,,,,
+,question,,Amatöörraadiojaama luba väljastatakse Tehnilise Järelevalve Ameti poolt kestvusega:,An amateur radio station license is issued by the Technical Surveillance Authority for a period of:
+,,,,
+,FALSE,,Tähtajatu.,Indefinite
+,FALSE,,1 aasta.,1 year
+,FALSE,,3 aastat.,3 years
+,TRUE,,5 aastat,5 years
+,,,,
+,question,,Amatöörraadiojaama tohib kasutada:,An amateur radio station may be used:
+,,,,
+,FALSE,,Ainult raadioamatööri harmoneeritud kvalifikatsioonitunnistuse alusel.,Only on the basis of a harmonized qualification certificate for radio amateurs
+,TRUE,,Ainult kehtiva amatöörraadiojaama tööloa alusel.,Only with a valid amateur radio station operating license
+,FALSE,,Ainult raadioamatööri kvalifikatsioonieksami sooritamise tunnistuse alusel.,Only on the basis of a certificate of passing the radio amateur qualification exam
+,FALSE,,Ainult ERAÜ poolt väljaantud vastava loa alusel.,Only on the basis of a corresponding permit issued by the ERAÜ
+,,,,
+,question,,Amatöörraadiojaama tööluba kuulub hoidmisele:,An amateur radio station operating permit must be held by:
+,,,,
+,FALSE,,Raadiojaama valdaja elukohas.,The radio station owner's place of residence
+,FALSE,,Raadiojaama registreeritud asukohas.,At the registered location of the radio station
+,FALSE,,Tehnilise Järelevalve Ametis.,Technical Supervision Authority
+,FALSE,,Tehnilise Järelevalve Ameti lubade osakonnas.,In the Permits Department of the Technical Surveillance Authority
+,,,,
+,question,,Amatöörraadiojaama alaline (kohtpaikne) kasutamine väljaspool selle registreeritud asukohta ilma tööloa muutmiseta on lubatud:,Permanent (local) use of an amateur radio station outside its registered location without changing the operating permit is permitted:
+,,,,
+,FALSE,,Kolm kuud.,Three months
+,FALSE,,Viis kuud.,Five months
+,FALSE,,Kuus kuud.,Six months
+,FALSE,,Üks aasta.,One year

@@ -14,25 +14,29 @@ export default {
         {
           "correct": true,
           "text": {
-            "ee": "Sagedus ei tohi olla hõivatud teiste amatööride poolt."
+            "ee": "Sagedus ei tohi olla hõivatud teiste amatööride poolt.",
+            "en": "The frequency must not be occupied by other amateurs."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Peate kuulma sel sagedusel mõnd jaama veendumaks et teid võidaks kuulda."
+            "ee": "Peate kuulma sel sagedusel mõnd jaama veendumaks et teid võidaks kuulda.",
+            "en": "You need to listen to a station on that frequency to make sure you can be heard."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Teie antenn peab olema resonantsis antud sagedusel."
+            "ee": "Teie antenn peab olema resonantsis antud sagedusel.",
+            "en": "Your antenna must be in resonance at a given frequency."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Peate veenduma,et seisulainetegur antenni toitejuhtmes oleks piisavalt kõrge."
+            "ee": "Peate veenduma,et seisulainetegur antenni toitejuhtmes oleks piisavalt kõrge.",
+            "en": "You need to make sure that the standing wave factor in the antenna feed line is high enough."
           }
         }
       ],
@@ -48,25 +52,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "80 või 40 m band."
+            "ee": "80 või 40 m band.",
+            "en": "80 or 40 meter band"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "40 või 15 m band."
+            "ee": "40 või 15 m band.",
+            "en": "40 or 15 meter band"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "15 või 10 m band."
+            "ee": "15 või 10 m band.",
+            "en": "15 or 10 meter band"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "2m või 23 cm band."
+            "ee": "2m või 23 cm band.",
+            "en": "2 meter or 23 cm band"
           }
         }
       ],
@@ -82,25 +90,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Kasutades suvalise pikkusega antenni."
+            "ee": "Kasutades suvalise pikkusega antenni.",
+            "en": "Using an antenna of any length."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Häälestades jaama esmalt 40m bandil siis minna üle teistele bandidele."
+            "ee": "Häälestades jaama esmalt 40m bandil siis minna üle teistele bandidele.",
+            "en": "When tuning the station first on the 40m band, then switch to other bands."
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Kasutades jaama häälestamiseks antenni ekvivalenti (dummy load)."
+            "ee": "Kasutades jaama häälestamiseks antenni ekvivalenti (dummy load).",
+            "en": "Using an antenna equivalent (dummy load) to tune the station."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Kasutades koaksiaalkaabli asemel lapikjuhet."
+            "ee": "Kasutades koaksiaalkaabli asemel lapikjuhet.",
+            "en": "Using a flat cable instead of a coaxial cable."
           }
         }
       ],
@@ -116,25 +128,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Teatate jaamale, et sagedus on hõivatud."
+            "ee": "Teatate jaamale, et sagedus on hõivatud.",
+            "en": "You inform the station that the frequency is busy."
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Hakkate otsekohe hädaabikutse infovahetust kirja panema."
+            "ee": "Hakkate otsekohe hädaabikutse infovahetust kirja panema.",
+            "en": "You will immediately begin recording the emergency call information exchange."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Helistate Päästeametisse."
+            "ee": "Helistate Päästeametisse.",
+            "en": "You call the Rescue Board."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Helistate Tehnilise Järelevalve Ametisse."
+            "ee": "Helistate Tehnilise Järelevalve Ametisse.",
+            "en": "You call the Technical Surveillance Authority."
           }
         }
       ],
@@ -150,25 +166,29 @@ export default {
         {
           "correct": true,
           "text": {
-            "ee": "Saadate kolm korda \"CQ\", millele järgneb protseduurisignaal \"DE\" ja kolm korda oma kutsungi."
+            "ee": "Saadate kolm korda \"CQ\", millele järgneb protseduurisignaal \"DE\" ja kolm korda oma kutsungi.",
+            "en": "You send \"CQ\" three times, followed by the procedure signal \"DE\" and your callsign three times"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Saadate \"CQ\" kolm korda,\"DE\" üks kord ja oma kutsungi ka üks kord."
+            "ee": "Saadate \"CQ\" kolm korda,\"DE\" üks kord ja oma kutsungi ka üks kord.",
+            "en": "You send \"CQ\" three times, \"DE\" once, and your callsign once"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Saadate \"CQ\" kümme korda, \"DE\" üks kord ja oma kutsung üks kord."
+            "ee": "Saadate \"CQ\" kümme korda, \"DE\" üks kord ja oma kutsung üks kord.",
+            "en": "You send \"CQ\" ten times, \"DE\" once, and your callsign once"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Saadate pidevalt \"CQ\" kuni keegi kutsub teid."
+            "ee": "Saadate pidevalt \"CQ\" kuni keegi kutsub teid.",
+            "en": "You keep sending \"CQ\" until someone calls you"
           }
         }
       ],
@@ -178,31 +198,35 @@ export default {
       "id": "M11A-Q6",
       "text": {
         "ee": "Kuidas te vastate \"CQ\" väljakutsele?",
-        "en": "How do you respond to the \"CQ\" challenge?"
+        "en": "How do you respond to someone calling \"CQ\"?"
       },
       "answers": [
         {
           "correct": false,
           "text": {
-            "ee": "Saadate oma kutsungit neli korda."
+            "ee": "Saadate oma kutsungit neli korda.",
+            "en": "You send your callsign four times"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Saadate teise jaama kutsungi kaks korda, \"DE\" ja oma kutsungi kaks korda."
+            "ee": "Saadate teise jaama kutsungi kaks korda, \"DE\" ja oma kutsungi kaks korda.",
+            "en": "You send the other station's call sign twice, \"DE\", and your call sign twice"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Saadate teise jaama kutsungi üks kord,\"DE\" ja oma kutsungi neli korda."
+            "ee": "Saadate teise jaama kutsungi üks kord,\"DE\" ja oma kutsungi neli korda.",
+            "en": "You send the other station's call sign once, \"DE\", and your call sign four times"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Saadate oma kutsungi, nime, jaama asukoha ja signaali rapordi."
+            "ee": "Saadate oma kutsungi, nime, jaama asukoha ja signaali rapordi.",
+            "en": "You send your call sign, name, station location, and signal report"
           }
         }
       ],
@@ -218,25 +242,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Aeglasemalt kui 25 märki minutis."
+            "ee": "Aeglasemalt kui 25 märki minutis.",
+            "en": "Slower than 25 characters per minute"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Suurima kiirusega, mida teie võti on võimeline arendama."
+            "ee": "Suurima kiirusega, mida teie võti on võimeline arendama.",
+            "en": "At the highest speed that your key is capable of developing"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Kiirusega, millist olete ise võimeline korralikult vastu võtma."
+            "ee": "Kiirusega, millist olete ise võimeline korralikult vastu võtma.",
+            "en": "At a speed that you are able to properly receive"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Suurima kiirusegamillega olete võimeline oma võtit manipuleerima."
+            "ee": "Suurima kiirusegamillega olete võimeline oma võtit manipuleerima.",
+            "en": "The fastest speed at which you are able to manipulate your key"
           }
         }
       ],
@@ -252,25 +280,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Vastaku ainult kutsutud jaam."
+            "ee": "Vastaku ainult kutsutud jaam.",
+            "en": "Only the called station should answer"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Kõik on korralikult vastu võetud."
+            "ee": "Kõik on korralikult vastu võetud.",
+            "en": "Everything has been properly received"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Saate lõpp."
+            "ee": "Saate lõpp.",
+            "en": "End of the current transmission"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Parimad tervitused."
+            "ee": "Parimad tervitused.",
+            "en": "Best regards"
           }
         }
       ],
@@ -286,25 +318,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Enam-vähem korralikult vastu võetud."
+            "ee": "Enam-vähem korralikult vastu võetud.",
+            "en": "More or less properly received"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Parimad tevitused."
+            "ee": "Parimad tevitused.",
+            "en": "Best regards"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Side lõpp."
+            "ee": "Side lõpp.",
+            "en": "End of the QSO / contact"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Oodake."
+            "ee": "Oodake.",
+            "en": "Wait"
           }
         }
       ],
@@ -320,25 +356,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Murrujoon."
+            "ee": "Murrujoon.",
+            "en": "Murrujoon"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Side lõpp."
+            "ee": "Side lõpp.",
+            "en": "End of the current transmission"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Vastaku ainult kutsutud jaam."
+            "ee": "Vastaku ainult kutsutud jaam.",
+            "en": "Only the called station should answer"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Saatke nüüd."
+            "ee": "Saatke nüüd.",
+            "en": "Saatke nüüd"
           }
         }
       ],
@@ -354,25 +394,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Teisele jaamale märguandmiseks, et kutsute teda veerand tunni pärast."
+            "ee": "Teisele jaamale märguandmiseks, et kutsute teda veerand tunni pärast.",
+            "en": "To signal to another station that you will call them in a quarter of an hour"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Märguandmiseks,et proovite uut antenni ja väljakutsetele ei vasta."
+            "ee": "Märguandmiseks,et proovite uut antenni ja väljakutsetele ei vasta.",
+            "en": "To indicate that you are trying a new antenna and it is not responding to the challenges"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Üldväljakutse märkimaks,et üritate kellegagi ühendust luua."
+            "ee": "Üldväljakutse märkimaks,et üritate kellegagi ühendust luua.",
+            "en": "A general call to indicate that you are trying to connect with someone"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Ainult kutsutud jaam tohib vastata."
+            "ee": "Ainult kutsutud jaam tohib vastata.",
+            "en": "Only the called station may answer"
           }
         }
       ],
@@ -388,25 +432,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Mind segavad staatilised häired."
+            "ee": "Mind segavad staatilised häired.",
+            "en": "I'm bothered by static."
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Saatke aeglasemalt."
+            "ee": "Saatke aeglasemalt.",
+            "en": "Send slower"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Saatke RST raport."
+            "ee": "Saatke RST raport.",
+            "en": "Send RST report"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Raadiojaama asukoht on ..."
+            "ee": "Raadiojaama asukoht on ...",
+            "en": "Radio station location is..."
           }
         }
       ],
@@ -422,25 +470,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Kellaaeg on ..."
+            "ee": "Kellaaeg on ...",
+            "en": "The time is..."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Minu nimi on ..."
+            "ee": "Minu nimi on ...",
+            "en": "My name is..."
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Minu asukoht on ..."
+            "ee": "Minu asukoht on ...",
+            "en": "My location is..."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Lõpetage saatmine."
+            "ee": "Lõpetage saatmine.",
+            "en": "Stop sending"
           }
         }
       ],
@@ -456,25 +508,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Saadate teise jaama kutsungi vähemalt kümme korda, siis sõnad \"this is\", seejärel oma kutsung vähemalt kaks korda."
+            "ee": "Saadate teise jaama kutsungi vähemalt kümme korda, siis sõnad \"this is\", seejärel oma kutsung vähemalt kaks korda.",
+            "en": "You send the other station's call sign at least ten times, then the words \"this is\", then your call sign at least twice."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Saadate fraasi \"CQ\" vähemalt viis korda, siis \"this is\" ja oma kutsung üks kord."
+            "ee": "Saadate fraasi \"CQ\" vähemalt viis korda, siis \"this is\" ja oma kutsung üks kord.",
+            "en": "You send the phrase \"CQ\" at least five times, then \"this is\" and your callsign once."
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Saadate fraasi \"CQ\" kolm korda, \"this is\" ja oma kutsungi kolm korda."
+            "ee": "Saadate fraasi \"CQ\" kolm korda, \"this is\" ja oma kutsungi kolm korda.",
+            "en": "You send the phrase \"CQ\" three times, \"this is\" and your callsign three times."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Saadate fraasi \"CQ\" vähemalt kümme korda, \"this is\" ja oma kutsungi ühe korra."
+            "ee": "Saadate fraasi \"CQ\" vähemalt kümme korda, \"this is\" ja oma kutsungi ühe korra.",
+            "en": "You will send the phrase \"CQ\" at least ten times, \"this is\" and your callsign once."
           }
         }
       ],
@@ -484,31 +540,35 @@ export default {
       "id": "M11A-Q15",
       "text": {
         "ee": "Kuidas te vastate raadiotelefoni väljakutsele?",
-        "en": "How do you respond to the radiotelephone challenge?"
+        "en": "How do you respond someone calling CQ on Phone mode?"
       },
       "answers": [
         {
           "correct": false,
           "text": {
-            "ee": "Saadate teise jaama kutsungit kümme korda ,siis \"this is\" ja oma kutsungit vähe-malt kaks korda."
+            "ee": "Saadate teise jaama kutsungit kümme korda ,siis \"this is\" ja oma kutsungit vähe-malt kaks korda.",
+            "en": "You send the other station's call sign ten times, then \"this is\" and your call sign at least twice."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Saadate teise jaama kutsungit veerimistabelit kasutades vähemalt viis korda, \"this is\" ja oma kutsungit vähemalt üks kord."
+            "ee": "Saadate teise jaama kutsungit veerimistabelit kasutades vähemalt viis korda, \"this is\" ja oma kutsungit vähemalt üks kord.",
+            "en": "You send the other station's call sign using the rolling table at least five times, \"this is\" and your call sign at least once."
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Saadate teise jaama kutsungit ühe korra,\"this is\" ja oma kutsungit veerimista-belit kasutades ühe korra."
+            "ee": "Saadate teise jaama kutsungit ühe korra,\"this is\" ja oma kutsungit veerimista-belit kasutades ühe korra.",
+            "en": "You send the other station's call sign once, \"this is\" and your call sign once using the phonetic alphabet."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Saadate teise jaama kutsungit kolm korda, \"this is\" ja oma kutsungit veerimistabelit kasutades vähemalt viis korda."
+            "ee": "Saadate teise jaama kutsungit kolm korda, \"this is\" ja oma kutsungit veerimistabelit kasutades vähemalt viis korda.",
+            "en": "You send the other station's call sign three times, \"this is\" and your call sign using the phonetic alphabet at least five times."
           }
         }
       ],
@@ -524,25 +584,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Eemeli Sagari Nine Aarne."
+            "ee": "Eemeli Sagari Nine Aarne.",
+            "en": "Eemeli Sagari Nine Aarne."
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Echo Sierra Nine Alfa."
+            "ee": "Echo Sierra Nine Alfa.",
+            "en": "Echo Sierra Nine Alfa."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Edward Santiago Nine Alabama."
+            "ee": "Edward Santiago Nine Alabama.",
+            "en": "Edward Santiago Nine Alabama."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Echo Sugar Nine America."
+            "ee": "Echo Sugar Nine America.",
+            "en": "Echo Sugar Nine America."
           }
         }
       ],
@@ -558,25 +622,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Able Easy Zero Lima Quebec Yankee."
+            "ee": "Able Easy Zero Lima Quebec Yankee.",
+            "en": "Able Easy Zero Lima Quebec Yankee."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Arizona Equador Zero London Queen Yesterday."
+            "ee": "Arizona Equador Zero London Queen Yesterday.",
+            "en": "Arizona Equador Zero London Queen Yesterday."
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Alfa Echo Zero Lima Quebec Yankee."
+            "ee": "Alfa Echo Zero Lima Quebec Yankee.",
+            "en": "Alfa Echo Zero Lima Quebec Yankee."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Able Easy Zero Love Queen Yoke."
+            "ee": "Able Easy Zero Love Queen Yoke.",
+            "en": "Able Easy Zero Love Queen Yoke."
           }
         }
       ],
@@ -592,25 +660,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Aktsiaselts."
+            "ee": "Aktsiaselts.",
+            "en": "Aktsiaselts"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Asu saatele."
+            "ee": "Asu saatele.",
+            "en": "Get on the air"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Oodake."
+            "ee": "Oodake.",
+            "en": "Wait"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Mis on teie nimi?"
+            "ee": "Mis on teie nimi?",
+            "en": "What is your name?"
           }
         }
       ],
@@ -626,25 +698,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Signaali taastumist."
+            "ee": "Signaali taastumist.",
+            "en": "Signal recovery"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "CW tooni resonantsi."
+            "ee": "CW tooni resonantsi.",
+            "en": "CW tone resonance"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Signaali loetavust."
+            "ee": "Signaali loetavust.",
+            "en": "Signal readability"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Signaalitugevuse värelemise astet."
+            "ee": "Signaalitugevuse värelemise astet.",
+            "en": "The degree of signal strength flicker"
           }
         }
       ],
@@ -660,25 +736,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Kas pean saatma teile oma jaamapäeviku?"
+            "ee": "Kas pean saatma teile oma jaamapäeviku?",
+            "en": "Do I need to send you my station logbook?"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Kas võite kinnitada minu saadetud teate kättesaamist?"
+            "ee": "Kas võite kinnitada minu saadetud teate kättesaamist?",
+            "en": "Can you confirm receipt of the message I sent?"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Kas pean saatma aeglasemalt?"
+            "ee": "Kas pean saatma aeglasemalt?",
+            "en": "Kas pean saatma aeglasemalt?"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Kes mind kutsub?"
+            "ee": "Kes mind kutsub?",
+            "en": "Who is calling me?"
           }
         }
       ],

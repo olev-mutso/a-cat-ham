@@ -14,25 +14,29 @@ export default {
         {
           "correct": true,
           "text": {
-            "ee": "Silmad."
+            "ee": "Silmad.",
+            "en": "Eyes"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Käed."
+            "ee": "Käed.",
+            "en": "Hands"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Süda."
+            "ee": "Süda.",
+            "en": "Heart"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Maks."
+            "ee": "Maks.",
+            "en": "Liver"
           }
         }
       ],
@@ -48,25 +52,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Kutsub esile kiiritushaiguse."
+            "ee": "Kutsub esile kiiritushaiguse.",
+            "en": "Causes radiation sickness."
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Kuumendab kudesid."
+            "ee": "Kuumendab kudesid.",
+            "en": "Heats tissues."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Jahutab kudesid."
+            "ee": "Jahutab kudesid.",
+            "en": "Cools tissues."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Põhjustab kudedes geneetilisi muutusi."
+            "ee": "Põhjustab kudedes geneetilisi muutusi.",
+            "en": "Causes genetic changes in tissues."
           }
         }
       ],
@@ -82,25 +90,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "1000A"
+            "ee": "1000A",
+            "en": "1000 A"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "0,1A"
+            "ee": "0,1A",
+            "en": "0.1 A"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "10mA"
+            "ee": "10mA",
+            "en": "10 mA"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "50uA"
+            "ee": "50uA",
+            "en": "50 uA"
           }
         }
       ],
@@ -116,25 +128,29 @@ export default {
         {
           "correct": true,
           "text": {
-            "ee": "Hakkad otsima telefoni, et abi kutsuda."
+            "ee": "Hakkad otsima telefoni, et abi kutsuda.",
+            "en": "You start looking for the phone to call for help."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Mingi voolu mittejuhtiva eseme abil vabastad kannatanu juhtmetest ja alustad kohe südame kaudse massaaži ja kunstliku hingamise tegemist samaaegselt hüüdes abi järele."
+            "ee": "Mingi voolu mittejuhtiva eseme abil vabastad kannatanu juhtmetest ja alustad kohe südame kaudse massaaži ja kunstliku hingamise tegemist samaaegselt hüüdes abi järele.",
+            "en": "Using a non-conductive object, free the victim from the wires and immediately begin performing indirect heart massage and artificial respiration while simultaneously calling for help."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Viskad elektrijuhtmetele mingi maandusjuhtme."
+            "ee": "Viskad elektrijuhtmetele mingi maandusjuhtme.",
+            "en": "You throw some kind of ground wire on the electrical wires."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Otsid lülitit, et vool välja lülitada."
+            "ee": "Otsid lülitit, et vool välja lülitada.",
+            "en": "Looking for a switch to turn off the power."
           }
         }
       ],
@@ -150,25 +166,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Tuleb maha võtta kõik varjestused-ekraanid maksimaalse jahutuse saamiseks."
+            "ee": "Tuleb maha võtta kõik varjestused-ekraanid maksimaalse jahutuse saamiseks.",
+            "en": "All shielding and screens must be removed to achieve maximum cooling."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Lülitada sisse mürasild interferentshäirete vähendamiseks."
+            "ee": "Lülitada sisse mürasild interferentshäirete vähendamiseks.",
+            "en": "Turn on the noise bridge to reduce interference."
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Tuleb veenduda,et kõik varjestused on kinnitatud oma kohale."
+            "ee": "Tuleb veenduda,et kõik varjestused on kinnitatud oma kohale.",
+            "en": "You must make sure that all shielding is secured in place."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Vaadata,et interferentshäirete vältimiseks ükski antenn ei oleks jaama külge ühendatud."
+            "ee": "Vaadata,et interferentshäirete vältimiseks ükski antenn ei oleks jaama külge ühendatud.",
+            "en": "Make sure that no antenna is connected to the station to avoid interference."
           }
         }
       ],
@@ -184,25 +204,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Et vai ei asuks antennimastile liialt lähedal."
+            "ee": "Et vai ei asuks antennimastile liialt lähedal.",
+            "en": "So that the pole is not too close to the antenna mast."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Et vai oleks küllaldase pikkusega."
+            "ee": "Et vai oleks küllaldase pikkusega.",
+            "en": "So that the stake is of sufficient length."
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Et löögisuuna pikendusel ei seisaks inimesi, keda varre otsast juhuslikult äralendav kirves või vasar võiks vigastada."
+            "ee": "Et löögisuuna pikendusel ei seisaks inimesi, keda varre otsast juhuslikult äralendav kirves või vasar võiks vigastada.",
+            "en": "So that there are no people standing in the extended direction of impact who could be injured by an axe or hammer accidentally flying off the end of the handle."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Kas löögiriista vars on küllaldase pikkusega."
+            "ee": "Kas löögiriista vars on küllaldase pikkusega.",
+            "en": "Is the handle of the percussion instrument of sufficient length?"
           }
         }
       ],
@@ -218,25 +242,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Kas puud on küllaldaselt kuivad."
+            "ee": "Kas puud on küllaldaselt kuivad.",
+            "en": "Are the trees dry enough?"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Tuleb seista jalad harki, et juhuslikul puust möödalöömisel kirves ei tabaks jalgu."
+            "ee": "Tuleb seista jalad harki, et juhuslikul puust möödalöömisel kirves ei tabaks jalgu.",
+            "en": "You have to stand with your feet apart so that if you accidentally miss a tree, the axe doesn't hit your feet."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Usaldada see töö kellelegi teisele."
+            "ee": "Usaldada see töö kellelegi teisele.",
+            "en": "Entrust this job to someone else."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Mõelda sellele, kas raieluba sai hangitud."
+            "ee": "Mõelda sellele, kas raieluba sai hangitud.",
+            "en": "Think about whether a logging permit was obtained."
           }
         }
       ],
@@ -252,25 +280,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Kas antenn maast vaadatuna jätab kena mulje."
+            "ee": "Kas antenn maast vaadatuna jätab kena mulje.",
+            "en": "Does the antenna make a nice impression when viewed from the ground?"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Ega antenn mitte kuskil naabrimehe krundi nurgast üle ei käiks."
+            "ee": "Ega antenn mitte kuskil naabrimehe krundi nurgast üle ei käiks.",
+            "en": "The antenna would not cross the corner of the neighbor's plot anywhere."
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Et antenn püstitamisel, pööramisel või tuule käes kõikudes mitte kuskil ei puudutaks elektriülekandeliinide juhtmeid."
+            "ee": "Et antenn püstitamisel, pööramisel või tuule käes kõikudes mitte kuskil ei puudutaks elektriülekandeliinide juhtmeid.",
+            "en": "So that the antenna does not touch any power transmission line wires when erected, rotated, or swayed in the wind."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Et tõmmitsad ei oleks liialt pingule tõmmatud."
+            "ee": "Et tõmmitsad ei oleks liialt pingule tõmmatud.",
+            "en": "So that the pullers are not pulled too tight."
           }
         }
       ],
@@ -280,31 +312,35 @@ export default {
       "id": "M10A-Q9",
       "text": {
         "ee": "Tehes tööd kõrgel antennimasti otsas tuleb jälgida et....",
-        "en": "Tehes tööd kõrgel antennimasti otsas tuleb jälgida et...."
+        "en": "When working high up on an antenna mast, you must ensure that..."
       },
       "answers": [
         {
           "correct": false,
           "text": {
-            "ee": "Lähiajal ei oleks oodata piksevihma."
+            "ee": "Lähiajal ei oleks oodata piksevihma.",
+            "en": "No thunderstorms are expected in the near future."
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Kasutatavad tööriistad oleksid paigutatud ja kinnitatud selliselt, et nad ei saaks allolijatele pähe kukkuda."
+            "ee": "Kasutatavad tööriistad oleksid paigutatud ja kinnitatud selliselt, et nad ei saaks allolijatele pähe kukkuda.",
+            "en": "The tools used would be placed and secured in such a way that they could not fall on the heads of those below."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Kas kõik vajalik on kaasas, et ei peaks mitu korda üles - alla ronima."
+            "ee": "Kas kõik vajalik on kaasas, et ei peaks mitu korda üles - alla ronima.",
+            "en": "Is everything you need included so you don't have to climb up and down multiple times?"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Et jalanõude tallad ei oleks libedad."
+            "ee": "Et jalanõude tallad ei oleks libedad.",
+            "en": "So that the soles of your shoes are not slippery."
           }
         }
       ],
@@ -320,25 +356,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Kas tagasisõiduks bensiini jätkub."
+            "ee": "Kas tagasisõiduks bensiini jätkub.",
+            "en": "Will there be enough gasoline for the return trip?"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Et mitte mingisugust auto osa ei oleks kasutatud antenni, antenni- või jõukaablite kinnituspunktidena, mis auto suvalisel ärasõidul viib kaasa pool laagrit koos kallite aparaatidega ja võib põhjustada õnnetusi inimestega."
+            "ee": "Et mitte mingisugust auto osa ei oleks kasutatud antenni, antenni- või jõukaablite kinnituspunktidena, mis auto suvalisel ärasõidul viib kaasa pool laagrit koos kallite aparaatidega ja võib põhjustada õnnetusi inimestega.",
+            "en": "That no part of the car is used as an antenna, antenna or power cable attachment point, which, if the car is driven away, will take half the camp with it along with expensive equipment and could cause accidents with people."
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Et auto ei saaks iseenesest liikuma hakata."
+            "ee": "Et auto ei saaks iseenesest liikuma hakata.",
+            "en": "So that the car cannot start moving by itself."
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Et autoraadio liigse kuulamise tulemusel jääks auto akusse veel energiat mootori käivitamiseks."
+            "ee": "Et autoraadio liigse kuulamise tulemusel jääks auto akusse veel energiat mootori käivitamiseks.",
+            "en": "So that as a result of listening to the car radio too much, there would still be energy left in the car battery to start the engine."
           }
         }
       ],

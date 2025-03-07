@@ -14,25 +14,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Detektor, mis annab ostsillaatorsignaali seguastme sisendisse."
+            "ee": "Detektor, mis annab ostsillaatorsignaali seguastme sisendisse.",
+            "en": "A detector that provides an oscillator signal to the input of a mixing stage"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Võimendav detektor, mis kitsendab vastuvõtja võimenduskanali pääsuriba."
+            "ee": "Võimendav detektor, mis kitsendab vastuvõtja võimenduskanali pääsuriba.",
+            "en": "Amplifying detector that narrows the passband of the receiver's amplification channel"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Detektor, mis kasutab segustusprotsessis vastuvõtjas genereeritud kandesagedust."
+            "ee": "Detektor, mis kasutab segustusprotsessis vastuvõtjas genereeritud kandesagedust.",
+            "en": "A detector that uses the carrier frequency generated in the receiver in a mixing process"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Detektor, mida kasutatakse ristmodulatsiooniproduktide detekteerimiseks."
+            "ee": "Detektor, mida kasutatakse ristmodulatsiooniproduktide detekteerimiseks.",
+            "en": "Detector used to detect cross-modulation products"
           }
         }
       ],
@@ -48,25 +52,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Sisendsignaali kahe- ja neljakordne sagedus."
+            "ee": "Sisendsignaali kahe- ja neljakordne sagedus.",
+            "en": "Double and quadruple frequency of the input signal"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Sisendsageduste summa, vahe ja ruutjuurkordne sagedus."
+            "ee": "Sisendsageduste summa, vahe ja ruutjuurkordne sagedus.",
+            "en": "Sum, difference, and square root frequency of input frequencies"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Sisendsagedused ning summaarne ja vahesagedus."
+            "ee": "Sisendsagedused ning summaarne ja vahesagedus.",
+            "en": "Input frequencies and total and intermediate frequencies"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Sisendsageduste 1,414 ja 0,707 kordse sagedused."
+            "ee": "Sisendsageduste 1,414 ja 0,707 kordse sagedused.",
+            "en": "Sisendsageduste 1,414 ja 0,707 kordse sagedused"
           }
         }
       ],
@@ -82,25 +90,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Vastuvõetaval kandelainel oleva informatsiooni sumbutamist S-meetri tööleraken-damise eesmärgil."
+            "ee": "Vastuvõetaval kandelainel oleva informatsiooni sumbutamist S-meetri tööleraken-damise eesmärgil.",
+            "en": "Attenuation of the information on the received carrier wave for the purpose of operating the S-meter"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Moduleeritud kõrgsagedussignaalilt informatsiooni eraldamine."
+            "ee": "Moduleeritud kõrgsagedussignaalilt informatsiooni eraldamine.",
+            "en": "Extracting information from a modulated high-frequency signal"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Kandelaine modulatsiooni."
+            "ee": "Kandelaine modulatsiooni.",
+            "en": "Carrier modulation"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Müra segustamine vastuvõetava signaaliga."
+            "ee": "Müra segustamine vastuvõetava signaaliga.",
+            "en": "Mixing noise with an acceptable signal"
           }
         }
       ],
@@ -116,25 +128,29 @@ export default {
         {
           "correct": true,
           "text": {
-            "ee": "FM signaalide detekteerimiseks kasutatav lülitus"
+            "ee": "FM signaalide detekteerimiseks kasutatav lülitus",
+            "en": "Circuit used to detect FM signals"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Kahe kandelaine naabruses asuva parasiitsignaali filtreerimislülitus"
+            "ee": "Kahe kandelaine naabruses asuva parasiitsignaali filtreerimislülitus",
+            "en": "Filtering circuit for parasitic signals located adjacent to two carriers"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Automaatne lainelülitus."
+            "ee": "Automaatne lainelülitus.",
+            "en": "Automatic wave switching"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "FM generaator."
+            "ee": "FM generaator.",
+            "en": "FM generator"
           }
         }
       ],
@@ -150,25 +166,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Balanssmodulaatorit."
+            "ee": "Balanssmodulaatorit.",
+            "en": "Balance modulator"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Sagedusdiskriminaatorit."
+            "ee": "Sagedusdiskriminaatorit.",
+            "en": "Frequency discriminator"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Produkt detektorit."
+            "ee": "Produkt detektorit.",
+            "en": "Product detector"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Faasipöörajat."
+            "ee": "Faasipöörajat.",
+            "en": "Phase inverter"
           }
         }
       ],
@@ -184,25 +204,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Lairibavastuvõtjas müra kõrvaldamist faasivõrdluse teel."
+            "ee": "Lairibavastuvõtjas müra kõrvaldamist faasivõrdluse teel.",
+            "en": "Noise elimination in a wideband receiver by phase comparison"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Lairibavastuvõtjas müra kõrvaldamist faasinihke abil."
+            "ee": "Lairibavastuvõtjas müra kõrvaldamist faasinihke abil.",
+            "en": "Noise elimination in a wideband receiver using phase shift"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Kahe signaali liitmist summaarse- ja vahesageduse saamiseks."
+            "ee": "Kahe signaali liitmist summaarse- ja vahesageduse saamiseks.",
+            "en": "Adding two signals to obtain the sum and intermediate frequencies"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Auroralevist põhjustatud moonutusi."
+            "ee": "Auroralevist põhjustatud moonutusi.",
+            "en": "Distortion caused by aurora spread"
           }
         }
       ],
@@ -218,25 +242,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Automaatselt toimiv müralukustus ja suurenenud selektiivsus."
+            "ee": "Automaatselt toimiv müralukustus ja suurenenud selektiivsus.",
+            "en": "Automatically functioning noise lock and increased selectivity"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Suurenenud selektiivsus ja optimaalne häälestatud võnkeringide konstruktsioon."
+            "ee": "Suurenenud selektiivsus ja optimaalne häälestatud võnkeringide konstruktsioon.",
+            "en": "Increased selectivity and optimal tuned oscillator circuit design"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Automaatne signaali piiramine ja müralukustus."
+            "ee": "Automaatne signaali piiramine ja müralukustus.",
+            "en": "Automatic signal limiting and noise blocking"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Automaatne detekteerimine kõrgsagedusvõimendis ning suurenenud selektiivsus."
+            "ee": "Automaatne detekteerimine kõrgsagedusvõimendis ning suurenenud selektiivsus.",
+            "en": "Automatic detection in the high-frequency amplifier and increased selectivity"
           }
         }
       ],
@@ -252,25 +280,29 @@ export default {
         {
           "correct": true,
           "text": {
-            "ee": "Fikseeritult häälestatud pääsuribaga võimendi."
+            "ee": "Fikseeritult häälestatud pääsuribaga võimendi.",
+            "en": "Fixed-tuned passband amplifier"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Vastuvõtja filter."
+            "ee": "Vastuvõtja filter.",
+            "en": "Receiver filter"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Vastuvõtja demodulaator."
+            "ee": "Vastuvõtja demodulaator.",
+            "en": "Receiver demodulator"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Puhvervõimendi."
+            "ee": "Puhvervõimendi.",
+            "en": "Buffer amplifier"
           }
         }
       ],
@@ -286,25 +318,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Seguastmes genereeritakse parasiitsed segustusproduktid"
+            "ee": "Seguastmes genereeritakse parasiitsed segustusproduktid",
+            "en": "Parasitic mixing products are generated in the mixing stage"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Seguaste lakkab tüütamast."
+            "ee": "Seguaste lakkab töötamast.",
+            "en": "The mixer stops working"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Toimub automaatne signaali piiramine."
+            "ee": "Toimub automaatne signaali piiramine.",
+            "en": "Automatic signal limiting occurs"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Geneeritakse tuikesagedus."
+            "ee": "Geneeritakse tuikesagedus.",
+            "en": "A pulse rate is generated"
           }
         }
       ],
@@ -320,25 +356,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Kindlustada enamik vastuvõtja võimendusest."
+            "ee": "Kindlustada enamik vastuvõtja võimendusest.",
+            "en": "Ensure most of the receiver gain"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Automaatse võimenduse reguleerimise süsteemi abil muuta parasiitsignaalide mahasurumise astet."
+            "ee": "Automaatse võimenduse reguleerimise süsteemi abil muuta parasiitsignaalide mahasurumise astet.",
+            "en": "Use the automatic gain control system to change the degree of suppression of parasitic signals"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Parandada vastuvõtja mürategurit."
+            "ee": "Parandada vastuvõtja mürategurit.",
+            "en": "Improve the noise figure of the receiver"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Tekitada automaatse võimendusregulatsiooni tööks vajalikku pinget."
+            "ee": "Tekitada automaatse võimendusregulatsiooni tööks vajalikku pinget.",
+            "en": "Generate the voltage required for automatic gain control to operate"
           }
         }
       ],
@@ -354,25 +394,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Dünaamiline diapasoon ja kolmanda järgu lõikepunkt."
+            "ee": "Dünaamiline diapasoon ja kolmanda järgu lõikepunkt.",
+            "en": "Dynamic range and third-order intercept"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Hind ja kättesaadavus."
+            "ee": "Hind ja kättesaadavus.",
+            "en": "Price and availability"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Ribalaius ja mürategur."
+            "ee": "Ribalaius ja mürategur.",
+            "en": "Bandwidth and noise figure"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Intermodulatsioonimoonutused ja dünaamiline diapasoon."
+            "ee": "Intermodulatsioonimoonutused ja dünaamiline diapasoon.",
+            "en": "Intermodulation distortion and dynamic range"
           }
         }
       ],

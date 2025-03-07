@@ -14,25 +14,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Päikeseplekid."
+            "ee": "Päikeseplekid.",
+            "en": "Sunspots"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Äikesetormid."
+            "ee": "Äikesetormid.",
+            "en": "Lightning storms"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Lennukid."
+            "ee": "Lennukid.",
+            "en": "Airplanes"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Ioniseeritud meteoorijäljed."
+            "ee": "Ioniseeritud meteoorijäljed.",
+            "en": "Ionized meteor trails"
           }
         }
       ],
@@ -48,25 +52,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Kontrolli elektriliini pinget graafilise reflektomeetriga."
+            "ee": "Kontrolli elektriliini pinget graafilise reflektomeetriga.",
+            "en": "Check the power line voltage with a graphic reflectometer"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Kontrolli vahelduvvoolu lainekuju ostsillograafi abil."
+            "ee": "Kontrolli vahelduvvoolu lainekuju ostsillograafi abil.",
+            "en": "Check the AC waveform using an oscilloscope"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Lülita välja maja elektrivõrgu pealüliti ja kuula patareitoitega raadiot."
+            "ee": "Lülita välja maja elektrivõrgu pealüliti ja kuula patareitoitega raadiot.",
+            "en": "Turn off the main switch in your house and listen to a battery-powered radio"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Uuri elektrivõrgu pinget spektrianalüsaatoriga."
+            "ee": "Uuri elektrivõrgu pinget spektrianalüsaatoriga.",
+            "en": "Check the voltage of the power grid with a spectrum analyzer"
           }
         }
       ],
@@ -82,25 +90,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Ühendada raadio toitejuhtmed akuga nii pikka teed mööda kui vähegi võimalik."
+            "ee": "Ühendada raadio toitejuhtmed akuga nii pikka teed mööda kui vähegi võimalik.",
+            "en": "Connect the radio power wires to the battery as far as possible"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Ühendades raadio toitejuhtmed akuga lühimat võimalikku teed kaudu."
+            "ee": "Ühendades raadio toitejuhtmed akuga lühimat võimalikku teed kaudu.",
+            "en": "Connecting the radio power wires to the battery via the shortest possible route"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Ühendades kõrgpääsfiltri järjestikku raadiojaama auto pardavõrguga ühendavasse juhtmesse."
+            "ee": "Ühendades kõrgpääsfiltri järjestikku raadiojaama auto pardavõrguga ühendavasse juhtmesse.",
+            "en": "By connecting a high-pass filter in series to the wire connecting the radio station to the car's on-board network"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Lülitades filterkondensaatorid järjestikku alalisvoolu toitejuhtmesse."
+            "ee": "Lülitades filterkondensaatorid järjestikku alalisvoolu toitejuhtmesse.",
+            "en": "By connecting filter capacitors in series to the DC power line"
           }
         }
       ],
@@ -116,25 +128,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Vähendades vastuvõtja toitepinget."
+            "ee": "Vähendades vastuvõtja toitepinget.",
+            "en": "By reducing the receiver's supply voltage"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Lülitades vastuvõtja sisendisse attenuaatori."
+            "ee": "Lülitades vastuvõtja sisendisse attenuaatori.",
+            "en": "By switching on an attenuator at the receiver input"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Kasutada vastuvõtja kõige kitsama pääsuribaga filtrit."
+            "ee": "Kasutada vastuvõtja kõige kitsama pääsuribaga filtrit.",
+            "en": "Use the narrowest passband filter on the receiver"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Kasutada vastuvõtja kõige laiema pääsuribaga filtrit."
+            "ee": "Kasutada vastuvõtja kõige laiema pääsuribaga filtrit.",
+            "en": "Use the filter with the widest passband of the receiver"
           }
         }
       ],
@@ -150,25 +166,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Vähendab vastuvõetava signaali ribalaiust."
+            "ee": "Vähendab vastuvõetava signaali ribalaiust.",
+            "en": "Reduces the bandwidth of the received signal"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Elimineerib isotroopilise kiirguse põhjustatud efekte."
+            "ee": "Elimineerib isotroopilise kiirguse põhjustatud efekte.",
+            "en": "Eliminates effects caused by isotropic radiation"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Kaitseb vastuvõtja ülekoormamist erakordselt tugeva signaali poolt."
+            "ee": "Kaitseb vastuvõtja ülekoormamist erakordselt tugeva signaali poolt.",
+            "en": "Protects the receiver from being overloaded by an exceptionally strong signal"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Vähendab antenni kiirgusdiagrammi nullide põhjustatud signaali nõrgenemise mõju."
+            "ee": "Vähendab antenni kiirgusdiagrammi nullide põhjustatud signaali nõrgenemise mõju.",
+            "en": "Reduces the effect of signal attenuation caused by nulls in the antenna radiation pattern"
           }
         }
       ],
@@ -184,25 +204,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Lülitate kohe oma saatja välja ja pöördute Tehnilise Järelevalve Ameti poole abi saamiseks."
+            "ee": "Lülitate kohe oma saatja välja ja pöördute Tehnilise Järelevalve Ameti poole abi saamiseks.",
+            "en": "You immediately turn off your transmitter and contact the Technical Surveillance Authority for assistance"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Kontakteerudes naabriga proovite välja selgitada, kas tõepoolest teie töö eetris on TV-häirete tekkepõhjuseks."
+            "ee": "Kontakteerudes naabriga proovite välja selgitada, kas tõepoolest teie töö eetris on TV-häirete tekkepõhjuseks.",
+            "en": "By contacting your neighbor, you try to find out whether your work on the air is indeed the cause of the TV interference"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Monteerite saatja väljundisse kõrgpääsfiltri ja televiisori sisendisse madal-pääsfiltri"
+            "ee": "Monteerite saatja väljundisse kõrgpääsfiltri ja televiisori sisendisse madal-pääsfiltri",
+            "en": "You install a high-pass filter on the transmitter output and a low-pass filter on the television input"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Jätkate tööd tavalisel moel, kuna teil ei ole mingit legaalset põhjust interferents-häirete vähendamiseks või elimineerimiseks."
+            "ee": "Jätkate tööd tavalisel moel, kuna teil ei ole mingit legaalset põhjust interferents-häirete vähendamiseks või elimineerimiseks.",
+            "en": "You continue to work as usual, as you have no legal reason to reduce or eliminate interference"
           }
         }
       ],
@@ -218,25 +242,29 @@ export default {
         {
           "correct": false,
           "text": {
-            "ee": "Võtmeklõpsu filter."
+            "ee": "Võtmeklõpsu filter.",
+            "en": "Key click filter"
           }
         },
         {
           "correct": true,
           "text": {
-            "ee": "Madalpääsfilter."
+            "ee": "Madalpääsfilter.",
+            "en": "Low-pass filter"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Kõrgpääsfilter."
+            "ee": "Kõrgpääsfilter.",
+            "en": "High-pass filter"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "CW filter."
+            "ee": "CW filter.",
+            "en": "CW filter"
           }
         }
       ],
@@ -252,25 +280,29 @@ export default {
         {
           "correct": true,
           "text": {
-            "ee": "Harmoonilisi sagedusi."
+            "ee": "Harmoonilisi sagedusi.",
+            "en": "Harmonic frequencies"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Aurora taolisi signaale."
+            "ee": "Aurora taolisi signaale.",
+            "en": "Aurora-like signals"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Parasiitsignaale."
+            "ee": "Parasiitsignaale.",
+            "en": "Parasitic signals"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Intermodulatsioonihäireid."
+            "ee": "Intermodulatsioonihäireid.",
+            "en": "Intermodulation interference"
           }
         }
       ],
@@ -286,25 +318,29 @@ export default {
         {
           "correct": true,
           "text": {
-            "ee": "Töösageduse täiskordsete sageduste kiirgus eetrisse."
+            "ee": "Töösageduse täiskordsete sageduste kiirgus eetrisse.",
+            "en": "Emission of frequencies that are multiples of the operating frequency into the air"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "50 Hz brummsagedusega moduleeritud signaalide kiirgus."
+            "ee": "50 Hz brummsagedusega moduleeritud signaalide kiirgus.",
+            "en": "Radiation of modulated signals with a hum frequency of 50 Hz"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Lähedal paiknevates teistes saatjates võib tekkida liitmodulatsioon teie saatja töö tõttu."
+            "ee": "Lähedal paiknevates teistes saatjates võib tekkida liitmodulatsioon teie saatja töö tõttu.",
+            "en": "Intermodulation may occur in other nearby transmitters due to the operation of your transmitter"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Signaalide saatmine F kihis raadiosignaale peegeldava sektori tekitamiseks."
+            "ee": "Signaalide saatmine F kihis raadiosignaale peegeldava sektori tekitamiseks.",
+            "en": "Sending signals in the F layer to create a sector that reflects radio signals"
           }
         }
       ],
@@ -320,25 +356,29 @@ export default {
         {
           "correct": true,
           "text": {
-            "ee": "Kõrgpääsfilter."
+            "ee": "Kõrgpääsfilter.",
+            "en": "High-pass filter"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Madalpääsfilter."
+            "ee": "Madalpääsfilter.",
+            "en": "Low-pass filter"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Ribafilter."
+            "ee": "Ribafilter.",
+            "en": "Bandpass filter"
           }
         },
         {
           "correct": false,
           "text": {
-            "ee": "Režektorfilter."
+            "ee": "Režektorfilter.",
+            "en": "Rejector filter"
           }
         }
       ],
