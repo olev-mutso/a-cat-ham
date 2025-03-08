@@ -25,6 +25,11 @@ Tallinn Polytechnic School Amateur Radio club station
 * 70cm contest
   * Operating notes + log setup
   * [Contest results 2025](https://es7arl.carlnet.ee/ull/?p=ULL70cmKV&etapp=2025)
+* Straight key contest
+  * [Rules](https://www.erau.ee/images/LL/Kasivoti_juhend.pdf)
+  * [Results](https://www.erau.ee/et/kaesivoti)
+  * [ES1BBQ CW logger](https://es1bbq.github.io/shortwave-cw/)
+  * Submit logs to kasivoti[at]erau.ee
 
 ---
 
